@@ -1,5 +1,5 @@
 # PENINSULA — Chapter Manifest (113 chapters)
-Raw sources (archived in epub/raw/): full-novel-source-raw.txt (ch 1–84), pasted-batch-ch085-091.txt (ch 85–91), chNNN.txt per-chapter files (ch 85–113; ch92/ch93 raws predate the archive and were not retained — the English chapters are complete). Chapters 85–113 supplied inline by the user. Chapter NN file: /home/z/my-project/epub/OEBPS/text/chapterNN.xhtml
+Raw sources (archived in epub/raw/): full-novel-source-raw.txt (ch 1–84), pasted-batch-ch085-091.txt (ch 85–91), chNNN.txt per-chapter files (ch 85–113; ch92/ch93 raws predate the archive and were not retained — the English chapters are complete). Chapters 85–113 supplied inline by the user. Chapter NN file: epub/OEBPS/text/chapterNN.xhtml
 
 | Ch | Lines | Chinese title | English title (USE THIS) |
 |----|---------|--------------------------------|---------------------------------------------|

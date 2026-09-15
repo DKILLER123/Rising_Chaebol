@@ -30,7 +30,7 @@
 ## 1. Workspace Anatomy
 
 ```
-/home/z/my-project/
+<repository-root>/
 ├── epub/                          # THE BOOK SOURCE (never delete)
 │   ├── raw/                       # Verbatim source archive (mandate 2)
 │   │   ├── full-novel-source-raw.txt     # original novel, ch 1–84

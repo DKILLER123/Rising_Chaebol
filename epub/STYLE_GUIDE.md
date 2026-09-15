@@ -10,7 +10,7 @@ You are translating/polishing a Chinese web novel (Korean-entertainment showbiz 
 one XHTML file per chapter at:
 
 ```
-/home/z/my-project/epub/OEBPS/text/chapterNN.xhtml   (chapter01.xhtml … chapter84.xhtml)
+epub/OEBPS/text/chapterNN.xhtml   (chapter01.xhtml … chapter113.xhtml)
 ```
 
 **Title:** *Peninsula: My Rise to Chaebol Status Began with Ham Eun-jung*

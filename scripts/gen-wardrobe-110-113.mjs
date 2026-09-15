@@ -48,13 +48,19 @@ import fs from 'fs';
 import path from 'path';
 import { execFileSync } from 'child_process';
 import crypto from 'crypto';
+import { fileURLToPath } from 'url';
+
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const EPUB_IMAGES = path.join(ROOT, 'epub', 'OEBPS', 'images');
+const PUBLIC_BOOK = path.join(ROOT, 'public', 'book');
+const WARDROBE_SCRIPTS = path.join(ROOT, 'scripts');
 
 const JOBS = {
   jiyeon: {
     cropJob: 'jiyeon',
-    refImg: '/home/z/my-project/epub/OEBPS/images/char-parkjiyeon.jpg',
-    outDir: '/home/z/my-project/scripts/wardrobe-jiyeon',
-    destImg: '/home/z/my-project/epub/OEBPS/images/wd-jiyeon-athleisure.jpg',
+    refImg: path.join(EPUB_IMAGES, 'char-parkjiyeon.jpg'),
+    outDir: path.join(WARDROBE_SCRIPTS, 'wardrobe-jiyeon'),
+    destImg: path.join(EPUB_IMAGES, 'wd-jiyeon-athleisure.jpg'),
     who: 'Park Ji-yeon',
     prompts: {
       A1: 'Transform this photo of the young woman into a full-body cozy lifestyle editorial: warm evening, she has just stepped through the front door of a modern Seoul apartment, photographed from inside the entryway so the open front door is visible behind her, everything glowing with cozy lamplight. She wears a loose black zip-front athletic jacket thrown casually over a dark tee with the zipper pulled up only halfway, and matching loose black track pants. Her hair is up in one lazy low ponytail with loose strands escaping around her face. One hand grips a large plastic convenience-store bag stuffed full of chip packets and soda bottles, its plastic handles biting into her fingers. On her feet are flat house slippers, with her sneakers sitting on the doormat behind her. She flashes a bright, cheerful, playful grin, mid-greeting energy. Preserve her exact facial identity from the original photo — the same face shape, eyes, nose, lips and skin tone; do not beautify or slim the face. Full body visible from head to slippers.',
@@ -70,9 +76,9 @@ const JOBS = {
   },
   sohee: {
     cropJob: 'sohee-morning',
-    refImg: '/home/z/my-project/epub/OEBPS/images/char-hansohee.jpg',
-    outDir: '/home/z/my-project/scripts/wardrobe-sohee-morning',
-    destImg: '/home/z/my-project/epub/OEBPS/images/wd-sohee-morning.jpg',
+    refImg: path.join(EPUB_IMAGES, 'char-hansohee.jpg'),
+    outDir: path.join(WARDROBE_SCRIPTS, 'wardrobe-sohee-morning'),
+    destImg: path.join(EPUB_IMAGES, 'wd-sohee-morning.jpg'),
     who: 'Han So-hee',
     prompts: {
       A1: 'Transform this photo of the young woman into a full-body wholesome morning-life editorial: bright morning sunlight fills a modern living room, a sofa behind her. She has just woken up and wears one oversized plain white T-shirt worn like a mini dress, its hem at mid-thigh, with grey sleep shorts just barely visible beneath the hem. She is totally barefoot. Her long dark hair is sleep-mussed and unbrushed, one side flattened from the pillow. Her face is completely bare with no makeup, eyes drowsy and half-lidded, a faint pillow crease on one cheek, and a calm, minimal expression. The image is fully modest and wholesome — she is simply a sleepy girl in a big shirt, covered from shoulders to mid-thigh. Preserve her exact facial identity from the original photo — same face shape, eyes, nose, lips, the small mole under her eye, and skin tone; do not beautify or add makeup. Full body visible from head to bare feet, family-magazine morning lifestyle style.',
@@ -88,9 +94,9 @@ const JOBS = {
   },
   jiwon: {
     cropJob: 'jiwon',
-    refImg: '/home/z/my-project/epub/OEBPS/images/char-kimjiwon.jpg',
-    outDir: '/home/z/my-project/scripts/wardrobe-jiwon',
-    destImg: '/home/z/my-project/epub/OEBPS/images/wd-jiwon-loungewear.jpg',
+    refImg: path.join(EPUB_IMAGES, 'char-kimjiwon.jpg'),
+    outDir: path.join(WARDROBE_SCRIPTS, 'wardrobe-jiwon'),
+    destImg: path.join(EPUB_IMAGES, 'wd-jiwon-loungewear.jpg'),
     who: 'Kim Ji-won',
     prompts: {
       A1: 'Transform this photo of the young woman into a full-body candid editorial, daytime: she stands outdoors in front of a modern apartment tower about twenty stories tall with tidy green hedges at its base, a convenience-store storefront softly blurred in the background. She wears a baggy oatmeal-grey home loungewear two-piece — a soft zip-up hoodie and matching lounge pants, washed-soft and well-worn. Her hair is loosely tied back with strands escaping at the temples. On her feet are flat black outdoor slippers. In one hand she carries a white plastic bag heavy with snack boxes and drink bottles; in the other hand she holds a smartphone. Her face is bare with zero makeup, and her eyes are startled, caught mid-glance-up as if surprised off guard. Preserve her exact facial identity — same face shape, eyes, nose, lips and skin tone as the original photo; do not beautify. Candid Korean neighborhood daylight photo, full body visible head to slippers.',
@@ -289,7 +295,7 @@ async function stageFixCrops(zai, job) {
     const boxesPath = path.join(job.outDir, 'boxes.json');
     fs.writeFileSync(boxesPath, JSON.stringify(boxes, null, 2));
     console.log(`re-cropping with VLM-guided boxes: ${JSON.stringify(boxes)}`);
-    execFileSync('python3', ['/home/z/my-project/scripts/wardrobe-crop.py', job.cropJob, '--boxes', boxesPath], { stdio: 'inherit' });
+    execFileSync('python3', [path.join(WARDROBE_SCRIPTS, 'wardrobe-crop.py'), job.cropJob, '--boxes', boxesPath], { stdio: 'inherit' });
     // re-audit the re-cropped ones once
     for (const id of Object.keys(boxes)) {
       const b64 = fs.readFileSync(path.join(faceDir, `${id}.jpg`)).toString('base64');
@@ -426,7 +432,7 @@ async function stageInstall(job, results, forcedId) {
   }
   const src = path.join(job.outDir, `${winner.id}.jpg`);
   fs.copyFileSync(src, job.destImg);
-  const pubDest = path.join('/home/z/my-project/public/book', path.basename(job.destImg));
+  const pubDest = path.join(PUBLIC_BOOK, path.basename(job.destImg));
   fs.copyFileSync(src, pubDest);
   const s1 = fs.statSync(job.destImg).size, s2 = fs.statSync(pubDest).size;
   const m0 = md5(src), m1 = md5(job.destImg), m2 = md5(pubDest);
@@ -478,7 +484,7 @@ async function main() {
     }
   } else if (stage === 'crop') {
     console.log('--- Face crops (Haar) ---');
-    execFileSync('python3', ['/home/z/my-project/scripts/wardrobe-crop.py', job.cropJob], { stdio: 'inherit' });
+    execFileSync('python3', [path.join(WARDROBE_SCRIPTS, 'wardrobe-crop.py'), job.cropJob], { stdio: 'inherit' });
   } else if (stage === 'fixcrops') {
     await stageFixCrops(zai, job);
   } else if (stage === 'score') {

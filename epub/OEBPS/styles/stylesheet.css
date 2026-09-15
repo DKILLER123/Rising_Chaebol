@@ -1,0 +1,3442 @@
+/* ═══════════════════════════════════════════════════════════════
+   PENINSULA — VERSION 3 · PUBLISHER-GRADE STYLESHEET (EPUB EDITION)
+   Consolidated from all 30 installment stylesheets (Chapters 1–150).
+   Every context block that appeared anywhere in the serial is
+   present here, labeled and numbered 00–33; where a block was
+   refined across volumes, the latest refinement is used and any
+   variant rules that only earlier volumes carried are restored
+   beneath it, so every page of every chapter renders exactly as
+   originally delivered.
+   EPUB adaptations: web-font @import replaced by locally embedded
+   faces (fonts.css); 70vh title shell converted to a fixed em
+   height for paged rendering; scroll-behavior removed.
+   Load order: fonts.css FIRST, then this stylesheet.
+   ═══════════════════════════════════════════════════════════════ */
+/* ─────────────────────────────────────────────
+   00 · WEB FONTS → EMBEDDED (see fonts.css)
+   ───────────────────────────────────────────── */
+/* Web-font import removed — fonts are embedded locally via fonts.css */
+/* ─────────────────────────────────────────────
+   01 · RESET & BASE TYPOGRAPHY
+   ───────────────────────────────────────────── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* scroll-behavior removed — not applicable to paged EPUB rendering */
+body {
+  font-family: "Lora", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 1.05rem;
+  line-height: 1.88;
+  color: #1e1c18;
+  background-color: #efe9dd;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+@page {
+  margin: 1.1em;
+}
+/* ─────────────────────────────────────────────
+   02 · PAGE WRAPPER
+   ───────────────────────────────────────────── */
+.page-wrapper {
+  max-width: 42em;
+  margin: 0 auto;
+  padding: 2em 1.5em;
+  background: #fbf6ea;
+  border-radius: 6px;
+  box-shadow: 0 2px 24px rgba(60, 40, 10, 0.1), 0 0 0 1px rgba(180, 150, 90, 0.12);
+  page-break-before: always;
+}
+.page-wrapper:first-of-type {
+  page-break-before: avoid;
+}
+/* ─────────────────────────────────────────────
+   03 · HEAVY TITLE PAGE  (stylesheet2 treatment)
+   ───────────────────────────────────────────── */
+.title-shell {
+  position: relative;
+  min-height: 32em;
+  /* was 70vh — fixed em height for paged EPUB rendering */
+  margin: 0 0 2em;
+  padding: 0;
+  background: #07070b;
+  color: #efe8d8;
+  overflow: hidden;
+  text-indent: 0;
+  border-radius: 6px;
+}
+.title-glow {
+  position: absolute;
+  z-index: 2;
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.4;
+}
+.title-glow.g1 {
+  top: -10%;
+  left: -10%;
+  background: radial-gradient(circle, rgba(212, 162, 78, 0.35), transparent 60%);
+}
+.title-glow.g2 {
+  bottom: -15%;
+  right: -10%;
+  background: radial-gradient(circle, rgba(58, 154, 146, 0.28), transparent 60%);
+}
+.title-glow.g3 {
+  top: 40%;
+  left: 30%;
+  width: 40%;
+  height: 40%;
+  background: radial-gradient(circle, rgba(196, 72, 88, 0.18), transparent 65%);
+}
+.title-vignette {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background: radial-gradient(ellipse at center, transparent 30%, rgba(0, 0, 0, 0.55) 100%);
+}
+.title-content {
+  position: relative;
+  z-index: 5;
+  display: block;
+  text-align: center;
+  padding: 4.5em 1.5em 4.5em;
+  margin: 0 auto;
+  max-width: 640px;
+}
+.title-eyebrow {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: #e8c382;
+  text-shadow: 0 0 18px rgba(212, 162, 78, 0.55);
+  font-weight: 500;
+  margin: 0 0 1.2em;
+}
+.title-heading {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 800;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+  font-size: 3.6rem;
+  margin: 0 0 0.35em;
+  background: linear-gradient(110deg, #e8c382 0%, #f7f1e3 35%, #5fb5ad 70%, #e8c382 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #e8c382;
+  filter: drop-shadow(0 6px 30px rgba(212, 162, 78, 0.25));
+}
+.title-subtitle {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: #c8c0ad;
+  margin: 0 0 1.5em;
+  background: linear-gradient(110deg, #f7f1e3 0%, #c8c0ad 50%, #5fb5ad 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title-ornament {
+  display: block;
+  text-align: center;
+  margin: 1.5em auto;
+}
+.title-ornament-line {
+  display: inline-block;
+  width: 80px;
+  height: 1px;
+  vertical-align: middle;
+  background: linear-gradient(90deg, transparent, #d4a24e, transparent);
+  margin: 0 0.8em;
+}
+.title-ornament-glyph {
+  color: #d4a24e;
+  font-size: 1rem;
+  text-shadow: 0 0 12px rgba(212, 162, 78, 0.6);
+  vertical-align: middle;
+}
+.title-tagline {
+  font-family: "Lora", Georgia, serif;
+  font-style: italic;
+  font-size: 1.05rem;
+  color: #d8d0bc;
+  max-width: 440px;
+  margin: 0 auto 1.5em;
+  line-height: 1.6;
+}
+.title-meta {
+  display: block;
+  text-align: center;
+  margin: 0 0 1.5em;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9a917e;
+}
+.title-meta-item {
+  display: inline-block;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: break-word;
+}
+.title-meta-dot {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #d4a24e;
+  vertical-align: middle;
+  margin: 0 0.55em;
+}
+.title-edition {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.68rem;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #6a6256;
+  margin: 2.5em 0 0;
+}
+/* ─────────────────────────────────────────────
+   04 · CHAPTER HEADER  (V4 — colorful)
+   Sunrise-gradient card: crimson→gold→teal
+   accent bar, gradient-tinted chapter number
+   chip, warm two-tone title, ornament rule.
+   Solid color fallbacks included for readers
+   without gradient/background-clip support.
+   ───────────────────────────────────────────── */
+.chapter-header {
+  position: relative;
+  background-color: #faf3e3;
+  /* solid fallback */
+  background-image: linear-gradient(150deg, #fdf6e6 0%, #f9edd6 40%, #f3ead9 75%, #eef0e6 100%);
+  border: 1px solid #e0cba0;
+  border-radius: 14px;
+  padding: 2.5rem 1.2rem 2.2rem;
+  margin: 1rem 0 3rem;
+  font-family: "IM Fell English", Georgia, "Times New Roman", serif;
+  text-align: center;
+  page-break-before: always;
+  overflow: hidden;
+  box-shadow: 0 4px 18px rgba(150, 110, 40, 0.14), inset 0 0 50px rgba(232, 200, 122, 0.1);
+}
+.chapter-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #c8873a;
+  /* solid fallback */
+  background-image: linear-gradient(90deg, #9b2335 0%, #d4a24e 35%, #e8c87a 50%, #3a9a92 80%, #2a5c8a 100%);
+}
+.chapter-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 20%;
+  height: 1px;
+  background-image: linear-gradient(90deg, transparent, #d4a24e, transparent);
+}
+.chapter-number {
+  display: inline-block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: #7c2d3e;
+  /* solid fallback */
+  background-color: rgba(155, 35, 53, 0.08);
+  background-image: linear-gradient(90deg, rgba(155, 35, 53, 0.12), rgba(212, 162, 78, 0.16));
+  border: 1px solid rgba(155, 35, 53, 0.28);
+  border-radius: 999px;
+  padding: 0.32rem 1.1rem;
+  margin-bottom: 1rem;
+}
+.chapter-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 2.05rem;
+  font-weight: 700;
+  color: #8a4a1e;
+  /* solid warm fallback */
+  line-height: 1.28;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.3rem;
+  text-shadow: 0 1px 0 rgba(255, 250, 235, 0.8);
+}
+.chapter-rule {
+  display: block;
+  width: 9em;
+  border: none;
+  margin: 0 auto;
+  border-top: 2px solid #d4a24e;
+  border-radius: 2px;
+  box-shadow: 0 1px 6px rgba(212, 162, 78, 0.35);
+}
+/* ─────────────────────────────────────────────
+   05 · BODY TEXT & DIALOGUE
+   ───────────────────────────────────────────── */
+p {
+  font-family: "Lora", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.9;
+  color: #3d3a32;
+  text-align: justify;
+  margin-bottom: 1.3em;
+  hyphens: auto;
+}
+p + p {
+  text-indent: 1.8em;
+  margin-top: -0.4em;
+}
+p.dialogue-line {
+  margin: 0.5em 0 0.75em 1.1em;
+  text-align: left;
+  text-indent: 0 !important;
+}
+.no-indent, .scene-break, .ornament, .callout {
+  text-indent: 0 !important;
+}
+.thought {
+  font-style: italic;
+}
+em.beat {
+  font-style: italic;
+  color: #7a7265;
+}
+.highlight {
+  color: #7a1c1c;
+  font-weight: 700;
+}
+.highlight2 {
+  font-weight: 600;
+  color: #1d1d1f;
+}
+.sound-effect {
+  font-weight: 700;
+  color: #b5463b;
+  font-style: italic;
+}
+/* ─────────────────────────────────────────────
+   06 · LOCATION STAMP  (scene openers)
+   ───────────────────────────────────────────── */
+.location-stamp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.4rem 0 1.6rem;
+  gap: 0.18rem;
+}
+.location-stamp .ls-date {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #b0a99c;
+}
+.location-stamp .ls-place {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 1rem;
+  color: #7a7265;
+  letter-spacing: 0.05em;
+}
+.location-stamp .ls-sub {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.76rem;
+  color: #b0a99c;
+  letter-spacing: 0.12em;
+  font-style: italic;
+}
+/* ─────────────────────────────────────────────
+   07 · SCENE BREAK / ORNAMENT
+   ───────────────────────────────────────────── */
+.scene-break {
+  text-align: center;
+  margin: 2.8rem 0;
+  font-size: 1rem;
+  color: #b0a99c;
+  letter-spacing: 0.45em;
+  user-select: none;
+}
+/* ─────────────────────────────────────────────
+   08 · LYRIC BLOCK  (songs performed on-page, V4)
+   Redesigned: an aged songsheet card — cream
+   paper, treble ornament, titled header naming
+   the song and artist, hairline gold rules.
+   Quotes are brief excerpts; performances are
+   otherwise rendered as staged description.
+   ───────────────────────────────────────────── */
+.lyric-block {
+  position: relative;
+  margin: 2rem auto;
+  max-width: 30em;
+  background: linear-gradient(174deg, #fdfaf1 0%, #f6efdb 100%);
+  border: 1px solid #ddcfa6;
+  border-radius: 8px;
+  padding: 0 0 1.1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(120, 95, 30, 0.14), inset 0 0 40px rgba(200, 170, 90, 0.06);
+  font-family: "IM Fell English", Georgia, serif;
+  font-style: italic;
+  color: #4a3c1e;
+  line-height: 2.05;
+  text-align: center;
+}
+.lyric-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #c8a44e, transparent);
+}
+.lyric-block .lb-header {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-style: normal;
+  font-size: 0.66rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #a07830;
+  background: rgba(200, 170, 90, 0.12);
+  border-bottom: 1px solid #e4d7ac;
+  padding: 0.55rem 1rem 0.5rem;
+  margin: 0 0 0.9rem;
+}
+.lyric-block .lb-header::before {
+  content: "♪ ";
+  color: #c8a44e;
+}
+.lyric-block p {
+  text-indent: 0 !important;
+  margin: 0.1em 0;
+  padding: 0 1.4rem;
+  text-align: center;
+}
+.lyric-block .lb-note {
+  font-size: 0.78rem;
+  color: #a08c58;
+  border-top: 1px dashed #e0d0a0;
+  margin-top: 0.8rem;
+  padding-top: 0.6rem;
+}
+/* ─────────────────────────────────────────────
+   09 · PERFORMANCE BLOCK  (staged & filmed, V4)
+   Stage-dark card, crimson spine. .pf-header
+   names the stage/venue; .beat = narration,
+   .action-beat = blocking, .lyric = sung line.
+   ───────────────────────────────────────────── */
+.performance-block {
+  background: #1a1a22;
+  color: #d4d0c8;
+  border-radius: 6px;
+  padding: 1.4rem 1.6rem;
+  margin: 2rem 0;
+  font-family: "Lora", "Palatino Linotype", serif;
+  font-size: 0.97rem;
+  line-height: 1.85;
+  border-left: 4px solid #9b2335;
+}
+.performance-block .pf-header {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #e0a870;
+  background: rgba(155, 35, 53, 0.18);
+  border-bottom: 1px solid #3a2a30;
+  border-radius: 4px 4px 0 0;
+  padding: 0.5rem 0.8rem;
+  margin: -1.4rem -1.6rem 1rem;
+  text-shadow: 0 0 10px rgba(224, 168, 112, 0.35);
+}
+.performance-block .pf-header::before {
+  content: "★ ";
+  color: #9b2335;
+}
+.performance-block p {
+  text-indent: 0 !important;
+  margin: 0.4em 0;
+  color: #d4d0c8;
+  text-align: left;
+}
+.performance-block .beat {
+  color: #b0a99c;
+  font-style: italic;
+  display: block;
+  margin: 0.6em 0;
+}
+.performance-block .action-beat {
+  color: #e0a870;
+  font-style: italic;
+  display: block;
+  margin: 0.4em 0;
+}
+.performance-block .lyric {
+  color: #f0e6d2;
+  font-style: italic;
+  display: block;
+  margin: 0.5em 0;
+  font-size: 1.03em;
+}
+/* ═════════════════════════════════════════════
+   10 · SYSTEM INTERFACE — HEAVY BLOCK (V3)
+   Returning for the partner confirmation and
+   the gift packs.
+   ═════════════════════════════════════════════ */
+.system-block {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  background: linear-gradient(160deg, #0a1024 0%, #101a38 55%, #0a1228 100%);
+  color: #cfe2ff;
+  border: 1px solid #2a4a8a;
+  border-radius: 10px;
+  padding: 1.2rem 1.3rem;
+  margin: 1.9rem 0;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.88rem;
+  line-height: 1.78;
+  box-shadow: 0 6px 24px rgba(10, 20, 60, 0.45), inset 0 0 40px rgba(64, 120, 255, 0.06);
+}
+.system-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #6fa8ff, transparent);
+}
+.system-block .sys-header {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #6fa8ff;
+  text-shadow: 0 0 12px rgba(111, 168, 255, 0.6);
+  border-bottom: 1px solid #1e3060;
+  padding-bottom: 0.45rem;
+  margin-bottom: 0.8rem;
+}
+.system-block p {
+  text-indent: 0 !important;
+  margin: 0.35em 0;
+  color: #cfe2ff;
+  text-align: left;
+}
+.system-block .sys-line {
+  color: #9fc0f0;
+  display: flex;
+  flex: 1 1 10em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 0.2em 0.9em;
+  padding: 0.24rem 0;
+  border-bottom: 1px dashed rgba(30, 48, 96, 0.55);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.system-block .sys-key {
+  color: #ffd98a;
+  font-weight: 700;
+  flex: 1 1 8em;
+  min-width: 0;
+  margin-right: 0;
+  letter-spacing: 0.05em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.system-block .sys-value {
+  color: #8fffc8;
+  font-weight: 700;
+  flex: 1 1 12em;
+  min-width: 0;
+  max-width: 100%;
+  text-align: right;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+.system-block .sys-note {
+  color: #7288b8;
+  font-style: italic;
+  font-size: 0.92em;
+  overflow-wrap: break-word;
+}
+.system-block .sys-ding {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-style: italic;
+  color: #8fffc8;
+  text-shadow: 0 0 10px rgba(143, 255, 200, 0.5);
+}
+.system-block .sys-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 0.2em 0.9em;
+  padding: 0.24rem 0;
+  border-bottom: 1px dashed #1e3060;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+/* .sys-stat — the player's character sheet */
+.system-block .sys-stat {
+  display: block;
+  margin: 0.7em 0 0.3em;
+  padding: 0.55rem 0.7rem;
+  background: rgba(40, 60, 120, 0.25);
+  border-radius: 4px;
+  border: 1px dashed rgba(111, 168, 255, 0.25);
+}
+.system-block .sys-stat-line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 0;
+  gap: 0.15em 0.8em;
+  padding: 0.12rem 0;
+}
+.system-block .sys-stat-label {
+  flex: 1 1 10em;
+  min-width: 0;
+  color: #7288b8;
+  font-size: 0.88em;
+  letter-spacing: 0.05em;
+}
+.system-block .sys-stat-value {
+  flex: 1 1 14em;
+  min-width: 0;
+  max-width: 100%;
+  color: #cfe2ff;
+  font-weight: 600;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+.system-block .sys-line:last-of-type {
+  border-bottom: none;
+}
+.system-block .sys-row:last-child {
+  border-bottom: none;
+}
+/* ─────────────────────────────────────────────
+   17 · FINANCE BLOCK  (editions, pricing & first-day numbers)
+   Returning for the SUNYE release ledger.
+   ───────────────────────────────────────────── */
+.finance-block {
+  background: #f8f6f0;
+  border: 1px solid #d4cfc0;
+  border-left: 4px solid #a07830;
+  border-radius: 4px;
+  padding: 1.1rem 1.4rem;
+  margin: 1.8rem 0;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.91rem;
+  line-height: 1.9;
+  color: #3d3a32;
+}
+.finance-block .fb-header {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #a07830;
+  border-bottom: 1px solid #d4cfc0;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.7rem;
+}
+.finance-block .fb-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 0.25em 1.1em;
+  padding: 0.38rem 0;
+  border-bottom: 1px dashed #e8e0d0;
+}
+.finance-block .fb-row:last-child {
+  border-bottom: none;
+  font-weight: 700;
+  color: #1e1c18;
+}
+.finance-block .fb-label {
+  flex: 1 1 10em;
+  min-width: 0;
+  color: #7a7265;
+  line-height: 1.55;
+}
+.finance-block .fb-value {
+  flex: 1 1 13em;
+  min-width: 0;
+  max-width: 100%;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-weight: 600;
+  line-height: 1.55;
+  color: #4a3f28;
+  text-align: right;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.finance-block p {
+  text-indent: 0 !important;
+  margin: 0.4em 0;
+  text-align: left;
+}
+@media (max-width: 30em) {
+  .finance-block .fb-row {
+    display: block;
+  }
+  .finance-block .fb-label {
+    display: block;
+    margin-bottom: 0.12rem;
+  }
+  .finance-block .fb-value {
+    display: block;
+    text-align: left;
+  }
+}
+/* ─────────────────────────────────────────────
+   11 · NOTIFICATION CHIP  (single system dings)
+   ───────────────────────────────────────────── */
+.notification {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  color: #856404;
+  padding: 0.6em 0.9em;
+  border-radius: 8px;
+  font-size: 0.88em;
+  margin: 1.2em 0;
+  text-align: center;
+  text-indent: 0 !important;
+}
+/* ─────────────────────────────────────────────
+   12 · PHONE-CALL BLOCK  (V4)
+   Redesigned: a call-screen card — slate gradient
+   shell, glowing receiver header with caller line,
+   speaker-tinted exchanges, soft depth shadows.
+   .pc-head names the call; .pc-me / .pc-them
+   color the two ends of the line.
+   ───────────────────────────────────────────── */
+.phone-call {
+  margin: 1.9em 0;
+  padding: 0 0 0.9em;
+  background: linear-gradient(172deg, #f2f6fb 0%, #e6edf6 100%);
+  border: 1px solid #c2d2e4;
+  border-radius: 12px;
+  overflow: hidden;
+  font-size: 0.93em;
+  line-height: 1.8;
+  color: #34495e;
+  box-shadow: 0 3px 14px rgba(40, 70, 110, 0.12), 0 1px 3px rgba(40, 70, 110, 0.08);
+}
+.phone-call p {
+  text-indent: 0 !important;
+  margin: 0.42em 0;
+  padding: 0 1.25em;
+  text-align: left;
+}
+.phone-call .pc-head {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #eaf2fc;
+  background: linear-gradient(90deg, #3a5a80, #4a72a0);
+  padding: 0.6rem 1.25rem 0.55rem;
+  margin: 0 0 0.8rem;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+.phone-call .pc-head::before {
+  content: "☎ ";
+  color: #9fc4ea;
+}
+.phone-call .pc-me {
+  color: #2c3a48;
+  border-left: 3px solid #8aa8c8;
+  margin-left: 1.05em;
+  padding-left: 0.75em;
+}
+.phone-call .pc-them {
+  color: #2a5c8a;
+  font-style: italic;
+  border-left: 3px solid #4a90d0;
+  margin-left: 1.05em;
+  padding-left: 0.75em;
+  background: rgba(74, 144, 208, 0.07);
+  border-radius: 0 8px 8px 0;
+}
+.phone-call .pc-note {
+  color: #8a99a8;
+  font-style: italic;
+  font-size: 0.88em;
+}
+/* ─────────────────────────────────────────────
+   13 · APP SCREEN  (messages & headlines)
+   ───────────────────────────────────────────── */
+.app-screen {
+  margin: 1.6em 0;
+  padding: 1em 1.15em;
+  background: #f5f7fa;
+  border: 1px solid #d7dde5;
+  border-radius: 8px;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.9em;
+  color: #39424e;
+  box-shadow: 0 2px 8px rgba(40, 60, 80, 0.06);
+}
+.app-screen p {
+  text-indent: 0 !important;
+  margin: 0.35em 0;
+  text-align: left;
+}
+.app-title {
+  font-weight: bold;
+  color: #1f2d3d;
+  margin-bottom: 0.45em;
+  letter-spacing: 0.03em;
+}
+.app-meta {
+  color: #718096;
+  font-size: 0.84em;
+  margin-bottom: 0.6em;
+}
+/* ─────────────────────────────────────────────
+   14 · COMMENT THREAD  (netizen reactions, V4)
+   Redesigned: soft card with a tinted header bar,
+   pill-shaped floor chips, alternating row tints,
+   and a hover of depth via layered shadows.
+   ───────────────────────────────────────────── */
+.comment-thread {
+  background: linear-gradient(178deg, #fff 0%, #f7f4ec 100%);
+  border: 1px solid #ddd3ba;
+  border-radius: 12px;
+  margin: 1.9rem 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: "Lora", Georgia, serif;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  box-shadow: 0 3px 14px rgba(90, 70, 20, 0.1), 0 1px 3px rgba(90, 70, 20, 0.08);
+}
+.comment-thread .comment-header {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #7a6a3d;
+  background: linear-gradient(90deg, #f0e8d0, #f8f3e4);
+  border-bottom: 1px solid #e2d8ba;
+  padding: 0.6rem 1.1rem;
+  margin: 0;
+}
+.comment-thread .comment-header::before {
+  content: "⚙ ";
+  color: #b09a58;
+}
+.comment-thread .comment-item {
+  max-width: 100%;
+  min-width: 0;
+  text-indent: 0 !important;
+  margin: 0;
+  padding: 0.55rem 1.1rem;
+  border-bottom: 1px solid #efe9d8;
+  color: #3d3a32;
+  text-align: left;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+.comment-thread .comment-item:nth-of-type(even) {
+  background: #faf7ef;
+}
+.comment-thread .comment-item:last-child {
+  border-bottom: none;
+}
+.comment-thread .comment-floor {
+  display: inline-block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #8a7440;
+  background: #f0e8d0;
+  border: 1px solid #e0d4ac;
+  border-radius: 999px;
+  padding: 0.05rem 0.55rem;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+/* ─────────────────────────────────────────────
+   15 · LECTURE BLOCK  (industry asides, V4)
+   Chalk-toned aside card. .lect-header labels
+   the lesson; .lect-q holds quoted maxims.
+   ───────────────────────────────────────────── */
+.lecture-block {
+  margin: 2rem 0;
+  padding: 1.4rem 1.6rem;
+  background: #f4f1ec;
+  border-left: 4px solid #b0a99c;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.95rem;
+  line-height: 1.95;
+  color: #3d3a32;
+}
+.lecture-block .lect-header {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8a8273;
+  border-bottom: 1px solid #ddd6c8;
+  padding-bottom: 0.45rem;
+  margin-bottom: 0.8rem;
+}
+.lecture-block .lect-header::before {
+  content: "✎ ";
+  color: #b0a99c;
+}
+.lecture-block p {
+  text-indent: 0 !important;
+  margin: 0.7em 0;
+  text-align: left;
+}
+.lecture-block .lect-q {
+  font-style: italic;
+  color: #7a7265;
+  display: block;
+  margin: 1em 0 0.3em;
+  font-size: 0.9em;
+}
+/* ─────────────────────────────────────────────
+   16 · PULLQUOTE  (V5 — “rose-gold sunset”)
+   Redesigned: warm gradient card, rose→gold
+   crest rule, deep-plum italic serif, glowing
+   diamond coda. Used for the book's bell-notes.
+   ───────────────────────────────────────────── */
+.pullquote {
+  position: relative;
+  margin: 2.8rem auto;
+  padding: 1.55rem 2rem 1.3rem;
+  max-width: 88%;
+  text-align: center;
+  font-family: "IM Fell English", Georgia, serif;
+  font-size: 1.06rem;
+  font-style: italic;
+  color: #8f2d55;
+  line-height: 1.74;
+  text-indent: 0 !important;
+  background: linear-gradient(178deg, #fffcf4 0%, #fdf0f4 46%, #fae6ee 100%);
+  border: 1px solid #eec3d5;
+  border-radius: 14px;
+  box-shadow: 0 8px 26px rgba(148, 45, 87, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.92);
+}
+.pullquote::before {
+  content: "";
+  display: block;
+  width: 58%;
+  height: 3px;
+  margin: 0 auto 0.95rem;
+  border-radius: 3px;
+  background: linear-gradient(90deg, rgba(212, 84, 127, 0), #d4547f 22%, #e8952f 50%, #d4547f 78%, rgba(212, 84, 127, 0));
+}
+.pullquote::after {
+  content: "✦";
+  display: block;
+  margin: 0.95rem auto 0.1rem;
+  font-size: 0.82rem;
+  font-style: normal;
+  color: #c9557e;
+  text-shadow: 0 0 9px rgba(201, 85, 126, 0.55), 0 0 22px rgba(232, 149, 47, 0.3);
+}
+.pullquote em, .pullquote .beat {
+  color: #b54a76;
+}
+/* ─────────────────────────────────────────────
+   18 · CHAPTER DIVIDER
+   ───────────────────────────────────────────── */
+.chapter-divider {
+  border: none;
+  margin: 4rem 0;
+}
+/* ─────────────────────────────────────────────
+   19 · LINKS / IMAGES / MISC
+   ───────────────────────────────────────────── */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  margin: auto;
+  height: auto;
+  display: block;
+}
+/* ═════════════════════════════════════════════
+   20 · WARDROBE BLOCK  (outfit cards, V3)
+   Returning for "Balladeer Prince" on stage.
+   V4: .wd-photo (AI-rendered outfit likeness,
+   matched to the character's established face)
+   + .wd-caption (Caveat handwritten credit).
+   ═════════════════════════════════════════════ */
+.wardrobe-block {
+  position: relative;
+  background: linear-gradient(160deg, #1c1018 0%, #2a1622 55%, #1a0e16 100%);
+  color: #f0dce6;
+  border: 1px solid #6a3a52;
+  border-radius: 10px;
+  padding: 1.3rem 1.6rem;
+  margin: 1.9rem 0;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.92rem;
+  line-height: 1.9;
+  box-shadow: 0 6px 24px rgba(50, 15, 35, 0.45), inset 0 0 40px rgba(255, 130, 190, 0.05);
+}
+.wardrobe-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #e89ac0, transparent);
+}
+.wardrobe-block .wd-header {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #f2b8d4;
+  text-shadow: 0 0 12px rgba(242, 184, 212, 0.5);
+  border-bottom: 1px solid #4a2438;
+  padding-bottom: 0.45rem;
+  margin-bottom: 0.8rem;
+}
+.wardrobe-block .wd-tag {
+  display: inline-block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #1a0e16;
+  background: linear-gradient(135deg, #e89ac0, #f2c8dc);
+  border-radius: 3px;
+  padding: 0.1em 0.6em;
+  margin-left: 0.6em;
+  vertical-align: middle;
+}
+.wardrobe-block p {
+  text-indent: 0 !important;
+  margin: 0.4em 0;
+  color: #f0dce6;
+  text-align: left;
+}
+.wardrobe-block .wd-item {
+  color: #f2c8dc;
+}
+.wardrobe-block .wd-label {
+  color: #c88aa8;
+  font-weight: 700;
+}
+.wardrobe-block .wd-effect {
+  color: #ffd98a;
+}
+.wardrobe-block .wd-note {
+  color: #a87890;
+  font-style: italic;
+  font-size: 0.9em;
+}
+/* — wardrobe photo (AI-rendered likeness card) — */
+.wardrobe-block .wd-photo {
+  display: block;
+  width: 88%;
+  max-width: 340px;
+  margin: 0.75rem auto 0.4rem;
+  border: 1px solid #8a4a66;
+  border-radius: 8px;
+  padding: 3px;
+  background: linear-gradient(150deg, #3a1e2e 0%, #241019 100%);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.55), 0 0 22px rgba(232, 154, 192, 0.14);
+}
+.wardrobe-block .wd-caption {
+  display: block;
+  text-align: center;
+  font-family: "Caveat", "Crimson Pro", Georgia, serif;
+  font-size: 0.98rem;
+  color: #d8a0be;
+  margin: 0.15rem 0 0.55rem;
+}
+/* ═════════════════════════════════════════════
+   21 · CONTRACT BLOCK  (legal documents, V3)
+   Returning for the EIDER ambassadorship.
+   ═════════════════════════════════════════════ */
+.contract-block {
+  position: relative;
+  background: linear-gradient(175deg, #faf6ec 0%, #f3ecdb 100%);
+  border: 1px solid #c9bc9c;
+  border-top: 4px double #8a7a54;
+  border-bottom: 4px double #8a7a54;
+  border-radius: 3px;
+  padding: 1.4rem 1.7rem;
+  margin: 2rem 0;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.92rem;
+  line-height: 1.95;
+  color: #3a3122;
+  box-shadow: 0 3px 14px rgba(90, 70, 30, 0.14);
+}
+.contract-block .ct-header {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #6b5836;
+  border-bottom: 1px solid #d8ccac;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+.contract-block .ct-clause {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #9b2335;
+  margin: 0.9em 0 0.1em;
+}
+.contract-block p {
+  text-indent: 0 !important;
+  margin: 0.3em 0;
+  color: #3a3122;
+  text-align: left;
+}
+.contract-block .ct-figure {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-weight: 700;
+  color: #6b5836;
+}
+.contract-block .ct-note {
+  font-style: italic;
+  color: #8a7a54;
+  font-size: 0.9em;
+}
+/* ─────────────────────────────────────────────
+   22 · HANDWRITTEN NOTE  (gift cards & notes)
+   ───────────────────────────────────────────── */
+.hand-note {
+  position: relative;
+  max-width: 22em;
+  margin: 1.8rem auto;
+  padding: 1.1rem 1.4rem 1.2rem;
+  background: linear-gradient(175deg, #fffbe6 0%, #fef3c2 100%);
+  border: 1px solid #e8d88a;
+  border-radius: 2px 14px 2px 2px;
+  box-shadow: 0 6px 14px rgba(120, 100, 30, 0.18), 0 1px 3px rgba(120, 100, 30, 0.12);
+  transform: rotate(-0.8deg);
+}
+.hand-note p {
+  font-family: "Segoe Script", "Comic Sans MS", cursive;
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #5a4a22;
+  text-indent: 0 !important;
+  margin: 0;
+  text-align: left;
+}
+.hand-note .hn-label {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #b09a58;
+  margin-bottom: 0.4rem;
+}
+/* ═════════════════════════════════════════════
+   23 · RECORDING BLOCK — NEW IN THIS VOLUME (V3)
+   Created for the covert phone-camera context.
+   Styled as a viewfinder: near-black field, red
+   REC pulse, timecode rail, monospace captions.
+   ═════════════════════════════════════════════ */
+.recording-block {
+  position: relative;
+  background: #0a0a0c;
+  color: #d8d8d0;
+  border: 1px solid #2a2a30;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin: 1.9rem 0;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.88rem;
+  line-height: 1.85;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.55), inset 0 0 60px rgba(255, 255, 255, 0.02);
+}
+.recording-block .rec-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 0;
+  gap: 0.25em 0.8em;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8a8a80;
+  border-bottom: 1px solid #1e1e24;
+  padding-bottom: 0.45rem;
+  margin-bottom: 0.8rem;
+  overflow-wrap: break-word;
+}
+.recording-block .rec-dot {
+  color: #f44;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(255, 68, 68, 0.8);
+  animation: rec-pulse 1.4s ease-in-out infinite;
+}
+@keyframes rec-pulse {
+  0%, 100% { opacity: 1; }
+
+50% { opacity: 0.35; }
+
+}
+.recording-block .rec-time {
+  color: #6a6a60;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.recording-block p {
+  text-indent: 0 !important;
+  margin: 0.4em 0;
+  color: #d8d8d0;
+  text-align: left;
+}
+.recording-block .rec-voice {
+  color: #e8c8a0;
+}
+.recording-block .rec-voice2 {
+  color: #a0c8e8;
+}
+.recording-block .rec-note {
+  color: #6a6a60;
+  font-style: italic;
+  font-size: 0.9em;
+}
+/* ═════════════════════════════════════════════
+   24 · OFFICIAL STATEMENT  (corporate press, V3)
+   Returning for SM's clarification.
+   ═════════════════════════════════════════════ */
+.official-statement {
+  background: #fdfdfb;
+  border: 1px solid #cfd4d8;
+  border-top: 5px solid #23406e;
+  border-radius: 4px;
+  padding: 1.5rem 1.8rem;
+  margin: 2rem 0;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.93rem;
+  line-height: 1.9;
+  color: #2a2f36;
+  box-shadow: 0 3px 14px rgba(30, 45, 70, 0.1);
+}
+.official-statement .os-masthead {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #23406e;
+  text-align: center;
+  border-bottom: 1px solid #dfe3e7;
+  padding-bottom: 0.6rem;
+  margin-bottom: 0.7rem;
+}
+.official-statement .os-meta {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8a929c;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.official-statement .os-title {
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: #1a2434;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.official-statement .os-clause {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #23406e;
+  margin: 0.9em 0 0.15em;
+}
+.official-statement p {
+  text-indent: 0 !important;
+  margin: 0.4em 0;
+  text-align: left;
+}
+.official-statement .os-sign {
+  text-align: right;
+  font-style: italic;
+  color: #5a636e;
+  margin-top: 1rem;
+}
+/* ═════════════════════════════════════════════
+   25 · NEWS DIGEST  (media coverage, V3)
+   Returning for the crisis headlines.
+   ═════════════════════════════════════════════ */
+.news-digest {
+  background: #faf0f0;
+  border: 1px solid #e8c8c8;
+  border-left: 4px solid #9b2335;
+  border-radius: 4px;
+  padding: 1.1rem 1.4rem;
+  margin: 1.6rem 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.8;
+  color: #2a1010;
+}
+.news-digest .nd-source {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #9b2335;
+  font-weight: 700;
+  border-bottom: 1px solid #e8c8c8;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+.news-digest .nd-headline {
+  font-weight: 700;
+  color: #1a0a0a;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+.news-digest p {
+  text-indent: 0 !important;
+  margin: 0.35em 0;
+  color: #2a1010;
+  text-align: left;
+  font-style: italic;
+}
+/* ═════════════════════════════════════════════
+   26 · TREND BLOCK  (charts & searches, V4)
+   Redesigned V4.1: vivid chart-room card — indigo
+   night gradient, neon rank chips; text roles:
+   .tr-cat cyan categories, .tr-artist gold names,
+   .tr-work pink titles, .tr-hot flame badge.
+   Base text brightened for dark-bg visibility;
+   solid background-color fallbacks for readers
+   without gradient support. Row separators live
+   on the base `p` rule only — no sibling or
+   pseudo-class selectors, so cascade-order
+   validators have nothing to flag.
+   ═════════════════════════════════════════════ */
+.trend-block {
+  position: relative;
+  background-color: #1c1548;
+  /* solid fallback for readers without gradient support */
+  background-image: linear-gradient(160deg, #141031 0%, #1e1650 45%, #251a5e 75%, #14102e 100%);
+  color: #d8d4f0;
+  border: 1px solid #453a8a;
+  border-radius: 12px;
+  padding: 1.15rem 1.4rem 1.2rem;
+  margin: 1.9rem 0;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.88rem;
+  line-height: 1.95;
+  overflow: hidden;
+  box-shadow: 0 6px 26px rgba(20, 10, 60, 0.55), inset 0 0 60px rgba(120, 90, 255, 0.08);
+}
+.trend-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 6%;
+  right: 6%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #ff5e9a, #ffb85e, #5ee0ff, transparent);
+}
+.trend-block .tr-header {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #ffb85e;
+  text-shadow: 0 0 12px rgba(255, 184, 94, 0.55);
+  border-bottom: 1px solid #37307a;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+.trend-block .tr-header::before {
+  content: "📈 ";
+}
+.trend-block p {
+  max-width: 100%;
+  min-width: 0;
+  text-indent: 0 !important;
+  margin: 0.28em 0;
+  text-align: left;
+  padding: 0.18rem 0 0.3rem;
+  border-bottom: 1px dashed rgba(130, 115, 220, 0.45);
+  color: #f6f4ff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.55);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+.trend-block .tr-rank {
+  display: inline-block;
+  min-width: 2.4em;
+  text-align: center;
+  font-weight: 700;
+  color: #0f0c26;
+  background-color: #6cc8ff;
+  /* solid fallback */
+  background-image: linear-gradient(135deg, #5ee0ff, #7a8cff);
+  border-radius: 6px;
+  padding: 0.02rem 0.4rem;
+  margin-right: 0.6rem;
+  box-shadow: 0 0 10px rgba(94, 224, 255, 0.4);
+}
+.trend-block .tr-cat {
+  font-weight: 700;
+  color: #8ce9ff;
+  text-shadow: 0 0 10px rgba(127, 227, 255, 0.45);
+  letter-spacing: 0.04em;
+}
+.trend-block .tr-artist {
+  font-weight: 700;
+  color: #ffdf96;
+  text-shadow: 0 0 10px rgba(255, 217, 138, 0.45);
+}
+.trend-block .tr-work {
+  font-style: italic;
+  color: #ffa8cd;
+  text-shadow: 0 0 8px rgba(255, 158, 198, 0.4);
+}
+.trend-block .tr-hot {
+  font-weight: 700;
+  color: #ffdf8a;
+  background-color: rgba(255, 140, 90, 0.22);
+  /* solid fallback */
+  background-image: linear-gradient(90deg, rgba(255, 94, 154, 0.25), rgba(255, 184, 94, 0.25));
+  border: 1px solid rgba(255, 154, 94, 0.5);
+  border-radius: 6px;
+  padding: 0.04rem 0.5rem;
+  text-shadow: 0 0 10px rgba(255, 223, 138, 0.6);
+}
+.trend-block .tr-hot::before {
+  content: "🔥";
+}
+/* ═════════════════════════════════════════════
+   27 · CHAT BLOCK  (KakaoTalk messenger, V4)
+   Redesigned: authentic messenger shell — the
+   classic Kakao sky-blue room, a contact-bar
+   header with avatar dot, asymmetric bubbles
+   with tails, soft shadows, timestamp meta.
+   ═════════════════════════════════════════════ */
+.chat-container {
+  background: linear-gradient(178deg, #a8c4e8 0%, #9db8dd 100%);
+  color: #1a1a1a;
+  border: 1px solid #86a4cc;
+  border-radius: 16px;
+  padding: 0 0 1.1rem;
+  margin: 1.9rem auto;
+  max-width: 96%;
+  overflow: hidden;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  box-shadow: 0 4px 18px rgba(40, 70, 120, 0.18);
+}
+.chat-header {
+  font-size: 0.74rem;
+  letter-spacing: 0.08em;
+  color: #fff;
+  background: linear-gradient(90deg, #4a6a9a, #5a7cae);
+  margin: 0 0 0.9rem;
+  padding: 0.62rem 1.1rem;
+  text-align: center;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+}
+.chat-header::before {
+  content: "● ";
+  color: #ffe45c;
+  font-size: 0.8em;
+}
+.chat-name {
+  font-size: 0.72rem;
+  color: #3a4a62;
+  margin: 0 0 0.2rem 1rem;
+  clear: both;
+  display: block;
+  text-indent: 0 !important;
+  text-align: left;
+  font-weight: 600;
+}
+.chat-name.self {
+  text-align: right;
+  margin-right: 1rem;
+}
+.chat-bubble {
+  padding: 0.58rem 1rem;
+  border-radius: 16px;
+  margin: 0 0.9rem 0.5rem;
+  max-width: 72%;
+  font-size: 0.93rem;
+  line-height: 1.5;
+  position: relative;
+  clear: both;
+  text-indent: 0 !important;
+  text-align: left;
+  box-shadow: 0 1px 4px rgba(30, 50, 90, 0.18);
+}
+.chat-received {
+  background: #fff;
+  color: #1a1a1a;
+  float: left;
+  border-bottom-left-radius: 4px;
+}
+.chat-sent {
+  background: linear-gradient(178deg, #ffe95e, #f7dc3e);
+  color: #241f00;
+  float: right;
+  border-bottom-right-radius: 4px;
+  text-align: right;
+}
+.chat-clear {
+  clear: both;
+  margin: 0;
+  padding: 0;
+  height: 0;
+}
+.chat-meta {
+  display: block;
+  clear: both;
+  font-size: 0.64rem;
+  color: #48597a;
+  text-align: center;
+  margin: 0.35rem 0 0.15rem;
+  text-indent: 0 !important;
+}
+.chat-sticker {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px dashed rgba(90, 80, 60, 0.45);
+  border-radius: 10px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.82rem;
+  font-style: italic;
+  color: #5a5040;
+}
+/* ═════════════════════════════════════════════
+   28 · STUDIO BLOCK  (production boards, V3)
+   Returning for the public tracklist reveal and
+   the global performance dashboard.
+   ═════════════════════════════════════════════ */
+.studio-block {
+  position: relative;
+  background: linear-gradient(165deg, #16161a 0%, #1e1e26 60%, #141418 100%);
+  color: #d0d4c8;
+  border: 1px solid #34343e;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin: 1.9rem 0;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.88rem;
+  line-height: 1.9;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5), inset 0 0 50px rgba(160, 255, 120, 0.03);
+}
+.studio-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #a3e635, transparent);
+}
+.studio-block .st-header {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #a3e635;
+  text-shadow: 0 0 10px rgba(163, 230, 53, 0.4);
+  border-bottom: 1px solid #2a2a34;
+  padding-bottom: 0.45rem;
+  margin-bottom: 0.8rem;
+}
+.studio-block p {
+  text-indent: 0 !important;
+  margin: 0.35em 0;
+  color: #d0d4c8;
+  text-align: left;
+}
+.studio-block .st-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 0.2em 1em;
+  padding: 0.28rem 0;
+  border-bottom: 1px dashed #2a2a34;
+}
+.studio-block .st-label {
+  flex: 1 1 10em;
+  min-width: 0;
+  color: #8a8f80;
+  overflow-wrap: break-word;
+}
+.studio-block .st-value {
+  flex: 1 1 12em;
+  min-width: 0;
+  max-width: 100%;
+  color: #e8f0a0;
+  font-weight: 700;
+  text-align: right;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.studio-block .st-row:last-child {
+  border-bottom: none;
+}
+.studio-block .st-note {
+  color: #6a6f60;
+  font-style: italic;
+  font-size: 0.9em;
+}
+/* ═════════════════════════════════════════════
+   28.5 · PLACEMENT REEL — NEW IN THIS VOLUME
+   Cinema-dark card with film-sprocket rails for
+   the drama product-placement montage. Show
+   titles in rose (.pr-show), hot items in gold
+   (.pr-item), caption in (.pr-note).
+   ═════════════════════════════════════════════ */
+.placement-reel {
+  position: relative;
+  background: linear-gradient(170deg, #17131d 0%, #221c29 55%, #141019 100%);
+  color: #e6dfea;
+  border: 1px solid #413750;
+  border-radius: 10px;
+  padding: 1.55rem 1.6rem 1.3rem;
+  margin: 2rem 0;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.95rem;
+  line-height: 1.9;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5), inset 0 0 60px rgba(255, 214, 140, 0.04);
+}
+.placement-reel::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7px;
+  background-image: repeating-linear-gradient(90deg, rgba(232, 200, 122, 0.55) 0 9px, transparent 9px 21px);
+}
+.placement-reel::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 7px;
+  background-image: repeating-linear-gradient(90deg, rgba(232, 200, 122, 0.55) 0 9px, transparent 9px 21px);
+}
+.placement-reel .pr-header {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #e8c87a;
+  border-bottom: 1px solid #37304a;
+  padding: 0 0 0.5rem;
+  margin: 0 0 0.9rem;
+}
+.placement-reel .pr-header::before {
+  content: "▸ ";
+  color: #f2b8c8;
+}
+.placement-reel p {
+  text-indent: 0 !important;
+  margin: 0.45em 0;
+  color: #e6dfea;
+  text-align: left;
+}
+.placement-reel .pr-show {
+  font-style: italic;
+  color: #f2b8c8;
+}
+.placement-reel .pr-item {
+  font-weight: 700;
+  color: #ffd98a;
+}
+.placement-reel .pr-note {
+  font-style: italic;
+  font-size: 0.9em;
+  color: #a294ae;
+}
+/* ═════════════════════════════════════════════
+   29 · INVESTIGATIVE DOSSIER BLOCK — NEW
+   A context with no prior home: the private
+   detective's findings on the T-ara affair.
+   Manila-folder styling — kraft paper, staple
+   tab, Courier Prime field rows, embedded
+   threat-message transcripts in a crimson
+   danger sub-card. Reuses embedded fonts.
+   ═════════════════════════════════════════════ */
+.dossier-block {
+  position: relative;
+  background: linear-gradient(178deg, #efe8d8 0%, #e5dccb 60%, #ddd4bf 100%);
+  border: 1px solid #b8a885;
+  border-top: 6px solid #8a7a54;
+  border-radius: 3px;
+  padding: 1.4rem 1.6rem 1.2rem;
+  margin: 2rem 0;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.93rem;
+  line-height: 1.9;
+  color: #3a3222;
+  box-shadow: 0 4px 16px rgba(90, 70, 30, 0.18), inset 0 0 40px rgba(180, 160, 110, 0.08);
+}
+.dossier-block::before {
+  content: "📎";
+  position: absolute;
+  top: 0.6rem;
+  right: 1rem;
+  font-size: 1rem;
+  opacity: 0.55;
+}
+.dossier-block .dg-header {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #6b5836;
+  border-bottom: 2px solid #b8a885;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.9rem;
+  font-weight: 700;
+}
+.dossier-block .dg-header::before {
+  content: "CONFIDENTIAL · ";
+  color: #9b2335;
+}
+.dossier-block p {
+  text-indent: 0 !important;
+  margin: 0.45em 0;
+  text-align: left;
+  color: #3a3222;
+}
+.dossier-block .dg-field {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 0.2em 1em;
+  padding: 0.3rem 0;
+  border-bottom: 1px dashed #c8b898;
+}
+.dossier-block .dg-field:last-of-type {
+  border-bottom: none;
+}
+.dossier-block .dg-label {
+  flex: 1 1 11em;
+  min-width: 0;
+  color: #7a6a4a;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.82em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.dossier-block .dg-value {
+  flex: 1 1 13em;
+  min-width: 0;
+  max-width: 100%;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-weight: 600;
+  color: #4a3f28;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+.dossier-block .dg-transcript {
+  display: block;
+  margin: 1em 0 0.4em;
+  padding: 0.8rem 1rem;
+  background: rgba(155, 35, 53, 0.05);
+  border-left: 3px solid #9b2335;
+  border-radius: 0 4px 4px 0;
+}
+.dossier-block .dg-transcript-label {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #9b2335;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+.dossier-block .dg-msg {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.88em;
+  line-height: 1.7;
+  color: #5a2a2a;
+  padding: 0.35rem 0;
+  border-bottom: 1px dotted #d8c8b8;
+}
+.dossier-block .dg-msg:last-child {
+  border-bottom: none;
+}
+.dossier-block .dg-note {
+  font-style: italic;
+  color: #8a7a5a;
+  font-size: 0.88em;
+  display: block;
+  margin-top: 0.7rem;
+  border-top: 1px solid #c8b898;
+  padding-top: 0.6rem;
+}
+.dossier-block .dg-flag {
+  display: block;
+  margin: 0.6em 0 0.2em;
+  padding: 0.45rem 0.7rem;
+  border-left: 3px solid #8a6a1e;
+  background: rgba(180, 150, 60, 0.08);
+  color: #6b5836;
+  font-weight: 600;
+}
+/* ═════════════════════════════════════════════
+   30 · MEMORY BLOCK  (flashbacks, V3)
+   Returning for Ji-yeon's recovered night.
+   ═════════════════════════════════════════════ */
+.memory-block {
+  background: #0e0e12;
+  color: #d0cac0;
+  border-radius: 8px;
+  padding: 1.3rem 1.6rem;
+  margin: 2rem 0;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.92rem;
+  line-height: 1.95;
+  border-left: 4px solid #4a4060;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
+}
+.memory-block .mb-label {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: #6a5a8a;
+  margin-bottom: 0.8rem;
+  display: block;
+  border-bottom: 1px solid #1e1e2a;
+  padding-bottom: 0.4rem;
+}
+.memory-block p {
+  text-indent: 0 !important;
+  margin: 0.5em 0;
+  color: #c0bab0;
+  text-align: left;
+}
+.memory-block .mb-voice {
+  color: #e8d8c0;
+  font-style: italic;
+}
+/* ═════════════════════════════════════════════
+   31 · HATE-WALL BLOCK — NEW IN THIS VOLUME (V3)
+   The vandalized corridor: spray-paint scrawl
+   on concrete. Permanent Marker font, red
+   overspray glow, tilted lines like a wall
+   defaced in the dark.
+   ═════════════════════════════════════════════ */
+.hate-wall {
+  position: relative;
+  background: radial-gradient(ellipse at 20% 30%, rgba(200, 30, 30, 0.08), transparent 50%), radial-gradient(ellipse at 80% 70%, rgba(200, 30, 30, 0.06), transparent 55%), linear-gradient(170deg, #2e2c2a 0%, #383430 55%, #2a2826 100%);
+  border: 1px solid #4a4440;
+  border-radius: 6px;
+  padding: 1.5rem 1.7rem;
+  margin: 2rem 0;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45), inset 0 0 60px rgba(0, 0, 0, 0.5);
+}
+.hate-wall::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: repeating-linear-gradient(0deg, transparent 0 34px, rgba(255, 255, 255, 0.025) 34px 35px);
+  pointer-events: none;
+}
+.hate-wall .hw-header {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #8a827a;
+  border-bottom: 1px solid #4a4440;
+  padding-bottom: 0.45rem;
+  margin-bottom: 1rem;
+}
+.hate-wall p.hw-scrawl {
+  font-family: "Permanent Marker", "Comic Sans MS", cursive;
+  font-size: 1.18rem;
+  line-height: 1.6;
+  color: #d84040;
+  text-shadow: 0 0 14px rgba(216, 64, 64, 0.45), 1px 1px 0 rgba(0, 0, 0, 0.6);
+  text-indent: 0 !important;
+  text-align: left;
+  margin: 0.55em 0;
+}
+.hate-wall p.hw-scrawl:nth-child(odd) {
+  transform: rotate(-1.2deg);
+}
+.hate-wall p.hw-scrawl:nth-child(even) {
+  transform: rotate(0.8deg);
+  margin-left: 1.4em;
+}
+.hate-wall .hw-note {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #8a827a;
+  text-indent: 0 !important;
+  text-align: left;
+  margin-top: 1rem;
+}
+/* ═════════════════════════════════════════════
+   32 · HAND-LETTER BLOCK  (returning, V3)
+   Full-page handwritten letter: ruled cream
+   stationery, Caveat hand, soft page shadow.
+   Returning for the three letters in the car.
+   ═════════════════════════════════════════════ */
+.hand-letter {
+  position: relative;
+  max-width: 34em;
+  margin: 2rem auto;
+  padding: 1.8rem 2rem 1.6rem;
+  background: repeating-linear-gradient(0deg, transparent 0 2.05em, rgba(180, 160, 110, 0.22) 2.05em calc(2.05em + 1px)), linear-gradient(175deg, #fffdf4 0%, #fbf4dd 100%);
+  border: 1px solid #e4d7ac;
+  border-radius: 3px;
+  box-shadow: 0 8px 22px rgba(120, 100, 30, 0.16), 0 1px 3px rgba(120, 100, 30, 0.1);
+  transform: rotate(-0.4deg);
+}
+.hand-letter .hl-label {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #b09a58;
+  margin-bottom: 0.8rem;
+}
+.hand-letter p {
+  font-family: "Caveat", "Segoe Script", "Comic Sans MS", cursive;
+  font-size: 1.32rem;
+  line-height: 2.05em;
+  color: #4a3c1e;
+  text-indent: 0 !important;
+  margin: 0 0 0.2em;
+  text-align: left;
+}
+.hand-letter p.hl-sign {
+  text-align: right;
+  font-weight: 600;
+  margin-top: 0.6em;
+}
+/* ═════════════════════════════════════════════
+   33 · VARIETY SHOW BLOCK  (broadcast language, V3)
+   Returning for the Happy Camp taping.
+   ═════════════════════════════════════════════ */
+.variety-block {
+  position: relative;
+  background: linear-gradient(165deg, #23242a 0%, #2c2d34 60%, #1e1f24 100%);
+  border: 1px solid #3c3d46;
+  border-radius: 10px;
+  padding: 1.3rem 1.5rem;
+  margin: 1.9rem 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.92rem;
+  line-height: 1.85;
+  color: #e8e6de;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+}
+.variety-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #f2c230 20%, #e0403c 50%, #3a7bd5 80%, transparent);
+  border-radius: 2px;
+}
+.variety-block .vt-header {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: #f2c230;
+  border-bottom: 1px solid #3c3d46;
+  padding-bottom: 0.45rem;
+  margin-bottom: 0.8rem;
+}
+.variety-block p {
+  text-indent: 0 !important;
+  margin: 0.4em 0;
+  color: #e8e6de;
+  text-align: left;
+}
+.variety-block .vt-mission {
+  display: block;
+  background: #f7f2e2;
+  color: #1e1c18;
+  border-radius: 5px;
+  padding: 0.7rem 1rem;
+  margin: 0.7rem 0;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-weight: 700;
+  font-size: 1.06rem;
+  letter-spacing: 0.02em;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.35);
+}
+.variety-block .vt-rule {
+  color: #c8c6bc;
+  font-size: 0.92em;
+}
+.variety-block .vt-caption {
+  color: #8a8a92;
+  font-style: italic;
+  font-size: 0.85em;
+}
+.variety-block .vt-tag {
+  display: inline-block;
+  font-weight: 800;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  color: #fff;
+  border-radius: 3px;
+  padding: 0.14em 0.6em;
+  margin: 0 0.35em 0.25em 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+}
+.variety-block .vt-verdict {
+  display: block;
+  text-align: center;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  margin: 0.6rem 0 0.2rem;
+  border-top: 1px dashed #3c3d46;
+  border-bottom: 1px dashed #3c3d46;
+}
+/* ═════════════════════════════════════════════
+   34 · WORLD-DISPATCH STAMP — NEW IN THIS VOLUME (V3)
+   Atlas variant of the location stamp for the
+   Chapter 144 montage: one album, many cities.
+   Adds a globe glyph, a faint meridian rule, and
+   a small-caps country line above the city.
+   ═════════════════════════════════════════════ */
+.world-dispatch {
+  margin: 2.4rem auto 1.4rem;
+  text-align: center;
+  text-indent: 0;
+}
+.world-dispatch .wd-globe {
+  display: inline-block;
+  font-size: 0.95rem;
+  color: #3a9a92;
+  letter-spacing: 0.4em;
+  margin-bottom: 0.15rem;
+}
+.world-dispatch .wd-country {
+  display: block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: #8a8273;
+}
+.world-dispatch .wd-city {
+  display: block;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.22rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: #2c2a24;
+  margin: 0.1rem 0 0.2rem;
+}
+.world-dispatch .wd-sub {
+  display: block;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #7a7265;
+}
+.world-dispatch::after {
+  content: "";
+  display: block;
+  width: 7em;
+  height: 1px;
+  margin: 0.7rem auto 0;
+  background: linear-gradient(90deg, transparent, #3a9a92, transparent);
+}
+/* ─────────────────────────────────────────────
+   35 · COVER PAGE  (editable text cover)
+   Full-bleed background image with centered,
+   fully editable XHTML text on top. Edit the
+   words in cover.xhtml; adjust looks here.
+   ───────────────────────────────────────────── */
+.cover-body {
+  margin: 0;
+  padding: 0;
+  background: #07070b;
+}
+.cover-shell {
+  position: relative;
+  min-height: 46em;
+  background-image: url(../images/cover-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  text-align: center;
+}
+.cover-overlay {
+  position: relative;
+  z-index: 2;
+  padding: 3.4em 1.4em 2.6em;
+  background: linear-gradient(180deg, rgba(7, 7, 11, 0.55) 0%, rgba(7, 7, 11, 0.12) 34%, rgba(7, 7, 11, 0) 55%, rgba(7, 7, 11, 0.62) 100%);
+  min-height: 42em;
+  display: block;
+}
+.cover-eyebrow {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.72em;
+  letter-spacing: 0.42em;
+  text-transform: uppercase;
+  color: #d8cdb4;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.85);
+  margin: 0 0 1.1em;
+  text-indent: 0;
+  text-align: center;
+}
+.cover-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 3.4em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #e8c87a;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.9), 0 0 44px rgba(212, 162, 78, 0.4);
+  margin: 0 0 0.25em;
+  text-indent: 0;
+  text-align: center;
+}
+.cover-subtitle {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 1.18em;
+  font-style: italic;
+  line-height: 1.5;
+  color: #f2ead8;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+  margin: 0 auto 1.2em;
+  text-indent: 0;
+  text-align: center;
+}
+.cover-ornament {
+  color: #d4a24e;
+  font-size: 0.95em;
+  letter-spacing: 0.5em;
+  text-shadow: 0 0 12px rgba(212, 162, 78, 0.6);
+  margin: 0 0 22em;
+  text-align: center;
+  text-indent: 0;
+}
+.cover-meta {
+  font-family: "Lora", Georgia, serif;
+  font-size: 0.92em;
+  letter-spacing: 0.14em;
+  color: #efe6d2;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.9);
+  margin: 0 0 0.4em;
+  text-indent: 0;
+  text-align: center;
+}
+.cover-edition {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.68em;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: #cdbf9e;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.9);
+  margin: 0;
+  text-indent: 0;
+  text-align: center;
+}
+/* ─────────────────────────────────────────────
+   36 · CHARACTER PAGE  (wiki-style infoboxes)
+   Dramatis personae: AsianWiki/Wikipedia-style
+   character cards — bordered infobox with
+   portrait, fact table, and prose bio.
+   ───────────────────────────────────────────── */
+.char-card {
+  margin: 2.2rem 0 2.8rem;
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid #e0d7c0;
+}
+.char-card:last-of-type {
+  border-bottom: none;
+}
+.char-infobox {
+  max-width: 21em;
+  margin: 0 auto 1.4rem;
+  background: #f6f1e2;
+  border: 1px solid #cfc4a4;
+  border-radius: 4px;
+  padding: 0.65rem;
+  box-shadow: 0 2px 10px rgba(90, 70, 20, 0.1);
+  font-family: "Lora", Georgia, serif;
+  text-align: center;
+}
+.char-infobox .ci-name {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #2c2a24;
+  background: #ece3cb;
+  border-radius: 3px;
+  padding: 0.4rem 0.5rem;
+  margin-bottom: 0.65rem;
+}
+.char-infobox .ci-photo {
+  margin: 0 0 0.4rem;
+}
+.char-infobox .ci-photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  border: 1px solid #d8cdaa;
+  display: block;
+}
+.char-infobox .ci-caption {
+  font-size: 0.74rem;
+  font-style: italic;
+  color: #7a7265;
+  line-height: 1.5;
+  padding: 0 0.3rem;
+  margin-bottom: 0.7rem;
+}
+.char-infobox .ci-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  text-align: left;
+}
+.char-infobox .ci-table th {
+  width: 38%;
+  vertical-align: top;
+  padding: 0.32rem 0.45rem;
+  color: #6a5f45;
+  font-weight: 700;
+  border-top: 1px solid #e4dbc0;
+  font-family: "Crimson Pro", Georgia, serif;
+}
+.char-infobox .ci-table td {
+  vertical-align: top;
+  padding: 0.32rem 0.45rem;
+  color: #3d3a32;
+  border-top: 1px solid #e4dbc0;
+}
+.char-bio h3 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.15rem;
+  letter-spacing: 0.06em;
+  color: #4a3f28;
+  border-bottom: 1px solid #d4c9a8;
+  padding-bottom: 0.3rem;
+  margin: 0 0 0.7rem;
+}
+.char-bio p {
+  text-indent: 0 !important;
+  margin: 0 0 0.8em;
+}
+.char-note {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #7a7265;
+  text-align: center;
+  text-indent: 0 !important;
+  border-top: 1px dashed #d8cdaa;
+  padding-top: 1.2rem;
+  margin-top: 2.4rem;
+}
+/* ─────────────────────────────────────────────
+   37 · STATUS PANEL  (character attribute sheet)
+   The MC's full Dream Life attribute readout:
+   heavy system styling with labeled stat rows
+   and value bars. First used in Chapter 5.
+   ───────────────────────────────────────────── */
+.status-panel {
+  background: linear-gradient(160deg, #0a1024 0%, #101a38 55%, #0a1228 100%);
+  color: #c8d4f0;
+  border: 1px solid #2a3a68;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem 1.3rem;
+  margin: 1.9rem 0;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.88rem;
+  line-height: 1.85;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45), inset 0 0 60px rgba(80, 120, 255, 0.05);
+}
+.status-panel .sp-header {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.72rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #7fb0ff;
+  text-shadow: 0 0 12px rgba(127, 176, 255, 0.5);
+  border-bottom: 1px solid #1e3060;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.status-panel .sp-subject {
+  text-align: center;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  color: #8a9cc8;
+  border-bottom: 1px dashed #1e3060;
+  padding-bottom: 0.55rem;
+  margin-bottom: 0.75rem;
+}
+.status-panel .sp-total {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 0;
+  gap: 0.2em 0.9em;
+  font-weight: 700;
+  color: #ffe08a;
+  text-shadow: 0 0 10px rgba(255, 224, 138, 0.35);
+  border-bottom: 1px solid #1e3060;
+  padding: 0.2rem 0 0.45rem;
+  margin-bottom: 0.55rem;
+  overflow-wrap: break-word;
+}
+.status-panel .sp-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 0.2em 0.9em;
+  padding: 0.24rem 0;
+  border-bottom: 1px dashed #16244a;
+}
+.status-panel .sp-label {
+  flex: 1 1 9em;
+  min-width: 0;
+  color: #8a9cc8;
+  letter-spacing: 0.04em;
+  overflow-wrap: break-word;
+}
+.status-panel .sp-value {
+  flex: 1 1 11em;
+  min-width: 0;
+  max-width: 100%;
+  color: #d8e4ff;
+  font-weight: 700;
+  text-align: right;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.status-panel .sp-row:last-child {
+  border-bottom: none;
+}
+.status-panel .sp-bar {
+  display: inline-block;
+  letter-spacing: 0.08em;
+  color: #4a6ab0;
+  margin-right: 0.55em;
+}
+.status-panel .sp-bar .filled {
+  color: #7fb0ff;
+  text-shadow: 0 0 6px rgba(127, 176, 255, 0.5);
+}
+.status-panel .sp-note {
+  color: #5a6a96;
+  font-style: italic;
+  font-size: 0.9em;
+  border-top: 1px solid #1e3060;
+  padding-top: 0.5rem;
+  margin-top: 0.6rem;
+  text-align: left;
+}
+.status-panel p {
+  text-indent: 0 !important;
+  margin: 0.3em 0;
+  text-align: left;
+}
+/* ─────────────────────────────────────────────
+   38 · TABLE OF CONTENTS  (nav document)
+   ───────────────────────────────────────────── */
+.toc-wrap {
+  max-width: 34em;
+  margin: 2em auto;
+  padding: 1.5em;
+  font-family: "Lora", Georgia, serif;
+}
+.toc-wrap h1 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.8em;
+  letter-spacing: 0.06em;
+  text-align: center;
+  color: #2c2a24;
+  border-bottom: 1px solid #d4c9a8;
+  padding-bottom: 0.5em;
+}
+.toc-wrap ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.toc-wrap li {
+  margin: 0.4em 0;
+  border-bottom: 1px dashed #e0d7c0;
+  padding-bottom: 0.35em;
+  font-size: 0.92em;
+}
+.toc-wrap a {
+  text-decoration: none;
+  color: #4a3f28;
+}
+/* ═════════════════════════════════════════════
+   39 · AWARD BLOCK — NEW (V4)
+   Ceremony envelope card: midnight-velvet shell,
+   gold laurel header, engraved winner plate.
+   .aw-header names the ceremony & category;
+   .aw-winner is the engraved plate; .aw-work
+   credits the winning work; .aw-note for margins.
+   First used: Chapter 148 (MAMA 2012).
+   ═════════════════════════════════════════════ */
+.award-block {
+  position: relative;
+  background: linear-gradient(165deg, #16121e 0%, #241a30 55%, #141018 100%);
+  color: #e8dfc8;
+  border: 1px solid #4a3a28;
+  border-radius: 12px;
+  padding: 1.3rem 1.6rem 1.4rem;
+  margin: 2.1rem 0;
+  text-align: center;
+  font-family: "Cormorant Garamond", Georgia, serif;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55), inset 0 0 60px rgba(212, 162, 78, 0.07);
+  overflow: hidden;
+}
+.award-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 12%;
+  right: 12%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #e8c87a, transparent);
+}
+.award-block .aw-header {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #c8a44e;
+  text-shadow: 0 0 12px rgba(212, 162, 78, 0.5);
+  margin-bottom: 0.7rem;
+}
+.award-block .aw-header::before {
+  content: "🏆 ";
+}
+.award-block .aw-laurel {
+  color: #a08340;
+  font-size: 0.9rem;
+  letter-spacing: 0.6em;
+  margin: 0.1rem 0 0.5rem;
+}
+.award-block .aw-winner {
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #f4e3b2;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6), 0 0 24px rgba(232, 200, 122, 0.35);
+  border-top: 1px solid #3a2f20;
+  border-bottom: 1px solid #3a2f20;
+  padding: 0.55rem 0;
+  margin: 0.3rem auto 0.4rem;
+  max-width: 88%;
+}
+.award-block .aw-work {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #c8b890;
+  margin: 0.2rem 0 0.4rem;
+}
+.award-block .aw-note {
+  font-family: "Lora", Georgia, serif;
+  font-size: 0.78rem;
+  color: #8a7a58;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+.award-block p {
+  text-indent: 0 !important;
+  margin: 0.25em 0;
+  text-align: center;
+}
+/* ═════════════════════════════════════════════
+   40 · BRIEFING BLOCK — NEW (V4)
+   Intelligence-dossier card: manila folder tones,
+   classification band, clause paragraphs with
+   ruled left margin — for structured "as told to"
+   explainers. First used: Chapter 150 (The
+   Balance Doctrine · Girls' Generation).
+   ═════════════════════════════════════════════ */
+.briefing-block {
+  position: relative;
+  background: linear-gradient(176deg, #f7f0dc 0%, #efe4c4 100%);
+  border: 1px solid #c9b686;
+  border-left: 5px solid #8a6f3a;
+  border-radius: 6px;
+  padding: 0 0 1.1rem;
+  margin: 2.1rem 0;
+  overflow: hidden;
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.93rem;
+  line-height: 1.9;
+  color: #3a3122;
+  box-shadow: 0 4px 16px rgba(110, 85, 30, 0.16);
+}
+.briefing-block .bf-band {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.64rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #f7f0dc;
+  background: linear-gradient(90deg, #8a6f3a, #a88a4a);
+  padding: 0.5rem 1.2rem;
+  margin: 0 0 0.85rem;
+}
+.briefing-block .bf-band::before {
+  content: "📁 ";
+}
+.briefing-block .bf-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.18rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #4a3a1e;
+  padding: 0 1.3rem;
+  margin: 0 0 0.2rem;
+  text-indent: 0 !important;
+}
+.briefing-block .bf-source {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: #8a7a52;
+  padding: 0 1.3rem;
+  margin: 0 0 0.7rem;
+  border-bottom: 1px dashed #d8c9a0;
+  padding-bottom: 0.6rem;
+  text-indent: 0 !important;
+}
+.briefing-block .bf-item {
+  padding: 0.1rem 1.3rem 0.1rem 1.5rem;
+  margin: 0.45em 0;
+  border-left: 2px solid #c9b686;
+  margin-left: 1.3rem;
+  margin-right: 1.1rem;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.briefing-block .bf-item .bf-key {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8a6f3a;
+  display: block;
+  margin-bottom: 0.1rem;
+}
+.briefing-block p {
+  text-indent: 0 !important;
+  text-align: left;
+}
+/* ═════════════════════════════════════════════
+   41 · ACTING BLOCK — NEW (V4)
+   The craft-of-acting card: a director's slate.
+   Clapperboard stripe crown, charcoal screen-
+   test body, Courier direction lines, amber cue
+   chips. For training plans, audition readings,
+   on-set coaching and take-by-take craft beats.
+   .ac-slate  = production/scene/take header
+   .ac-heading= scene or subject line
+   .ac-line   = cue row  (.ac-cue chip + text)
+   .ac-direction = italic stage direction
+   .ac-note   = margin note / verdict
+   ═════════════════════════════════════════════ */
+.acting-block {
+  position: relative;
+  background-color: #1d1d24;
+  /* solid fallback */
+  background-image: linear-gradient(168deg, #202027 0%, #26262e 55%, #1a1a20 100%);
+  color: #d8d4ca;
+  border: 1px solid #3c3c46;
+  border-radius: 10px;
+  padding: 0 0 1.15rem;
+  margin: 2rem 0;
+  overflow: hidden;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.88rem;
+  line-height: 1.9;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5), inset 0 0 50px rgba(232, 200, 122, 0.04);
+}
+.acting-block .ac-slate {
+  font-size: 0.66rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #e8c87a;
+  background-color: #111116;
+  /* solid fallback */
+  background-image: repeating-linear-gradient(-45deg, #15151a 0 14px, #e8e2d2 14px 28px);
+  background-size: 100% 7px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  border-bottom: 1px solid #3c3c46;
+  padding: 1rem 1.2rem 0.55rem;
+  margin: 0 0 0.85rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+.acting-block .ac-slate::before {
+  content: "🎬 ";
+}
+.acting-block .ac-heading {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #f0e6cf;
+  padding: 0 1.25rem;
+  margin: 0 0 0.5rem;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.acting-block .ac-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 0.35em 0.7em;
+  padding: 0.22rem 1.25rem;
+  margin: 0;
+  text-indent: 0 !important;
+  text-align: left;
+  color: #e6e1d3;
+  /* explicit light ink — global p color must not bleed in */
+  border-bottom: 1px dashed rgba(90, 90, 110, 0.35);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.acting-block .ac-cue {
+  flex: 0 1 auto;
+  max-width: 100%;
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #16161c;
+  background-color: #d9b96a;
+  /* solid fallback */
+  background-image: linear-gradient(135deg, #e8c87a, #c9a24e);
+  border-radius: 4px;
+  padding: 0.14rem 0.5rem;
+  margin-top: 0.28em;
+  box-shadow: 0 0 8px rgba(232, 200, 122, 0.25);
+}
+.acting-block .ac-direction {
+  font-style: italic;
+  color: #bdb7a8;
+  padding: 0.2rem 1.25rem;
+  margin: 0.3em 0;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.acting-block .ac-note {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-style: italic;
+  font-size: 0.86rem;
+  color: #aca697;
+  border-top: 1px solid #34343e;
+  padding: 0.6rem 1.25rem 0;
+  margin: 0.7rem 0 0;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.acting-block p {
+  text-indent: 0 !important;
+  margin: 0.3em 0;
+  text-align: left;
+  color: #d8d4ca;
+}
+/* ═════════════════════════════════════════════
+   42 · BOX-OFFICE BLOCK — NEW (V5)
+   Admissions, rankings, chart collections and
+   other tallied numbers: a cinema marquee card.
+   Midnight-navy body, marquee gold header with
+   ticket-stub scallops, tabular rows with amber
+   figures. For box-office boards, chart standings,
+   sales collections, poll results.
+   .bo-header = source · date marquee line
+   .bo-title  = film/song/subject line
+   .bo-row    = label + figure line (flex)
+   .bo-label  = metric name
+   .bo-figure = the number (amber, tabular)
+   .bo-rank   = rank chip (gold pill)
+   .bo-note   = footnote / trend remark
+   ═════════════════════════════════════════════ */
+.box-office {
+  position: relative;
+  background-color: #101726;
+  /* solid fallback */
+  background-image: linear-gradient(172deg, #131b2e 0%, #0e1522 60%, #101726 100%);
+  color: #d9dded;
+  border: 1px solid #2b3550;
+  border-radius: 10px;
+  padding: 0 0 1.05rem;
+  margin: 2rem 0;
+  overflow: hidden;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.88rem;
+  line-height: 1.85;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45), inset 0 0 46px rgba(240, 200, 110, 0.05);
+}
+.box-office .bo-header {
+  font-size: 0.66rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #f0c86e;
+  background-color: #0a0f1b;
+  /* solid fallback */
+  background-image: repeating-linear-gradient(90deg, #0a0f1b 0 18px, #182137 18px 20px);
+  border-bottom: 1px dashed #3a4666;
+  padding: 0.85rem 1.2rem 0.5rem;
+  margin: 0 0 0.8rem;
+  text-indent: 0 !important;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+.box-office .bo-header::before {
+  content: "🎟 ";
+}
+.box-office .bo-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.06rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #f4ead0;
+  padding: 0 1.25rem;
+  margin: 0 0 0.45rem;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.box-office .bo-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-width: 0;
+  gap: 0.25em 1em;
+  padding: 0.3rem 1.25rem;
+  margin: 0;
+  text-indent: 0 !important;
+  text-align: left;
+  color: #c4cade;
+  border-bottom: 1px dotted rgba(90, 105, 150, 0.3);
+}
+.box-office .bo-label {
+  flex: 1 1 11em;
+  min-width: 0;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  color: #9aa3c0;
+  overflow-wrap: break-word;
+}
+.box-office .bo-figure {
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 100%;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  color: #f0c86e;
+  text-align: right;
+  text-shadow: 0 0 10px rgba(240, 200, 110, 0.25);
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+.box-office .bo-rank {
+  display: inline-block;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #101726;
+  background-color: #e8c87a;
+  /* solid fallback */
+  background-image: linear-gradient(135deg, #f2d896, #cfa452);
+  border-radius: 999px;
+  padding: 0.1rem 0.6rem;
+  margin-right: 0.5em;
+  box-shadow: 0 0 8px rgba(232, 200, 122, 0.3);
+}
+.box-office .bo-note {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #8b93ad;
+  border-top: 1px solid #273250;
+  padding: 0.55rem 1.25rem 0;
+  margin: 0.65rem 0 0;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.box-office p {
+  text-indent: 0 !important;
+  margin: 0.3em 0;
+  text-align: left;
+  color: #c4cade;
+}
+/* ═════════════════════════════════════════════
+   43 · OFFICIAL POST — NEW (V5)
+   Verified official-account postings: film /
+   agency / artist accounts making statements
+   on SNS. A crisp "verified card": white paper
+   on cool blue frame, blue verified band with
+   a check seal, quoted body in serif, meta row
+   of handle · timestamp underneath.
+   .op-band   = account name band (✔ prefix)
+   .op-handle = @handle · platform · timestamp
+   .op-body   = the posted text (serif, quoted)
+   .op-meta   = engagement / top-reply footnote
+   ═════════════════════════════════════════════ */
+.official-post {
+  position: relative;
+  background-color: #f7fafd;
+  /* solid fallback */
+  background-image: linear-gradient(178deg, #fbfdff 0%, #f2f7fc 100%);
+  color: #24303c;
+  border: 1px solid #c5d7e8;
+  border-left: 4px solid #3b82c4;
+  border-radius: 8px;
+  padding: 0 0 0.9rem;
+  margin: 2rem 0;
+  overflow: hidden;
+  font-size: 0.92rem;
+  line-height: 1.85;
+  box-shadow: 0 4px 16px rgba(59, 130, 196, 0.12), 0 1px 3px rgba(30, 60, 90, 0.08);
+}
+.official-post .op-band {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #3b82c4;
+  /* solid fallback */
+  background-image: linear-gradient(90deg, #3b82c4 0%, #2f6ba6 70%, #285d92 100%);
+  padding: 0.5rem 1.15rem;
+  margin: 0 0 0.7rem;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.official-post .op-band::before {
+  content: "✔ ";
+  color: #cfe6fa;
+}
+.official-post .op-handle {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.74rem;
+  letter-spacing: 0.06em;
+  color: #5b7a96;
+  padding: 0 1.2rem;
+  margin: 0 0 0.4rem;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.official-post .op-body {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-size: 0.98rem;
+  color: #1d2933;
+  padding: 0 1.2rem;
+  margin: 0 0 0.35rem;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.official-post .op-meta {
+  font-size: 0.78rem;
+  font-style: italic;
+  color: #7e93a6;
+  border-top: 1px dashed #cfdeeb;
+  padding: 0.5rem 1.2rem 0;
+  margin: 0.55rem 0 0;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.official-post p {
+  text-indent: 0 !important;
+  margin: 0.3em 0;
+  text-align: left;
+  color: #1d2933;
+}
+/* ═════════════════════════════════════════════
+   44 · SCREEN-VIEW BLOCK — NEW (V5)
+   In-world viewing of a film in a theater or a
+   drama on TV: ONLY what plays on the screen —
+   never ordinary dialogue or room narration.
+   A darkened-auditorium card: near-black body,
+   cinemascope letterbox bars top and bottom,
+   silver-nitrate text, projector-beam header.
+   .sv-header = venue · title · format line
+   .sv-scene  = on-screen action (italic silver)
+   .sv-line   = on-screen spoken line (quoted)
+   .sv-caption= on-screen caption / subtitle / card
+   .sv-note   = fade / cut / score cue (dim)
+   ═════════════════════════════════════════════ */
+.screen-view {
+  position: relative;
+  background-color: #0b0b0e;
+  /* solid fallback */
+  background-image: linear-gradient(180deg, #000 0%, #000 4%, #101016 8%, #14141b 50%, #101016 92%, #000 96%, #000 100%);
+  color: #cfd2da;
+  border: 1px solid #26262e;
+  border-radius: 10px;
+  padding: 0 0 1.4rem;
+  margin: 2rem 0;
+  overflow: hidden;
+  font-size: 0.9rem;
+  line-height: 1.95;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55), inset 0 0 60px rgba(160, 180, 220, 0.045);
+}
+.screen-view .sv-header {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.64rem;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  color: #9fb2d8;
+  background-color: #000;
+  border-bottom: 1px solid #23232c;
+  padding: 1.05rem 1.25rem 0.55rem;
+  margin: 0 0 1rem;
+  text-indent: 0 !important;
+  text-align: center;
+  text-shadow: 0 0 12px rgba(159, 178, 216, 0.35);
+}
+.screen-view .sv-header::before {
+  content: "📽 ";
+}
+.screen-view .sv-scene {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-style: italic;
+  color: #b9bfce;
+  padding: 0.1rem 1.6rem;
+  margin: 0 0 0.35rem;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.screen-view .sv-line {
+  font-family: "Lora", Georgia, serif;
+  color: #e8e4d8;
+  padding: 0.1rem 2.1rem;
+  margin: 0 0 0.35rem;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.screen-view .sv-caption {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: #d8dcf0;
+  padding: 0.3rem 1.6rem;
+  margin: 0.4rem 0;
+  text-indent: 0 !important;
+  text-align: center;
+  text-shadow: 0 0 14px rgba(200, 210, 245, 0.3);
+}
+.screen-view .sv-note {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #6a7086;
+  padding: 0.15rem 1.6rem;
+  margin: 0.3rem 0 0;
+  text-indent: 0 !important;
+  text-align: left;
+}
+.screen-view p {
+  text-indent: 0 !important;
+  margin: 0.3em 0;
+  text-align: left;
+  color: #cfd2da;
+}
+/* ─────────────────────────────────────────────
+   34 · VARIANT OVERRIDES (cascade-ordered)
+   Chained-class variants collected here so that
+   higher-specificity rules always follow their
+   base selectors — validator-clean ordering.
+   ───────────────────────────────────────────── */
+.phone-call.sinister {
+  background: #f9f2f2;
+  border-left-color: #b46a6a;
+}
+.phone-call.sinister .pc-head {
+  color: #b46a6a;
+}
+.phone-call.sinister .pc-me {
+  color: #6a2a2a;
+}
+.hand-note.reply {
+  background: linear-gradient(175deg, #fdf0f4 0%, #fbe2ec 100%);
+  border-color: #ecc0d2;
+  transform: rotate(0.9deg);
+  box-shadow: 0 6px 14px rgba(140, 60, 90, 0.14), 0 1px 3px rgba(140, 60, 90, 0.1);
+}
+.hand-note.reply p {
+  color: #7a3a56;
+}
+.hand-note.reply .hn-label {
+  color: #c08aa4;
+}
+.memory-block.bright {
+  background: linear-gradient(175deg, #fdf6e8 0%, #f7ecd6 100%);
+  color: #5a4a32;
+  border-left-color: #d4a24e;
+  box-shadow: 0 4px 18px rgba(140, 100, 30, 0.15);
+}
+.memory-block.bright .mb-label {
+  color: #b08a3a;
+  border-bottom-color: #e8dcC0;
+}
+.memory-block.bright p {
+  color: #5a4a32;
+}
+.memory-block.bright .mb-voice {
+  color: #8a5a20;
+}
+.variety-block .vt-tag.red {
+  background: linear-gradient(135deg, #c8352f, #e0403c);
+}
+.variety-block .vt-tag.yellow {
+  background: linear-gradient(135deg, #d9a412, #f2c230);
+  color: #2a2205;
+}
+.variety-block .vt-tag.blue {
+  background: linear-gradient(135deg, #2a5ca8, #3a7bd5);
+}
+.variety-block .vt-verdict.safe {
+  color: #7fe0a0;
+}
+.variety-block .vt-verdict.xman {
+  color: #ff6a5e;
+  text-shadow: 0 0 14px rgba(255, 106, 94, 0.5);
+}
+/* ═════════════════════════════════════════════
+   45 · FAN-CLUB FORUM — NEW (V3)
+   Private fandom lounge: midnight solar field,
+   warm-gold identity chips, moderator badges,
+   and compact stacked posts. First used in
+   Chapter 243 for the Solaris Club thread.
+   ═════════════════════════════════════════════ */
+.fanclub-block {
+  position: relative;
+  margin: 2rem 0;
+  padding: 0 0 0.85rem;
+  overflow: hidden;
+  background-color: #15131f;
+  background-image: linear-gradient(168deg, #11101a 0%, #1b1728 58%, #12101b 100%);
+  border: 1px solid #3c3352;
+  border-radius: 12px;
+  color: #e8e2f0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.65;
+  box-shadow: 0 6px 24px rgba(25, 15, 45, 0.45), inset 0 0 45px rgba(232, 200, 122, 0.035);
+}
+.fanclub-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 8%;
+  right: 8%;
+  height: 2px;
+  background-image: linear-gradient(90deg, transparent, #e8c87a, #d36a88, transparent);
+}
+.fanclub-block .fc-header {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: #f0d58e;
+  background-color: #0d0c13;
+  border-bottom: 1px solid #342c48;
+  padding: 0.72rem 1.15rem 0.58rem;
+  margin-bottom: 0.55rem;
+  text-shadow: 0 0 10px rgba(240, 213, 142, 0.35);
+}
+.fanclub-block .fc-header::before {
+  content: "☀ ";
+}
+.fanclub-block .fc-post {
+  display: block;
+  padding: 0.42rem 1.1rem;
+  margin: 0;
+  text-indent: 0 !important;
+  text-align: left;
+  color: #e6e0ed;
+  border-bottom: 1px dashed rgba(95, 78, 125, 0.42);
+}
+.fanclub-block .fc-user {
+  display: inline-block;
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #d7b8ef;
+  background: rgba(140, 95, 180, 0.16);
+  border: 1px solid rgba(170, 120, 210, 0.28);
+  border-radius: 999px;
+  padding: 0.05rem 0.52rem;
+  margin-right: 0.55rem;
+}
+.fanclub-block .fc-user.mod {
+  color: #90d9ff;
+  border-color: rgba(80, 170, 220, 0.35);
+  background: rgba(60, 140, 190, 0.14);
+}
+.fanclub-block .fc-user.founder {
+  color: #ffe3a0;
+  border-color: rgba(225, 185, 95, 0.38);
+  background: rgba(200, 155, 70, 0.15);
+}
+.fanclub-block .fc-text {
+  color: #eeeaf4;
+}
+.fanclub-block .fc-modnote {
+  font-family: "Courier Prime", "Courier New", monospace;
+  font-size: 0.72rem;
+  font-style: italic;
+  color: #8b819d;
+  background: rgba(0, 0, 0, 0.16);
+  padding: 0.38rem 1.1rem;
+  margin: 0;
+  text-indent: 0 !important;
+  text-align: left;
+}
+/* ═════════════════════════════════════════════
+   46 · CHARACTER INTRODUCTION — NEW (V3)
+   A compact first-appearance card. Used exactly
+   once per featured character, immediately after
+   the character's first narrative mention.
+   ═════════════════════════════════════════════ */
+.char-intro-block {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.2rem;
+  background: linear-gradient(135deg, #fffef9 0%, #faf6ed 100%);
+  border: 1px solid #d4cfc0;
+  border-left: 4px solid #9b2335;
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin: 2rem 0;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.char-intro-block .ci-photo-wrap {
+  position: relative;
+  flex: 0 0 120px;
+  width: 120px;
+  max-width: 100%;
+  margin-right: 0;
+}
+.char-intro-block .ci-photo {
+  width: 120px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #e0ddd5;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  display: block;
+  margin: 0;
+}
+.char-intro-block .ci-tag {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  background: linear-gradient(135deg, #9b2335, #c1283f);
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 0.55rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.4rem;
+  border-radius: 4px;
+  z-index: 2;
+}
+.char-intro-block .ci-body {
+  flex: 1 1 14em;
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.char-intro-block .ci-name {
+  font-family: "Cormorant Garamond", "EB Garamond", Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #2b2620;
+  margin-bottom: 0.3rem;
+  text-indent: 0;
+}
+.char-intro-block .ci-role {
+  font-family: "Crimson Pro", Georgia, serif;
+  font-style: italic;
+  font-size: 0.85rem;
+  color: #6a5a42;
+  margin-bottom: 0.15rem;
+  text-indent: 0;
+}
+.char-intro-block .ci-group {
+  font-family: "Inter", sans-serif;
+  font-size: 0.75rem;
+  color: #8b7d6b;
+  margin-bottom: 0.1rem;
+  text-indent: 0;
+}
+.char-intro-block .ci-born {
+  font-family: "Inter", sans-serif;
+  font-size: 0.72rem;
+  color: #b0a890;
+  margin-bottom: 0.4rem;
+  text-indent: 0;
+}
+.char-intro-block .ci-desc {
+  font-family: "Lora", Georgia, serif;
+  font-size: 0.82rem;
+  line-height: 1.7;
+  color: #4a4030;
+  text-indent: 0;
+  margin: 0.3em 0 0;
+}
+/* ═════════════════════════════════════════════
+   47 · SMALL-SCREEN & HIGH-DENSITY SAFEGUARDS
+   Prevents fixed-width cards, long values, and
+   side-by-side data rows from escaping the page
+   when an EPUB reader uses a narrow viewport or
+   enlarged typography on high-density displays.
+   ═════════════════════════════════════════════ */
+.title-shell, .chapter-header, .lyric-block, .performance-block, .system-block, .finance-block, .phone-call, .app-screen, .comment-thread, .lecture-block, .pullquote, .wardrobe-block, .contract-block, .hand-note, .recording-block, .official-statement, .news-digest, .trend-block, .chat-container, .studio-block, .memory-block, .hate-wall, .hand-letter, .variety-block, .char-infobox, .status-panel, .award-block, .briefing-block, .acting-block, .box-office, .official-post, .screen-view, .fanclub-block, .char-intro-block {
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+.char-infobox .ci-table, .char-infobox .ci-table th, .char-infobox .ci-table td, .fanclub-block .fc-post, .chat-bubble, .app-screen, .official-post .op-body, .news-digest {
+  max-width: 100%;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  word-wrap: break-word;
+}
+@media (max-width: 30em) {
+  .page-wrapper {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.15em 0.75em;
+    border-radius: 0;
+  }
+  .title-content {
+    padding: 3.3em 0.85em;
+  }
+  .title-heading {
+    font-size: 2.55rem;
+    overflow-wrap: break-word;
+  }
+  .title-meta-dot {
+    display: none;
+  }
+  .chapter-header {
+    padding: 2rem 0.75rem 1.75rem;
+    margin-bottom: 2rem;
+  }
+  .chapter-title {
+    font-size: 1.7rem;
+    overflow-wrap: break-word;
+  }
+  .system-block {
+    padding: 0.95rem 0.85rem;
+    font-size: 0.86rem;
+  }
+  .system-block .sys-header {
+    letter-spacing: 0.16em;
+  }
+  .system-block .sys-value {
+    text-align: left;
+  }
+  .studio-block .st-value, .status-panel .sp-value, .box-office .bo-figure {
+    text-align: left;
+  }
+  .chat-bubble {
+    max-width: 84%;
+  }
+  .char-intro-block {
+    justify-content: center;
+    gap: 0.9rem;
+    padding: 1rem;
+  }
+  .char-intro-block .ci-photo-wrap {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .char-intro-block .ci-body {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  /* ═════════════════════════════════════════════
+           39 · MIDNIGHT WHISPER BLOCK — NEW IN THIS VOLUME
+           A context with no prior home: the last words of
+           the night, exchanged in the dark between lovers.
+           Near-black plum field, moon-label, her whispers
+           set left in rose, his replies set right in gold.
+           Reuses embedded fonts; no new typefaces required.
+           ═════════════════════════════════════════════ */
+  .whisper-block {
+    position: relative;
+    background: linear-gradient(170deg, #14101c 0%, #1e1628 55%, #120e1a 100%);
+    border: 1px solid #3a2a4a;
+    border-left: 4px solid #8a6aa8;
+    border-radius: 10px;
+    padding: 1.4rem 1.6rem;
+    margin: 2rem 0;
+    font-family: "Crimson Pro", Georgia, serif;
+    font-size: 1.02rem;
+    line-height: 2.05;
+    color: #d8d0e0;
+    box-shadow: 0 6px 24px rgba(20, 10, 40, 0.5), inset 0 0 50px rgba(200, 160, 255, 0.04);
+    overflow: hidden;
+  }
+  .whisper-block::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 8%;
+    right: 8%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #c8a8e8, transparent);
+  }
+  .whisper-block .wh-label {
+    display: block;
+    font-family: "Courier Prime", "Courier New", monospace;
+    font-size: 0.66rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #8a6aa8;
+    border-bottom: 1px solid #2a2038;
+    padding-bottom: 0.45rem;
+    margin-bottom: 0.9rem;
+  }
+  .whisper-block .wh-label::before {
+    content: "☾ ";
+    color: #c8a8e8;
+  }
+  .whisper-block p {
+    text-indent: 0 !important;
+    margin: 0.5em 0;
+    text-align: left;
+    color: #d8d0e0;
+  }
+  .whisper-block .wh-voice {
+    color: #e8c8d8;
+    font-style: italic;
+    padding-left: 1.4em;
+    text-align: left;
+  }
+  .whisper-block .wh-reply {
+    color: #e8d8b0;
+    padding-right: 1.4em;
+    text-align: right;
+  }
+  .whisper-block .wh-close {
+    display: block;
+    text-align: center;
+    font-size: 0.88em;
+    font-style: italic;
+    color: #8a7a9a;
+    margin-top: 1rem;
+    padding-top: 0.7rem;
+    border-top: 1px dashed #2a2038;
+  }
+}
