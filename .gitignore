@@ -1,0 +1,6 @@
+# Disposable Python/Node caches and resumable image-generation workdirs
+__pycache__/
+*.py[cod]
+scripts/__pycache__/
+scripts/wardrobe-*/
+*.log

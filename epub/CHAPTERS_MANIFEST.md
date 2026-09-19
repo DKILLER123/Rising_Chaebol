@@ -1,5 +1,5 @@
-# PENINSULA — Chapter Manifest (113 chapters)
-Raw sources (archived in epub/raw/): full-novel-source-raw.txt (ch 1–84), pasted-batch-ch085-091.txt (ch 85–91), chNNN.txt per-chapter files (ch 85–113; ch92/ch93 raws predate the archive and were not retained — the English chapters are complete). Chapters 85–113 supplied inline by the user. Chapter NN file: /home/z/my-project/epub/OEBPS/text/chapterNN.xhtml
+# PENINSULA — Chapter Manifest (118 chapters)
+Raw sources (archived in epub/raw/): full-novel-source-raw.txt (ch 1–84), pasted-batch-ch085-091.txt (ch 85–91), and chNNN.txt per-chapter files (ch 94–118; ch92/ch93 raws predate the archive and were not retained — the English chapters are complete). Chapters 85–91 and 94–118 were supplied inline by the user. Chapter NN file: epub/OEBPS/text/chapterNN.xhtml
 
 | Ch | Lines | Chinese title | English title (USE THIS) |
 |----|---------|--------------------------------|---------------------------------------------|
@@ -116,3 +116,8 @@ Raw sources (archived in epub/raw/): full-novel-source-raw.txt (ch 1–84), past
 | 111 | user-supplied | 一不做二不休的韩素希 | Han So-hee, In for a Penny, In for a Pound |
 | 112 | user-supplied | 反差撒娇和乐乐龙崽 | Gap Aegyo and the Happy Little Dragon |
 | 113 | user-supplied | 看房与偶遇 | House Hunting and a Chance Encounter |
+| 114 | user-supplied | 饿了，我下面给你吃 | Hungry? I’ll Make You Something Downstairs |
+| 115 | user-supplied | 带，怎么不带 | Bring It—How Could I Not? |
+| 116 | user-supplied | 感性的韩素希 | Han So-hee Gets Sentimental |
+| 117 | user-supplied | 与龙崽的约定 | The Little Dragon’s Promise |
+| 118 | user-supplied | 出发日本 | Off to Japan |

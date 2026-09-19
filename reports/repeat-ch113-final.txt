@@ -1,0 +1,9 @@
+== chapter113.xhtml · 3274 words · scope chapter110.xhtml, chapter111.xhtml, chapter112.xhtml
+  INTERNAL repeats: 3
+    ×2: ublicity usic roduction ommercial ive vents ew edia
+    ×2: usic roduction ommercial ive vents ew edia an
+    ×2: roduction ommercial ive vents ew edia an perations
+  vs chapter111.xhtml: arry a plastic convenience store bag at full
+  vs chapter111.xhtml: a plastic convenience store bag at full stretch
+  cross-chapter 8-grams: 2
+repeat_check: REVIEW

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:peninsula-v3-crown-edition-2025"/>
+    <meta name="dtb:depth" content="1"/>
+    <meta name="dtb:totalPageCount" content="0"/>
+    <meta name="dtb:maxPageNumber" content="0"/>
+  </head>
+  <docTitle><text>Peninsula: My Rise to Chaebol Status Began with Ham Eun-jung</text></docTitle>
+  <navMap>
+    <navPoint id="np-title" playOrder="1"><navLabel><text>Title Page</text></navLabel><content src="text/title.xhtml"/></navPoint>
+    <navPoint id="np-copy" playOrder="2"><navLabel><text>Edition Notes</text></navLabel><content src="text/copyright.xhtml"/></navPoint>
+    <navPoint id="np-chars" playOrder="3"><navLabel><text>Character Files</text></navLabel><content src="text/characters.xhtml"/></navPoint>
+    <navPoint id="np-intro" playOrder="4"><navLabel><text>Supporting Cast</text></navLabel><content src="text/introductions.xhtml"/></navPoint>
+    <navPoint id="np-c1" playOrder="5"><navLabel><text>Chapter One · Oh No, I’m the Creep</text></navLabel><content src="text/chapter01.xhtml"/></navPoint>
+    <navPoint id="np-c2" playOrder="6"><navLabel><text>Chapter Two · The Goddess Handbook</text></navLabel><content src="text/chapter02.xhtml"/></navPoint>
+    <navPoint id="np-c3" playOrder="7"><navLabel><text>Chapter Three · Sulli</text></navLabel><content src="text/chapter03.xhtml"/></navPoint>
+    <navPoint id="np-c4" playOrder="8"><navLabel><text>Chapter Four · System, You Absolute Menace</text></navLabel><content src="text/chapter04.xhtml"/></navPoint>
+    <navPoint id="np-c5" playOrder="9"><navLabel><text>Chapter Five · Racing Heart, Trembling Hands</text></navLabel><content src="text/chapter05.xhtml"/></navPoint>
+    <navPoint id="np-c6" playOrder="10"><navLabel><text>Chapter Six · Loyalty</text></navLabel><content src="text/chapter06.xhtml"/></navPoint>
+    <navPoint id="np-c7" playOrder="11"><navLabel><text>Chapter Seven · Jeon Bo-ram, the Group’s Pushover</text></navLabel><content src="text/chapter07.xhtml"/></navPoint>
+    <navPoint id="np-c8" playOrder="12"><navLabel><text>Chapter Eight · Jeon Bo-ram: Are You the Devil?!</text></navLabel><content src="text/chapter08.xhtml"/></navPoint>
+    <navPoint id="np-c9" playOrder="13"><navLabel><text>Chapter Nine · So You Should Call Me Noona~</text></navLabel><content src="text/chapter09.xhtml"/></navPoint>
+    <navPoint id="np-c10" playOrder="14"><navLabel><text>Chapter Ten · A Cat with Its Fur Standing Up</text></navLabel><content src="text/chapter10.xhtml"/></navPoint>
+    <navPoint id="np-c11" playOrder="15"><navLabel><text>Chapter Eleven · Eun-jung-unnie, Going Cheap</text></navLabel><content src="text/chapter11.xhtml"/></navPoint>
+    <navPoint id="np-c12" playOrder="16"><navLabel><text>Chapter Twelve · A Familiar Girl</text></navLabel><content src="text/chapter12.xhtml"/></navPoint>
+    <navPoint id="np-c13" playOrder="17"><navLabel><text>Chapter Thirteen · How Am I Supposed to Save You?</text></navLabel><content src="text/chapter13.xhtml"/></navPoint>
+    <navPoint id="np-c14" playOrder="18"><navLabel><text>Chapter Fourteen · Sulli’s Dinner Invite</text></navLabel><content src="text/chapter14.xhtml"/></navPoint>
+    <navPoint id="np-c15" playOrder="19"><navLabel><text>Chapter Fifteen · The Head Pat</text></navLabel><content src="text/chapter15.xhtml"/></navPoint>
+    <navPoint id="np-c16" playOrder="20"><navLabel><text>Chapter Sixteen · Pinky Promise</text></navLabel><content src="text/chapter16.xhtml"/></navPoint>
+    <navPoint id="np-c17" playOrder="21"><navLabel><text>Chapter Seventeen · Home</text></navLabel><content src="text/chapter17.xhtml"/></navPoint>
+    <navPoint id="np-c18" playOrder="22"><navLabel><text>Chapter Eighteen · The Marriage Campaign</text></navLabel><content src="text/chapter18.xhtml"/></navPoint>
+    <navPoint id="np-c19" playOrder="23"><navLabel><text>Chapter Nineteen · The Jeju Concert</text></navLabel><content src="text/chapter19.xhtml"/></navPoint>
+    <navPoint id="np-c20" playOrder="24"><navLabel><text>Chapter Twenty · A Light in the Black Ocean</text></navLabel><content src="text/chapter20.xhtml"/></navPoint>
+    <navPoint id="np-c21" playOrder="25"><navLabel><text>Chapter Twenty-One · T-ara’s Closed-Door Meeting</text></navLabel><content src="text/chapter21.xhtml"/></navPoint>
+    <navPoint id="np-c22" playOrder="26"><navLabel><text>Chapter Twenty-Two · Together</text></navLabel><content src="text/chapter22.xhtml"/></navPoint>
+    <navPoint id="np-c23" playOrder="27"><navLabel><text>Chapter Twenty-Three · The Contact Reward</text></navLabel><content src="text/chapter23.xhtml"/></navPoint>
+    <navPoint id="np-c24" playOrder="28"><navLabel><text>Chapter Twenty-Four · The Stock Forecast Card</text></navLabel><content src="text/chapter24.xhtml"/></navPoint>
+    <navPoint id="np-c25" playOrder="29"><navLabel><text>Chapter Twenty-Five · Bae Joo-hyun and Kang Seul-gi</text></navLabel><content src="text/chapter25.xhtml"/></navPoint>
+    <navPoint id="np-c26" playOrder="30"><navLabel><text>Chapter Twenty-Six · The Set Visit</text></navLabel><content src="text/chapter26.xhtml"/></navPoint>
+    <navPoint id="np-c27" playOrder="31"><navLabel><text>Chapter Twenty-Seven · Kim Ji-won</text></navLabel><content src="text/chapter27.xhtml"/></navPoint>
+    <navPoint id="np-c28" playOrder="32"><navLabel><text>Chapter Twenty-Eight · Something Cooking in the Kitchen</text></navLabel><content src="text/chapter28.xhtml"/></navPoint>
+    <navPoint id="np-c29" playOrder="33"><navLabel><text>Chapter Twenty-Nine · Caught Lying Again!</text></navLabel><content src="text/chapter29.xhtml"/></navPoint>
+    <navPoint id="np-c30" playOrder="34"><navLabel><text>Chapter Thirty · Buying T-ara</text></navLabel><content src="text/chapter30.xhtml"/></navPoint>
+    <navPoint id="np-c31" playOrder="35"><navLabel><text>Chapter Thirty-One · Weekly Meeting: Debrief and Orders</text></navLabel><content src="text/chapter31.xhtml"/></navPoint>
+    <navPoint id="np-c32" playOrder="36"><navLabel><text>Chapter Thirty-Two · We’re Really Just Friends</text></navLabel><content src="text/chapter32.xhtml"/></navPoint>
+    <navPoint id="np-c33" playOrder="37"><navLabel><text>Chapter Thirty-Three · The Cheongdam Storefront</text></navLabel><content src="text/chapter33.xhtml"/></navPoint>
+    <navPoint id="np-c34" playOrder="38"><navLabel><text>Chapter Thirty-Four · Why Don’t You Just Read My Whole Account</text></navLabel><content src="text/chapter34.xhtml"/></navPoint>
+    <navPoint id="np-c35" playOrder="39"><navLabel><text>Chapter Thirty-Five · Thanks for Twenty-Two Years of Waiting Tables</text></navLabel><content src="text/chapter35.xhtml"/></navPoint>
+    <navPoint id="np-c36" playOrder="40"><navLabel><text>Chapter Thirty-Six · I’ve Eaten It — Yes, I’m Bragging!!</text></navLabel><content src="text/chapter36.xhtml"/></navPoint>
+    <navPoint id="np-c37" playOrder="41"><navLabel><text>Chapter Thirty-Seven · Baby, Why?</text></navLabel><content src="text/chapter37.xhtml"/></navPoint>
+    <navPoint id="np-c38" playOrder="42"><navLabel><text>Chapter Thirty-Eight · Binding</text></navLabel><content src="text/chapter38.xhtml"/></navPoint>
+    <navPoint id="np-c39" playOrder="43"><navLabel><text>Chapter Thirty-Nine · Well, You Never Asked</text></navLabel><content src="text/chapter39.xhtml"/></navPoint>
+    <navPoint id="np-c40" playOrder="44"><navLabel><text>Chapter Forty · Endorsement Plans</text></navLabel><content src="text/chapter40.xhtml"/></navPoint>
+    <navPoint id="np-c41" playOrder="45"><navLabel><text>Chapter Forty-One · Sulli: Leave It to Me</text></navLabel><content src="text/chapter41.xhtml"/></navPoint>
+    <navPoint id="np-c42" playOrder="46"><navLabel><text>Chapter Forty-Two · You Could Just Keep Me Instead</text></navLabel><content src="text/chapter42.xhtml"/></navPoint>
+    <navPoint id="np-c43" playOrder="47"><navLabel><text>Chapter Forty-Three · Mushroom the Dog</text></navLabel><content src="text/chapter43.xhtml"/></navPoint>
+    <navPoint id="np-c44" playOrder="48"><navLabel><text>Chapter Forty-Four · A Goddess Chased by a Dog</text></navLabel><content src="text/chapter44.xhtml"/></navPoint>
+    <navPoint id="np-c45" playOrder="49"><navLabel><text>Chapter Forty-Five · Forgot the Wallet</text></navLabel><content src="text/chapter45.xhtml"/></navPoint>
+    <navPoint id="np-c46" playOrder="50"><navLabel><text>Chapter Forty-Six · The Rules of Binding</text></navLabel><content src="text/chapter46.xhtml"/></navPoint>
+    <navPoint id="np-c47" playOrder="51"><navLabel><text>Chapter Forty-Seven · It Was Her</text></navLabel><content src="text/chapter47.xhtml"/></navPoint>
+    <navPoint id="np-c48" playOrder="52"><navLabel><text>Chapter Forty-Eight · Lim Yoon-ah</text></navLabel><content src="text/chapter48.xhtml"/></navPoint>
+    <navPoint id="np-c49" playOrder="53"><navLabel><text>Chapter Forty-Nine · The Girl Left Behind</text></navLabel><content src="text/chapter49.xhtml"/></navPoint>
+    <navPoint id="np-c50" playOrder="54"><navLabel><text>Chapter Fifty · Oppa, I Believe in You — Fighting!</text></navLabel><content src="text/chapter50.xhtml"/></navPoint>
+    <navPoint id="np-c51" playOrder="55"><navLabel><text>Chapter Fifty-One · Smart Little Dragon!</text></navLabel><content src="text/chapter51.xhtml"/></navPoint>
+    <navPoint id="np-c52" playOrder="56"><navLabel><text>Chapter Fifty-Two · Park Ji-yeon, Girl Next Door</text></navLabel><content src="text/chapter52.xhtml"/></navPoint>
+    <navPoint id="np-c53" playOrder="57"><navLabel><text>Chapter Fifty-Three · If You Won’t Make a Move, I Will</text></navLabel><content src="text/chapter53.xhtml"/></navPoint>
+    <navPoint id="np-c54" playOrder="58"><navLabel><text>Chapter Fifty-Four · How to Be a World-Class Wingman</text></navLabel><content src="text/chapter54.xhtml"/></navPoint>
+    <navPoint id="np-c55" playOrder="59"><navLabel><text>Chapter Fifty-Five · Knowing Exactly How That Feels</text></navLabel><content src="text/chapter55.xhtml"/></navPoint>
+    <navPoint id="np-c56" playOrder="60"><navLabel><text>Chapter Fifty-Six · The Weekly Meeting</text></navLabel><content src="text/chapter56.xhtml"/></navPoint>
+    <navPoint id="np-c57" playOrder="61"><navLabel><text>Chapter Fifty-Seven · Stock Predictions</text></navLabel><content src="text/chapter57.xhtml"/></navPoint>
+    <navPoint id="np-c58" playOrder="62"><navLabel><text>Chapter Fifty-Eight · The Little Dragon’s Scheme</text></navLabel><content src="text/chapter58.xhtml"/></navPoint>
+    <navPoint id="np-c59" playOrder="63"><navLabel><text>Chapter Fifty-Nine · This Is Pay-Per-View Material</text></navLabel><content src="text/chapter59.xhtml"/></navPoint>
+    <navPoint id="np-c60" playOrder="64"><navLabel><text>Chapter Sixty · Talk About a Freebie Bonanza</text></navLabel><content src="text/chapter60.xhtml"/></navPoint>
+    <navPoint id="np-c61" playOrder="65"><navLabel><text>Chapter Sixty-One · The Night Was Beautiful</text></navLabel><content src="text/chapter61.xhtml"/></navPoint>
+    <navPoint id="np-c62" playOrder="66"><navLabel><text>Chapter Sixty-Two · She Ran</text></navLabel><content src="text/chapter62.xhtml"/></navPoint>
+    <navPoint id="np-c63" playOrder="67"><navLabel><text>Chapter Sixty-Three · The Little Dragon’s Honor at Stake</text></navLabel><content src="text/chapter63.xhtml"/></navPoint>
+    <navPoint id="np-c64" playOrder="68"><navLabel><text>Chapter Sixty-Four · This… Counts as Seduction, Right?</text></navLabel><content src="text/chapter64.xhtml"/></navPoint>
+    <navPoint id="np-c65" playOrder="69"><navLabel><text>Chapter Sixty-Five · The Wrap Party</text></navLabel><content src="text/chapter65.xhtml"/></navPoint>
+    <navPoint id="np-c66" playOrder="70"><navLabel><text>Chapter Sixty-Six · Sulli’s Request</text></navLabel><content src="text/chapter66.xhtml"/></navPoint>
+    <navPoint id="np-c67" playOrder="71"><navLabel><text>Chapter Sixty-Seven · Peach Is No Fool</text></navLabel><content src="text/chapter67.xhtml"/></navPoint>
+    <navPoint id="np-c68" playOrder="72"><navLabel><text>Chapter Sixty-Eight · Two Birds, One Stone</text></navLabel><content src="text/chapter68.xhtml"/></navPoint>
+    <navPoint id="np-c69" playOrder="73"><navLabel><text>Chapter Sixty-Nine · Victoria’s Cold Shoulder</text></navLabel><content src="text/chapter69.xhtml"/></navPoint>
+    <navPoint id="np-c70" playOrder="74"><navLabel><text>Chapter Seventy · An Unhappy Parting</text></navLabel><content src="text/chapter70.xhtml"/></navPoint>
+    <navPoint id="np-c71" playOrder="75"><navLabel><text>Chapter Seventy-One · Making It Official</text></navLabel><content src="text/chapter71.xhtml"/></navPoint>
+    <navPoint id="np-c72" playOrder="76"><navLabel><text>Chapter Seventy-Two · Keep Hiding, Eun-jung-unnie!</text></navLabel><content src="text/chapter72.xhtml"/></navPoint>
+    <navPoint id="np-c73" playOrder="77"><navLabel><text>Chapter Seventy-Three · Torn Peach, Broke Ji-yeon</text></navLabel><content src="text/chapter73.xhtml"/></navPoint>
+    <navPoint id="np-c74" playOrder="78"><navLabel><text>Chapter Seventy-Four · What, Too Scared to Meet the In-Laws?</text></navLabel><content src="text/chapter74.xhtml"/></navPoint>
+    <navPoint id="np-c75" playOrder="79"><navLabel><text>Chapter Seventy-Five · Am I the First Woman to Know Oppa’s Passcode?</text></navLabel><content src="text/chapter75.xhtml"/></navPoint>
+    <navPoint id="np-c76" playOrder="80"><navLabel><text>Chapter Seventy-Six · Hyo-min’s Method for Picking Men</text></navLabel><content src="text/chapter76.xhtml"/></navPoint>
+    <navPoint id="np-c77" playOrder="81"><navLabel><text>Chapter Seventy-Seven · Goo Hara: Gulp… I Just Discovered Something Huge</text></navLabel><content src="text/chapter77.xhtml"/></navPoint>
+    <navPoint id="np-c78" playOrder="82"><navLabel><text>Chapter Seventy-Eight · A Good Sport, That Goo Hara</text></navLabel><content src="text/chapter78.xhtml"/></navPoint>
+    <navPoint id="np-c79" playOrder="83"><navLabel><text>Chapter Seventy-Nine · Peach’s Stolen Kiss</text></navLabel><content src="text/chapter79.xhtml"/></navPoint>
+    <navPoint id="np-c80" playOrder="84"><navLabel><text>Chapter Eighty · Surprise After Surprise: The Dragon Is Bound</text></navLabel><content src="text/chapter80.xhtml"/></navPoint>
+    <navPoint id="np-c81" playOrder="85"><navLabel><text>Chapter Eighty-One · Blushing Peach, Clever Mermaid</text></navLabel><content src="text/chapter81.xhtml"/></navPoint>
+    <navPoint id="np-c82" playOrder="86"><navLabel><text>Chapter Eighty-Two · Showing Me This First Thing in the Morning? Little Dragon, You’re Up to No Good</text></navLabel><content src="text/chapter82.xhtml"/></navPoint>
+    <navPoint id="np-c83" playOrder="87"><navLabel><text>Chapter Eighty-Three · Almost Something</text></navLabel><content src="text/chapter83.xhtml"/></navPoint>
+    <navPoint id="np-c84" playOrder="88"><navLabel><text>Chapter Eighty-Four · The Plan in Motion</text></navLabel><content src="text/chapter84.xhtml"/></navPoint>
+    <navPoint id="np-c85" playOrder="89"><navLabel><text>Chapter Eighty-Five · The Joy of Spending Money</text></navLabel><content src="text/chapter85.xhtml"/></navPoint>
+    <navPoint id="np-c86" playOrder="90"><navLabel><text>Chapter Eighty-Six · A Girl’s Heart</text></navLabel><content src="text/chapter86.xhtml"/></navPoint>
+    <navPoint id="np-c87" playOrder="91"><navLabel><text>Chapter Eighty-Seven · Oppa Really Isn’t a Con Man</text></navLabel><content src="text/chapter87.xhtml"/></navPoint>
+    <navPoint id="np-c88" playOrder="92"><navLabel><text>Chapter Eighty-Eight · Aftermath and the Necklace</text></navLabel><content src="text/chapter88.xhtml"/></navPoint>
+    <navPoint id="np-c89" playOrder="93"><navLabel><text>Chapter Eighty-Nine · They’re About to Be His</text></navLabel><content src="text/chapter89.xhtml"/></navPoint>
+    <navPoint id="np-c90" playOrder="94"><navLabel><text>Chapter Ninety · The Dragon’s Call</text></navLabel><content src="text/chapter90.xhtml"/></navPoint>
+    <navPoint id="np-c91" playOrder="95"><navLabel><text>Chapter Ninety-One · Bo-ram’s Flying Embrace</text></navLabel><content src="text/chapter91.xhtml"/></navPoint>
+    <navPoint id="np-c92" playOrder="96"><navLabel><text>Chapter Ninety-Two · The Clever Lee Qri</text></navLabel><content src="text/chapter92.xhtml"/></navPoint>
+    <navPoint id="np-c93" playOrder="97"><navLabel><text>Chapter Ninety-Three · Poaching the Front Desk</text></navLabel><content src="text/chapter93.xhtml"/></navPoint>
+    <navPoint id="np-c94" playOrder="98"><navLabel><text>Chapter Ninety-Four · Victoria’s Apology</text></navLabel><content src="text/chapter94.xhtml"/></navPoint>
+    <navPoint id="np-c95" playOrder="99"><navLabel><text>Chapter Ninety-Five · A Chance Encounter with Joo-hyun and Seul-gi</text></navLabel><content src="text/chapter95.xhtml"/></navPoint>
+    <navPoint id="np-c96" playOrder="100"><navLabel><text>Chapter Ninety-Six · Kang Seul-gi Breaks Down</text></navLabel><content src="text/chapter96.xhtml"/></navPoint>
+    <navPoint id="np-c97" playOrder="101"><navLabel><text>Chapter Ninety-Seven · The Little Dragon and the Peach</text></navLabel><content src="text/chapter97.xhtml"/></navPoint>
+    <navPoint id="np-c98" playOrder="102"><navLabel><text>Chapter Ninety-Eight · The Peach Kissed First</text></navLabel><content src="text/chapter98.xhtml"/></navPoint>
+    <navPoint id="np-c99" playOrder="103"><navLabel><text>Chapter Ninety-Nine · Arrangements and the Japan Itinerary</text></navLabel><content src="text/chapter99.xhtml"/></navPoint>
+    <navPoint id="np-c100" playOrder="104"><navLabel><text>Chapter One Hundred · Let’s Go Camping</text></navLabel><content src="text/chapter100.xhtml"/></navPoint>
+    <navPoint id="np-c101" playOrder="105"><navLabel><text>Chapter One Hundred One · The Qri and Bo-ram Show</text></navLabel><content src="text/chapter101.xhtml"/></navPoint>
+    <navPoint id="np-c102" playOrder="106"><navLabel><text>Chapter One Hundred Two · I’m the Eldest Here</text></navLabel><content src="text/chapter102.xhtml"/></navPoint>
+    <navPoint id="np-c103" playOrder="107"><navLabel><text>Chapter One Hundred Three · Night Talk Beneath the Stars</text></navLabel><content src="text/chapter103.xhtml"/></navPoint>
+    <navPoint id="np-c104" playOrder="108"><navLabel><text>Chapter One Hundred Four · The Raccoon and the Shiba</text></navLabel><content src="text/chapter104.xhtml"/></navPoint>
+    <navPoint id="np-c105" playOrder="109"><navLabel><text>Chapter One Hundred Five · Sulli’s Dream</text></navLabel><content src="text/chapter105.xhtml"/></navPoint>
+    <navPoint id="np-c106" playOrder="110"><navLabel><text>Chapter One Hundred Six · You Knew, and You Still Came Over</text></navLabel><content src="text/chapter106.xhtml"/></navPoint>
+    <navPoint id="np-c107" playOrder="111"><navLabel><text>Chapter One Hundred Seven · The CJ Squeeze</text></navLabel><content src="text/chapter107.xhtml"/></navPoint>
+    <navPoint id="np-c108" playOrder="112"><navLabel><text>Chapter One Hundred Eight · Yoon-ah, Tae-yeon, and the Uninvited Han So-hee</text></navLabel><content src="text/chapter108.xhtml"/></navPoint>
+    <navPoint id="np-c109" playOrder="113"><navLabel><text>Chapter One Hundred Nine · The Overthinking Han So-hee</text></navLabel><content src="text/chapter109.xhtml"/></navPoint>
+    <navPoint id="np-c110" playOrder="114"><navLabel><text>Chapter One Hundred Ten · The Test No Official Could Withstand</text></navLabel><content src="text/chapter110.xhtml"/></navPoint>
+    <navPoint id="np-c111" playOrder="115"><navLabel><text>Chapter One Hundred Eleven · Han So-hee, In for a Penny, In for a Pound</text></navLabel><content src="text/chapter111.xhtml"/></navPoint>
+    <navPoint id="np-c112" playOrder="116"><navLabel><text>Chapter One Hundred Twelve · Gap Aegyo and the Happy Little Dragon</text></navLabel><content src="text/chapter112.xhtml"/></navPoint>
+    <navPoint id="np-c113" playOrder="117"><navLabel><text>Chapter One Hundred Thirteen · House Hunting and a Chance Encounter</text></navLabel><content src="text/chapter113.xhtml"/></navPoint>
+    <navPoint id="np-c114" playOrder="118"><navLabel><text>Chapter One Hundred Fourteen · Hungry? I’ll Make You Something Downstairs</text></navLabel><content src="text/chapter114.xhtml"/></navPoint>
+    <navPoint id="np-c115" playOrder="119"><navLabel><text>Chapter One Hundred Fifteen · Bring It—How Could I Not?</text></navLabel><content src="text/chapter115.xhtml"/></navPoint>
+    <navPoint id="np-c116" playOrder="120"><navLabel><text>Chapter One Hundred Sixteen · Han So-hee Gets Sentimental</text></navLabel><content src="text/chapter116.xhtml"/></navPoint>
+    <navPoint id="np-c117" playOrder="121"><navLabel><text>Chapter One Hundred Seventeen · The Little Dragon’s Promise</text></navLabel><content src="text/chapter117.xhtml"/></navPoint>
+    <navPoint id="np-c118" playOrder="122"><navLabel><text>Chapter One Hundred Eighteen · Off to Japan</text></navLabel><content src="text/chapter118.xhtml"/></navPoint>
+  </navMap>
+</ncx>

@@ -1,0 +1,383 @@
+== epub/OEBPS/text/chapter01.xhtml
+   clean
+== epub/OEBPS/text/chapter02.xhtml
+   [NO-QM?] “…Don’t get any ideas.”
+   [NO-QM?] “…Don’t ask me the exact day — I’m the president, not the calendar.”
+   [QM-AFTER-CLOSE] !! …And the much-hyped “Goddess Ability”? One Stock Forecast Card 
+== epub/OEBPS/text/chapter03.xhtml
+   clean
+== epub/OEBPS/text/chapter04.xhtml
+   [SPACE-QM] !! …M — and you’re buying on intuition ?” The laugh was bl
+== epub/OEBPS/text/chapter05.xhtml
+   [NO-QM?] “…’t around much — and my brothers needed looking after more than I did.”
+   [NO-QM?] “…How much you buy is up to you.”
+   [NO-QM?] “…Don’t just fall straight over.”
+   [NO-QM?] “…When they brought you in, you were white as the sheets.”
+== epub/OEBPS/text/chapter06.xhtml
+   [NO-QM?] “…Who knows when I’ll see her again.”
+   [NO-QM?] “…What I want to talk about today is something else.”
+== epub/OEBPS/text/chapter07.xhtml
+   [SPACE-QM] !! …o you use exclamation points on us ?” “I do NOT use ex
+== epub/OEBPS/text/chapter08.xhtml
+   clean
+== epub/OEBPS/text/chapter09.xhtml
+   clean
+== epub/OEBPS/text/chapter10.xhtml
+   [QM-AFTER-CLOSE] !! …s “could barely tell you were there”? She had a very specific 
+== epub/OEBPS/text/chapter100.xhtml
+   [NO-QM?] “…Don’t tell me you walked in on something you weren’t supposed to see.”
+   [NO-QM?] “…Is that— we’re artists.”
+   [NO-QM?] “…Don’t hang up — one more thing, and it matters.”
+== epub/OEBPS/text/chapter101.xhtml
+   [NO-QM?] “…Don’t rub with that — your sleeve is all dust.”
+   [SPACE-QM] !! …l.” “Aigoo, Chinese lessons ?! Chinese is SO hard… Opp
+== epub/OEBPS/text/chapter102.xhtml
+   [SPACE-QM] !! … about to be thirty. Growing still ?” Bo-ram was T-ara
+== epub/OEBPS/text/chapter103.xhtml
+   [NO-QM?] “…Don’t put me on a pedestal.”
+   [NO-QM?] “…Which is exactly why there will be training.”
+   [NO-QM?] “…Can’t recite the lesson — no dinner.”
+   [NO-QM?] “…on’t fall off a summit a second time — not while I’m holding the rope.”
+== epub/OEBPS/text/chapter104.xhtml
+   [NO-QM?] “…Whoa, whoa.”
+   [NO-QM?] “…Don’t tell me you rented Park Jin-young’s building out from under him.”
+== epub/OEBPS/text/chapter105.xhtml
+   [NO-QM?] “…Can’t get caught short.”
+   [SPACE-QM] !! …ime because she looks like a shiba ?!” Eun-jung startl
+   [SPACE-QM] !! …id university students actually do ?” The barrage made
+== epub/OEBPS/text/chapter106.xhtml
+   [SPACE-QM] !! … something? Something like a… date ?” She had budgeted
+== epub/OEBPS/text/chapter107.xhtml
+   [NO-QM?] “…Which is why I won’t be clocking in on this side anymore.”
+   [NO-QM?] “…However — I need to borrow some staff.”
+   [NO-QM?] “… adding up for him, he’ll discover he has other mornings to attend to.”
+   [DOUBLE-QM] !! …pgujeong branch somehow even better?? how is that possible 
+== epub/OEBPS/text/chapter108.xhtml
+   clean
+== epub/OEBPS/text/chapter109.xhtml
+   clean
+== epub/OEBPS/text/chapter11.xhtml
+   [NO-QM?] “…Had these done a few days ago — I’m not ready to change them yet.”
+   [NO-QM?] “…we didn’t expect was the bonus feature: Eun-jung-unnie’s drama finale.”
+   [NO-QM?] “…Wonderful breeze.”
+   [NO-QM?] “…Who is he.”
+== epub/OEBPS/text/chapter110.xhtml
+   [NO-QM?] “…Done.”
+== epub/OEBPS/text/chapter111.xhtml
+   [NO-QM?] “…Don’t move.”
+   [NO-QM?] “…What I want is your face and the actress inside it.”
+   [SPACE-QM] !! … did she think the evening was for ? Unbelievable. She couldn
+   [SPACE-QM] !! …ful women does this apartment hide ?” “What am I hidin
+   [SPACE-QM] !! … or, I don’t know, her own address ?” “Long story. Sit
+== epub/OEBPS/text/chapter112.xhtml
+   [NO-QM?] “…Should be on the table by now.”
+   [NO-QM?] “… office; I’ll be up after T-ara’s block, and we’ll go hunt apartments.”
+   [SPACE-QM] !! …t.” “So what’s it eight for ? Practice isn’t till nine
+   [SPACE-QM] !! … profile photos. What are they for ? How long does it take? S
+   [SPACE-QM] !! …sn’t even purchase a speaking role ? A NOTE O
+   [SPACE-QM] !! …er, the works. The mouth does that ? So the ice statu
+== epub/OEBPS/text/chapter113.xhtml
+   [NO-QM?] “…Didn’t expect the neighborhood to come with you attached.”
+   [NO-QM?] “…le — and my artist needs somewhere that doesn’t come with an audience.”
+   [DOUBLE-QM] !! … “receipts” threads from last month?? gone. every single one. 
+== epub/OEBPS/text/chapter114.xhtml
+   [NO-QM?] “…s morning, my hands and feet felt like they belonged to somebody else.”
+   [NO-QM?] “…Don’t worry.”
+== epub/OEBPS/text/chapter115.xhtml
+   [NO-QM?] “…Don’t blame me if it tastes terrible.”
+== epub/OEBPS/text/chapter116.xhtml
+   [NO-QM?] “…Don’t go to the company for the next couple of days.”
+== epub/OEBPS/text/chapter117.xhtml
+   [NO-QM?] “…Don’t forget our promise.”
+== epub/OEBPS/text/chapter118.xhtml
+   [NO-QM?] “…Don’t get ideas about Hyo-min-unnie.”
+   [NO-QM?] “…Don’t run off.”
+== epub/OEBPS/text/chapter12.xhtml
+   [NO-QM?] “…Wasn’t going to sleep anyway.”
+== epub/OEBPS/text/chapter13.xhtml
+   [QM-AFTER-CLOSE] !! …ow had it compounded into “bullying”? The worst she had ever s
+== epub/OEBPS/text/chapter14.xhtml
+   clean
+== epub/OEBPS/text/chapter15.xhtml
+   clean
+== epub/OEBPS/text/chapter16.xhtml
+   [NO-QM?] “…When I get a free day, I’ll come find you in Yeouido.”
+== epub/OEBPS/text/chapter17.xhtml
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+== epub/OEBPS/text/chapter18.xhtml
+   [NO-QM?] “…Whoa.”
+   [NO-QM?] “…When you’re home.”
+== epub/OEBPS/text/chapter19.xhtml
+   [NO-QM?] “…Wouldn’t eat a bite.”
+== epub/OEBPS/text/chapter20.xhtml
+   [NO-QM?] “…Done.”
+== epub/OEBPS/text/chapter21.xhtml
+   [NO-QM?] “…Don’t go.”
+   [NO-QM?] “…Which gate.”
+   [NO-QM?] “…Won’t tell me anything anymore.”
+   [NO-QM?] “…Which — that place is genuinely good, by the way.”
+   [NO-QM?] “…What you don’t know is what happened after.”
+== epub/OEBPS/text/chapter22.xhtml
+   [NO-QM?] “…When the whole hall was like that.”
+   [NO-QM?] “…Don’t hold it in.”
+   [NO-QM?] “…Don’t wander.”
+   [NO-QM?] “…Don’t move.”
+== epub/OEBPS/text/chapter23.xhtml
+   [NO-QM?] “…Don’t mind her.”
+== epub/OEBPS/text/chapter24.xhtml
+   [NO-QM?] “…What you said on the plane.”
+   [NO-QM?] “…Whenever you’re free — one Kakao message, and the stove goes on.”
+== epub/OEBPS/text/chapter25.xhtml
+   [NO-QM?] “…Don’t lose the instrument before the evaluation even arrives.”
+== epub/OEBPS/text/chapter26.xhtml
+   [SPACE-QM] !! …Ji-yeon-ssi, you brought this much ?” Kim’s eyes went wide at
+== epub/OEBPS/text/chapter27.xhtml
+   [NO-QM?] “…Don’t run yourself past the line.”
+   [NO-QM?] “…When this drama finishes airing — dinner’s on me.”
+== epub/OEBPS/text/chapter28.xhtml
+   [DOUBLE-QM] !! …rofoundly wronged ] Tonight?? Then I want tomato-and-e
+== epub/OEBPS/text/chapter29.xhtml
+   [NO-QM?] “…Whenever you want the real thing, just send me a message.”
+   [SPACE-QM] !! …w, to her face: message me anytime ? “Weren’t you… sup
+== epub/OEBPS/text/chapter30.xhtml
+   clean
+== epub/OEBPS/text/chapter31.xhtml
+   clean
+== epub/OEBPS/text/chapter32.xhtml
+   [NO-QM?] “…Whatever we want to ask him — we ask him face to face.”
+== epub/OEBPS/text/chapter33.xhtml
+   clean
+== epub/OEBPS/text/chapter34.xhtml
+   [NO-QM?] “…Couldn’t tell you.”
+   [NO-QM?] “…Why don’t you just read my whole account while you’re at it.”
+== epub/OEBPS/text/chapter35.xhtml
+   [NO-QM?] “…Whatever you want.”
+== epub/OEBPS/text/chapter36.xhtml
+   [NO-QM?] “…What I’m buying is your brand value.”
+   [NO-QM?] “…Where do we stand — anyone.”
+   [NO-QM?] “…Wherever Eun-jung-unnie goes, I go.”
+== epub/OEBPS/text/chapter37.xhtml
+   clean
+== epub/OEBPS/text/chapter38.xhtml
+   [QM-AFTER-CLOSE] !! …tly, was the definition of “contact”? He’d pinky-promis
+== epub/OEBPS/text/chapter39.xhtml
+   [NO-QM?] “…Don’t mention it.”
+   [NO-QM?] “…When we wrap, I’d like to buy you dinner.”
+== epub/OEBPS/text/chapter40.xhtml
+   [NO-QM?] “…Whoa.”
+   [SPACE-QM] !! …ce is unreal. You order on tablets ? Doesn’t that cost you a 
+== epub/OEBPS/text/chapter41.xhtml
+   [NO-QM?] “…Which is exactly why it has to be this way.”
+== epub/OEBPS/text/chapter42.xhtml
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+== epub/OEBPS/text/chapter43.xhtml
+   [NO-QM?] “…Don’t make trouble for Song Ji-yeon-ssi.”
+   [NO-QM?] “…Don’t worry.”
+== epub/OEBPS/text/chapter44.xhtml
+   [NO-QM?] “…What’s the rush.”
+== epub/OEBPS/text/chapter45.xhtml
+   [NO-QM?] “…Dog-walking.”
+== epub/OEBPS/text/chapter46.xhtml
+   clean
+== epub/OEBPS/text/chapter47.xhtml
+   [NO-QM?] “…Down.”
+== epub/OEBPS/text/chapter48.xhtml
+   [NO-QM?] “…isn’t the traditional hotpot floor — all noise and steam and shouting.”
+   [NO-QM?] “…the property over, I never intended to raise his rent — and I haven’t.”
+   [NO-QM?] “…Don’t thank me.”
+== epub/OEBPS/text/chapter49.xhtml
+   clean
+== epub/OEBPS/text/chapter50.xhtml
+   [NO-QM?] “…Don’t tell me you two are actually dating.”
+== epub/OEBPS/text/chapter51.xhtml
+   [NO-QM?] “…When there’s nothing on, this is where I read.”
+== epub/OEBPS/text/chapter52.xhtml
+   [NO-QM?] “…n my hands give out from gaming, I can just collapse sideways into it.”
+== epub/OEBPS/text/chapter53.xhtml
+   [NO-QM?] “…Won’t be long.”
+== epub/OEBPS/text/chapter54.xhtml
+   clean
+== epub/OEBPS/text/chapter55.xhtml
+   [NO-QM?] “…When you wake up, I’ll drive you home.”
+   [NO-QM?] “…Done right, two weeks could multiply the pot several times over.”
+   [NO-QM?] “…What trouble.”
+   [QM-AFTER-CLOSE] !! …nyone. What exactly is it you “know”? One man, one wom
+== epub/OEBPS/text/chapter56.xhtml
+   clean
+== epub/OEBPS/text/chapter57.xhtml
+   [NO-QM?] “…When that one’s steady, we talk about the next ten doors.”
+== epub/OEBPS/text/chapter58.xhtml
+   clean
+== epub/OEBPS/text/chapter59.xhtml
+   clean
+== epub/OEBPS/text/chapter60.xhtml
+   clean
+== epub/OEBPS/text/chapter61.xhtml
+   clean
+== epub/OEBPS/text/chapter62.xhtml
+   [SPACE-QM] !! …ull floor. How did she forget that ? Was the little dragon aw
+   [SPACE-QM] !! …ersonality? With that girl’s mouth ? It would be the end of t
+   [SPACE-QM] !! … — what was this? What did it mean ? He took out his p
+== epub/OEBPS/text/chapter63.xhtml
+   [DOUBLE-QM] !! … “Why are you bringing ME breakfast?? And how did you even get
+   [DOUBLE-QM] !! … are your shoes and bag at my house?? Did you not go home last
+   [DOUBLE-QM] !! …se?? Did you not go home last night?? 
+== epub/OEBPS/text/chapter64.xhtml
+   [QM-AFTER-CLOSE] !! …ey together now? Was this “together”? Except he had nev
+   [DOUBLE-QM] !! … are your shoes and bag at my house?? Did you not go home last
+   [DOUBLE-QM] !! …se?? Did you not go home last night?? Ham E
+== epub/OEBPS/text/chapter65.xhtml
+   [NO-QM?] “…When you visited the set — we all sat around talking.”
+   [NO-QM?] “…Don’t mention it.”
+   [NO-QM?] “…Dorm, then.”
+== epub/OEBPS/text/chapter66.xhtml
+   [NO-QM?] “…Don’t tell me it’s three hundred million.”
+   [NO-QM?] “…When you get home, send me your brokerage ID and password.”
+== epub/OEBPS/text/chapter67.xhtml
+   clean
+== epub/OEBPS/text/chapter68.xhtml
+   [SPACE-QM] !! …ed to talk endorsement — in person ? Less than an hour
+== epub/OEBPS/text/chapter69.xhtml
+   clean
+== epub/OEBPS/text/chapter70.xhtml
+   [NO-QM?] “…d there be anything next time — kindly go through the proper channels.”
+   [NO-QM?] “…Don’t keep your leader waiting.”
+   [NO-QM?] “…Don’t keep her waiting.”
+== epub/OEBPS/text/chapter71.xhtml
+   [NO-QM?] “…Don’t want to go out.”
+   [NO-QM?] “…Don’t want anything.”
+== epub/OEBPS/text/chapter72.xhtml
+   [NO-QM?] “…Don’t play with fire.”
+   [NO-QM?] “…Don’t sound so glum.”
+   [NO-QM?] “…Don’t worry.”
+== epub/OEBPS/text/chapter73.xhtml
+   [SPACE-QM] !! …with Vic-unnie, under unreasonable ? She stared at the
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+== epub/OEBPS/text/chapter74.xhtml
+   [NO-QM?] “…What do you need from me.”
+   [DOUBLE-QM] !! … his house? Meet the parents?? They had made it 
+== epub/OEBPS/text/chapter75.xhtml
+   [NO-QM?] “…What ‘morning.’ It’s eight-thirty.”
+   [NO-QM?] “…Don’t get lost.”
+   [NO-QM?] “…ilt I’ll deliver it personally — install, tune, test, all of it, free.”
+== epub/OEBPS/text/chapter76.xhtml
+   [NO-QM?] “…Whoever marries me is set for LIFE.”
+   [NO-QM?] “…What is it.”
+   [SPACE-QM] !! …er. Why is it so prominent ? Her hand drifted
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+   [PC-STRUCT] !! .phone-call head_ok=False bad=[]
+== epub/OEBPS/text/chapter77.xhtml
+   clean
+== epub/OEBPS/text/chapter78.xhtml
+   [SPACE-QM] !! …ise a seven-million-won month then ? This peach had been famo
+== epub/OEBPS/text/chapter79.xhtml
+   [NO-QM?] “…Where am I taking you.”
+   [NO-QM?] “…Will do.”
+   [NO-QM?] “…Do you have a thing for my unnie.”
+   [NO-QM?] “…What exactly goes on in that head all day.”
+== epub/OEBPS/text/chapter80.xhtml
+   [NO-QM?] “…game yourself to death up here and no one would find you till Tuesday.”
+   [NO-QM?] “…Didn’t expect to get assaulted on entry.”
+   [NO-QM?] “…Wash your hands.”
+   [SPACE-QM] !! …a kiss. Since when is there biting ?” He raised a hand
+   [SPACE-QM] !! … “When did Park Ji-yeon get bound ?” He stared at the
+   [SPACE-QM] !! …n, and… pity? Pity, for Hara-unnie ? What was that supposed t
+   [SPACE-QM] !! …ions, did she want to bite his lip ? Unless… unless sh
+   [SPACE-QM] !! …y. It was barely past eight. Sleep ? Who? Sulli angled
+   [SPACE-QM] !! …-yeon! Is that skull of yours iron ?!” The impact had 
+   [SPACE-QM] !! … flaming mid-game? In front of him ? She lunged across to blo
+   [SPACE-QM] !! …e threshold turned out to be… this ? A head pat? Truly
+== epub/OEBPS/text/chapter81.xhtml
+   [NO-QM?] “…How about this: we get him neutered.”
+   [NO-QM?] “…Maybe even that I’m a con man.”
+   [NO-QM?] “…Don’t stay out too long.”
+   [NO-QM?] “…What he does.”
+   [NO-QM?] “…How often you two see each other.”
+== epub/OEBPS/text/chapter82.xhtml
+   [NO-QM?] “…Don’t disappoint me.”
+   [NO-QM?] “…Doesn’t matter~ No schedules these days anyway.”
+   [NO-QM?] “…Wash your face.”
+   [DOUBLE-QM] !! … “YAH!!!! Oppa, why are you UP here??!!” Her face deton
+   [DOUBLE-QM] !! …n like this the second a game loads?? 
+   [SPACE-QM] !! …? And what do you mean, this early ? It’s ten-thirty. The sun
+== epub/OEBPS/text/chapter83.xhtml
+   [NO-QM?] “…Wash these, then.”
+   [DOUBLE-QM] !! …d to look at oppa’s face after this?? HOW. ✦ ✦ ✦ 
+== epub/OEBPS/text/chapter84.xhtml
+   [NO-QM?] “…Don’t be modest — everyone saw what you did with the place.”
+   [NO-QM?] “…t instead, and the agreement is legally defective from the first line.”
+== epub/OEBPS/text/chapter85.xhtml
+   clean
+== epub/OEBPS/text/chapter86.xhtml
+   [NO-QM?] “…Downstairs.”
+   [NO-QM?] “…Done.”
+   [SPACE-QM] !! … been thinking, spilling it to her ? Sulli stormed tow
+== epub/OEBPS/text/chapter87.xhtml
+   [NO-QM?] “…Is that right.”
+   [NO-QM?] “…Maybe he thinks you’re sitting on a fortune.”
+   [NO-QM?] “…Could be a show he’s putting on for you.”
+   [NO-QM?] “…Don’t worry, unnie.”
+   [NO-QM?] “…Don’t go thinking three hundred sixty million is small.”
+   [SPACE-QM] !! …he be the one spending money on me ? Giving me presents?” 
+== epub/OEBPS/text/chapter88.xhtml
+   [NO-QM?] “…you dare act like three hundred and sixty million won is small change.”
+   [NO-QM?] “…Isn’t that kind of person.”
+   [NO-QM?] “…roup lots and lots of schedules — I’ll earn the necklace back for you.”
+   [NO-QM?] “…Don’t ask what you shouldn’t ask.”
+   [SPACE-QM] !! …have any idea what that even means ?” Sulli flinched a
+   [SPACE-QM] !! …u still have enough left to buy us ?” She genuinely th
+== epub/OEBPS/text/chapter89.xhtml
+   [NO-QM?] “…What stock.”
+== epub/OEBPS/text/chapter90.xhtml
+   [NO-QM?] “…Why would unnie lie.”
+   [NO-QM?] “…Don’t worry.”
+   [SPACE-QM] !! …nsfers.” “One to two months ?” Ji-yeon’s brows knitted
+== epub/OEBPS/text/chapter91.xhtml
+   [NO-QM?] “…Haven’t signed yet, strictly speaking.”
+   [NO-QM?] “…Have a read.”
+== epub/OEBPS/text/chapter92.xhtml
+   [NO-QM?] “…Don’t listen to her, everyone — she just wants the world on fire.”
+   [NO-QM?] “…May ShiningYouth live up to its name.”
+   [NO-QM?] “… too long — or we’ll start thinking you only said it to make us happy.”
+   [NO-QM?] “…the contract’s really signed — we’re counting on you to look after us.”
+   [NO-QM?] “…Don’t get used to it.”
+   [SPACE-QM] !! …Ji-yeon’s side moved. But tomorrow ? “That fast?” Lee 
+== epub/OEBPS/text/chapter93.xhtml
+   [NO-QM?] “…What’s the catastrophe.”
+   [NO-QM?] “…Don’t wear yourself out.”
+   [NO-QM?] “…Don’t be so nervous.”
+   [NO-QM?] “…Should be wrapped inside the week.”
+   [NO-QM?] “…Won’t embarrass you.”
+== epub/OEBPS/text/chapter94.xhtml
+   [SPACE-QM] !! …? And since when were they friends ? Their last encounter — t
+== epub/OEBPS/text/chapter95.xhtml
+   [NO-QM?] “…What— no.”
+   [SPACE-QM] !! …ose recurring injury is the throat ? Had the heavens opened h
+== epub/OEBPS/text/chapter96.xhtml
+   [NO-QM?] “…Could be educational.”
+   [NO-QM?] “…Don’t sentence yourself before the doctor’s even spoken.”
+   [NO-QM?] “…Done well, the impact on your timbre should be small.”
+   [NO-QM?] “…Doctor.”
+   [NO-QM?] “…Dorm first.”
+   [NO-QM?] “…Don’t spiral.”
+== epub/OEBPS/text/chapter97.xhtml
+   [NO-QM?] “…How about this — come to my place instead.”
+   [NO-QM?] “…Whatever you want to eat, I’ll cook it myself.”
+   [NO-QM?] “…Done.”
+   [NO-QM?] “…When I saw Sulli my brain just went— blank.”
+== epub/OEBPS/text/chapter98.xhtml
+   [NO-QM?] “…ay from her, and she’ll be too embarrassed to come freeload next week.”
+   [NO-QM?] “…Haven’t actually seen her in ages.”
+   [QM-AFTER-CLOSE] !! …front of oppa ?! What “shy glances”?! It was called acting! A
+   [SPACE-QM] !! …nning her mouth — in front of oppa ?! What “shy glances”?! It
+== epub/OEBPS/text/chapter99.xhtml
+   [NO-QM?] “…Don’t buy — rent.”
+   [DOUBLE-QM] !! … 1 did Samjin mainline gunpowder?? FOUR straight green days
+RESULT: FAIL (fix hard flags)

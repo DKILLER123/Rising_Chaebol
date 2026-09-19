@@ -2,7 +2,7 @@
 
 **What this skill produces:** A complete, styled, illustrated EPUB 3 novel (Chinese web-novel source → publisher-grade English ebook) plus a synchronized Next.js landing page that serves the package for download.
 
-**Proven on:** *Peninsula: My Rise to Chaebol Status Began with Ham Eun-jung* — 113 chapters, 20+ style-block families, 22 illustrated character files, wardrobe photo pages generated with identity-preserving AI, 10.8 MB package, browser-verified end to end.
+**Proven on:** *Peninsula: My Rise to Chaebol Status Began with Ham Eun-jung* — 118 chapters, 20+ style-block families, 22 illustrated character files, wardrobe photo pages generated with identity-preserving AI, 11.4 MB package, archive-verified end to end.
 
 **Division of documents (no duplication):**
 
@@ -30,7 +30,7 @@
 ## 1. Workspace Anatomy
 
 ```
-/home/z/my-project/
+<repository-root>/
 ├── epub/                          # THE BOOK SOURCE (never delete)
 │   ├── raw/                       # Verbatim source archive (mandate 2)
 │   │   ├── full-novel-source-raw.txt     # original novel, ch 1–84
@@ -131,7 +131,7 @@ Every batch must update **all** of:
 1. `content.opf`: +k `<item>` manifest entries (text + any new images), +k `<itemref>` spine entries, refreshed `dcterms:modified` (UTC), updated `<dc:description>` chapter count.
 2. `nav.xhtml`: +k `<li>` entries (labels = chapter `h1` titles exactly).
 3. `toc.ncx`: +k `<navPoint>` entries, playOrders 1..N+k **contiguous**.
-4. `title.xhtml` / `copyright.xhtml`: spelled-out chapter count ("One Hundred Thirteen Chapters").
+4. `title.xhtml` / `copyright.xhtml`: spelled-out chapter count (currently "One Hundred Eighteen Chapters").
 5. `CHAPTERS_MANIFEST.md`: +k rows.
 6. Landing page (S9).
 

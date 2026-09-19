@@ -1,0 +1,1153 @@
+{
+  "chapters": [
+    {
+      "chapter": "chapter01.xhtml",
+      "prose_words": 1926,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "comment-thread, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter02.xhtml",
+      "prose_words": 1443,
+      "blocks": 3,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter03.xhtml",
+      "prose_words": 1334,
+      "blocks": 3,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter04.xhtml",
+      "prose_words": 1682,
+      "blocks": 3,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, pullquote, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter05.xhtml",
+      "prose_words": 1907,
+      "blocks": 4,
+      "distinct_types": 4,
+      "blocks_per_1k_words": 2,
+      "used": "hand-note, location-stamp, pullquote, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter06.xhtml",
+      "prose_words": 1801,
+      "blocks": 3,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter07.xhtml",
+      "prose_words": 1631,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter08.xhtml",
+      "prose_words": 1575,
+      "blocks": 3,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter09.xhtml",
+      "prose_words": 1610,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter10.xhtml",
+      "prose_words": 1399,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter100.xhtml",
+      "prose_words": 3693,
+      "blocks": 4,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 1,
+      "used": "finance-block, location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter101.xhtml",
+      "prose_words": 3549,
+      "blocks": 3,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "lecture-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter102.xhtml",
+      "prose_words": 3158,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter103.xhtml",
+      "prose_words": 3311,
+      "blocks": 4,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter104.xhtml",
+      "prose_words": 3196,
+      "blocks": 7,
+      "distinct_types": 4,
+      "blocks_per_1k_words": 2,
+      "used": "contract-block, location-stamp, phone-call, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter105.xhtml",
+      "prose_words": 3349,
+      "blocks": 6,
+      "distinct_types": 4,
+      "blocks_per_1k_words": 2,
+      "used": "lecture-block, location-stamp, phone-call, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter106.xhtml",
+      "prose_words": 2864,
+      "blocks": 7,
+      "distinct_types": 5,
+      "blocks_per_1k_words": 2,
+      "used": "finance-block, lecture-block, location-stamp, pullquote, wardrobe-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter107.xhtml",
+      "prose_words": 2547,
+      "blocks": 5,
+      "distinct_types": 4,
+      "blocks_per_1k_words": 2,
+      "used": "comment-thread, dossier-block, location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, contract-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter108.xhtml",
+      "prose_words": 3551,
+      "blocks": 10,
+      "distinct_types": 6,
+      "blocks_per_1k_words": 3,
+      "used": "comment-thread, lecture-block, location-stamp, news-digest, pullquote, wardrobe-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lyric-block, memory-block, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter109.xhtml",
+      "prose_words": 3153,
+      "blocks": 12,
+      "distinct_types": 7,
+      "blocks_per_1k_words": 4,
+      "used": "dossier-block, lecture-block, location-stamp, memory-block, phone-call, pullquote, wardrobe-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lyric-block, news-digest, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter11.xhtml",
+      "prose_words": 1580,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter110.xhtml",
+      "prose_words": 3803,
+      "blocks": 14,
+      "distinct_types": 6,
+      "blocks_per_1k_words": 4,
+      "used": "contract-block, finance-block, lecture-block, location-stamp, phone-call, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter111.xhtml",
+      "prose_words": 3097,
+      "blocks": 5,
+      "distinct_types": 4,
+      "blocks_per_1k_words": 2,
+      "used": "lecture-block, location-stamp, pullquote, wardrobe-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter112.xhtml",
+      "prose_words": 3521,
+      "blocks": 6,
+      "distinct_types": 5,
+      "blocks_per_1k_words": 2,
+      "used": "lecture-block, location-stamp, pullquote, system-block, wardrobe-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter113.xhtml",
+      "prose_words": 3259,
+      "blocks": 8,
+      "distinct_types": 5,
+      "blocks_per_1k_words": 2,
+      "used": "briefing-block, comment-thread, location-stamp, pullquote, wardrobe-block",
+      "unused": "acting-block, app-screen, award-block, box-office, char-intro-block, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter12.xhtml",
+      "prose_words": 1645,
+      "blocks": 4,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter13.xhtml",
+      "prose_words": 1609,
+      "blocks": 3,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "finance-block, location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter14.xhtml",
+      "prose_words": 1229,
+      "blocks": 3,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter15.xhtml",
+      "prose_words": 1661,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter16.xhtml",
+      "prose_words": 1409,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter17.xhtml",
+      "prose_words": 1382,
+      "blocks": 4,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 3,
+      "used": "location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter18.xhtml",
+      "prose_words": 2894,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 0,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter19.xhtml",
+      "prose_words": 1716,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter20.xhtml",
+      "prose_words": 1913,
+      "blocks": 6,
+      "distinct_types": 4,
+      "blocks_per_1k_words": 3,
+      "used": "location-stamp, lyric-block, performance-block, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, memory-block, news-digest, official-post, official-statement, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter21.xhtml",
+      "prose_words": 2911,
+      "blocks": 4,
+      "distinct_types": 4,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, news-digest, phone-call, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter22.xhtml",
+      "prose_words": 2750,
+      "blocks": 4,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, phone-call, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter23.xhtml",
+      "prose_words": 3156,
+      "blocks": 4,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter24.xhtml",
+      "prose_words": 1732,
+      "blocks": 5,
+      "distinct_types": 4,
+      "blocks_per_1k_words": 3,
+      "used": "finance-block, location-stamp, phone-call, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter25.xhtml",
+      "prose_words": 1620,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter26.xhtml",
+      "prose_words": 1341,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter27.xhtml",
+      "prose_words": 1714,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter28.xhtml",
+      "prose_words": 1784,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter29.xhtml",
+      "prose_words": 1563,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter30.xhtml",
+      "prose_words": 1415,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter31.xhtml",
+      "prose_words": 1415,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter32.xhtml",
+      "prose_words": 1386,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter33.xhtml",
+      "prose_words": 1758,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter34.xhtml",
+      "prose_words": 2524,
+      "blocks": 5,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "finance-block, location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter35.xhtml",
+      "prose_words": 1531,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter36.xhtml",
+      "prose_words": 1681,
+      "blocks": 3,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "contract-block, location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter37.xhtml",
+      "prose_words": 1540,
+      "blocks": 7,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 5,
+      "used": "finance-block, location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter38.xhtml",
+      "prose_words": 1452,
+      "blocks": 3,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, pullquote, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter39.xhtml",
+      "prose_words": 2781,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter40.xhtml",
+      "prose_words": 1563,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter41.xhtml",
+      "prose_words": 2005,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter42.xhtml",
+      "prose_words": 1511,
+      "blocks": 9,
+      "distinct_types": 4,
+      "blocks_per_1k_words": 6,
+      "used": "location-stamp, phone-call, pullquote, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter43.xhtml",
+      "prose_words": 1898,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "hand-note, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter44.xhtml",
+      "prose_words": 1956,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter45.xhtml",
+      "prose_words": 1554,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter46.xhtml",
+      "prose_words": 1535,
+      "blocks": 3,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, pullquote, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter47.xhtml",
+      "prose_words": 1537,
+      "blocks": 5,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 3,
+      "used": "location-stamp, phone-call, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter48.xhtml",
+      "prose_words": 1728,
+      "blocks": 4,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter49.xhtml",
+      "prose_words": 1691,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter50.xhtml",
+      "prose_words": 1331,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter51.xhtml",
+      "prose_words": 1408,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter52.xhtml",
+      "prose_words": 1563,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter53.xhtml",
+      "prose_words": 1669,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter54.xhtml",
+      "prose_words": 1451,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "lecture-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter55.xhtml",
+      "prose_words": 1493,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter56.xhtml",
+      "prose_words": 1459,
+      "blocks": 4,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 3,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter57.xhtml",
+      "prose_words": 1676,
+      "blocks": 5,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 3,
+      "used": "finance-block, location-stamp, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter58.xhtml",
+      "prose_words": 1628,
+      "blocks": 4,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, phone-call, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter59.xhtml",
+      "prose_words": 1909,
+      "blocks": 3,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter60.xhtml",
+      "prose_words": 1981,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter61.xhtml",
+      "prose_words": 3772,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 0,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter62.xhtml",
+      "prose_words": 1720,
+      "blocks": 3,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter63.xhtml",
+      "prose_words": 2136,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter64.xhtml",
+      "prose_words": 1629,
+      "blocks": 4,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter65.xhtml",
+      "prose_words": 2535,
+      "blocks": 4,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, performance-block, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter66.xhtml",
+      "prose_words": 1487,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter67.xhtml",
+      "prose_words": 1469,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter68.xhtml",
+      "prose_words": 1227,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter69.xhtml",
+      "prose_words": 1434,
+      "blocks": 5,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 3,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter70.xhtml",
+      "prose_words": 1670,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter71.xhtml",
+      "prose_words": 2420,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter72.xhtml",
+      "prose_words": 3758,
+      "blocks": 4,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter73.xhtml",
+      "prose_words": 4085,
+      "blocks": 11,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 3,
+      "used": "finance-block, location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter74.xhtml",
+      "prose_words": 3147,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter75.xhtml",
+      "prose_words": 3151,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter76.xhtml",
+      "prose_words": 2621,
+      "blocks": 4,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter77.xhtml",
+      "prose_words": 2679,
+      "blocks": 3,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter78.xhtml",
+      "prose_words": 1300,
+      "blocks": 3,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "finance-block, location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter79.xhtml",
+      "prose_words": 1598,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter80.xhtml",
+      "prose_words": 3493,
+      "blocks": 4,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter81.xhtml",
+      "prose_words": 3103,
+      "blocks": 6,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, phone-call, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter82.xhtml",
+      "prose_words": 3253,
+      "blocks": 4,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter83.xhtml",
+      "prose_words": 2900,
+      "blocks": 1,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 0,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter84.xhtml",
+      "prose_words": 2581,
+      "blocks": 4,
+      "distinct_types": 4,
+      "blocks_per_1k_words": 2,
+      "used": "finance-block, location-stamp, pullquote, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter85.xhtml",
+      "prose_words": 3373,
+      "blocks": 5,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 1,
+      "used": "finance-block, location-stamp, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter86.xhtml",
+      "prose_words": 2616,
+      "blocks": 5,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter87.xhtml",
+      "prose_words": 3722,
+      "blocks": 5,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 1,
+      "used": "finance-block, location-stamp, system-block",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter88.xhtml",
+      "prose_words": 5686,
+      "blocks": 4,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 1,
+      "used": "finance-block, location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter89.xhtml",
+      "prose_words": 2982,
+      "blocks": 6,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 2,
+      "used": "contract-block, location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter90.xhtml",
+      "prose_words": 3078,
+      "blocks": 5,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 2,
+      "used": "location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter91.xhtml",
+      "prose_words": 4143,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 0,
+      "used": "contract-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter92.xhtml",
+      "prose_words": 4824,
+      "blocks": 2,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 0,
+      "used": "dossier-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter93.xhtml",
+      "prose_words": 4149,
+      "blocks": 3,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "finance-block, location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter94.xhtml",
+      "prose_words": 4017,
+      "blocks": 4,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, phone-call, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter95.xhtml",
+      "prose_words": 3503,
+      "blocks": 2,
+      "distinct_types": 1,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter96.xhtml",
+      "prose_words": 5313,
+      "blocks": 4,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter97.xhtml",
+      "prose_words": 2927,
+      "blocks": 3,
+      "distinct_types": 2,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, phone-call",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, pullquote, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter98.xhtml",
+      "prose_words": 4115,
+      "blocks": 6,
+      "distinct_types": 3,
+      "blocks_per_1k_words": 1,
+      "used": "location-stamp, pullquote, screen-view",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, comment-thread, contract-block, dossier-block, fanclub-block, finance-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, phone-call, placement-reel, recording-block, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    },
+    {
+      "chapter": "chapter99.xhtml",
+      "prose_words": 3469,
+      "blocks": 7,
+      "distinct_types": 6,
+      "blocks_per_1k_words": 2,
+      "used": "comment-thread, contract-block, finance-block, location-stamp, phone-call, pullquote",
+      "unused": "acting-block, app-screen, award-block, box-office, briefing-block, char-intro-block, dossier-block, fanclub-block, hand-letter, hand-note, hate-wall, lecture-block, lyric-block, memory-block, news-digest, official-post, official-statement, performance-block, placement-reel, recording-block, screen-view, status-panel, studio-block, system-block, trend-block, variety-block, wardrobe-block, whisper-block, world-dispatch"
+    }
+  ],
+  "problems": [
+    "chapter01.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter02.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter03.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter04.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter05.xhtml: 4 distinct style blocks (floor 8)",
+    "chapter06.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter07.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter08.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter09.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter10.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter100.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter101.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter102.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter103.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter104.xhtml: 4 distinct style blocks (floor 8)",
+    "chapter104.xhtml: repeated non-repeat-safe blocks: phone-call",
+    "chapter105.xhtml: 4 distinct style blocks (floor 8)",
+    "chapter106.xhtml: 5 distinct style blocks (floor 8)",
+    "chapter106.xhtml: repeated non-repeat-safe blocks: lecture-block",
+    "chapter107.xhtml: 4 distinct style blocks (floor 8)",
+    "chapter108.xhtml: 6 distinct style blocks (floor 8)",
+    "chapter108.xhtml: repeated non-repeat-safe blocks: lecture-block",
+    "chapter109.xhtml: 7 distinct style blocks (floor 8)",
+    "chapter109.xhtml: repeated non-repeat-safe blocks: lecture-block",
+    "chapter11.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter110.xhtml: 6 distinct style blocks (floor 8)",
+    "chapter110.xhtml: repeated non-repeat-safe blocks: lecture-block",
+    "chapter111.xhtml: 4 distinct style blocks (floor 8)",
+    "chapter112.xhtml: 5 distinct style blocks (floor 8)",
+    "chapter113.xhtml: 5 distinct style blocks (floor 8)",
+    "chapter12.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter13.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter14.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter15.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter16.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter17.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter17.xhtml: repeated non-repeat-safe blocks: phone-call",
+    "chapter18.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter19.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter20.xhtml: 4 distinct style blocks (floor 8)",
+    "chapter21.xhtml: 4 distinct style blocks (floor 8)",
+    "chapter22.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter23.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter24.xhtml: 4 distinct style blocks (floor 8)",
+    "chapter25.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter26.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter27.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter28.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter29.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter30.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter31.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter32.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter33.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter34.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter34.xhtml: repeated non-repeat-safe blocks: phone-call",
+    "chapter35.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter36.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter37.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter37.xhtml: repeated non-repeat-safe blocks: phone-call",
+    "chapter38.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter39.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter40.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter41.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter42.xhtml: 4 distinct style blocks (floor 8)",
+    "chapter42.xhtml: repeated non-repeat-safe blocks: phone-call",
+    "chapter43.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter44.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter45.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter46.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter47.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter48.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter48.xhtml: repeated non-repeat-safe blocks: finance-block",
+    "chapter49.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter50.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter51.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter52.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter53.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter54.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter55.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter56.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter57.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter57.xhtml: repeated non-repeat-safe blocks: finance-block",
+    "chapter58.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter59.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter60.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter61.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter62.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter63.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter64.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter65.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter66.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter67.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter68.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter69.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter69.xhtml: repeated non-repeat-safe blocks: finance-block",
+    "chapter70.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter71.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter72.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter73.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter73.xhtml: repeated non-repeat-safe blocks: finance-block, phone-call",
+    "chapter74.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter75.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter76.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter76.xhtml: repeated non-repeat-safe blocks: phone-call",
+    "chapter77.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter78.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter79.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter80.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter81.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter82.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter83.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter84.xhtml: 4 distinct style blocks (floor 8)",
+    "chapter85.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter86.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter87.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter87.xhtml: repeated non-repeat-safe blocks: finance-block",
+    "chapter88.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter89.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter90.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter90.xhtml: repeated non-repeat-safe blocks: phone-call",
+    "chapter91.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter92.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter93.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter94.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter95.xhtml: 1 distinct style blocks (floor 8)",
+    "chapter96.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter97.xhtml: 2 distinct style blocks (floor 8)",
+    "chapter98.xhtml: 3 distinct style blocks (floor 8)",
+    "chapter98.xhtml: repeated non-repeat-safe blocks: screen-view",
+    "chapter99.xhtml: 6 distinct style blocks (floor 8)"
+  ]
+}

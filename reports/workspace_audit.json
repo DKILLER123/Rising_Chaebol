@@ -1,0 +1,36 @@
+{
+  "book": "public/Peninsula_Rising_Chaebol.epub",
+  "package_state": "built",
+  "package_sha256": "673ee06cb836d68098f1a56d1d50dd07662aa702d846a68cdf5f1e86e8bdcb8d",
+  "package_bytes": 11442032,
+  "archive_entries": 188,
+  "archive_file_entries": 188,
+  "source_files": 225,
+  "packaged_source_files": 188,
+  "archive_only": [],
+  "tree_only": [],
+  "changed_files": [],
+  "xml_documents": 127,
+  "chapters": 118,
+  "spine_items": 124,
+  "manifest_items": 184,
+  "nav_chapter_links": 118,
+  "ncx_navpoints": 122,
+  "images": 40,
+  "fonts": 17,
+  "references_checked": 921,
+  "assets_decoded": 0,
+  "gate_exit_codes": {
+    "validate_tree": 0,
+    "check_classes": 0,
+    "punct_quotes": 0,
+    "legacy_firewall": 0
+  },
+  "review_counts": {
+    "unmanifested-resource": 1,
+    "doubled-word": 23,
+    "asset-dependencies": 1
+  },
+  "structural_errors": [],
+  "scope_note": "Automated structural and asset audit; editorial quality and AI identity require human/VLM review."
+}

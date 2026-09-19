@@ -1549,3 +1549,51 @@ Stage Summary:
 - Raws archive now complete and self-contained under epub/raw/: ch 1–84 (full-novel source), ch 85–91 (pasted batch + individual), ch 94–113 individual (ch92/93 gap permanent and documented)
 - SKILL.md (296 lines, 21 KB) is the single reusable playbook for creating the next book from this repo
 - Deliverable untouched and re-verified: public/Peninsula_Rising_Chaebol.epub = 10,821,795 bytes / 113 chapters / browser-verified
+
+---
+Task ID: SETUP-2026-09-15
+Agent: arena-workspace-agent
+Task: Bootstrap the Peninsula workspace from the latest 113-chapter EPUB; extract the complete package and reconcile copied helper scripts with this book.
+
+Work Log:
+- Read AGENTS.md, SKILL.md, epub/STYLE_GUIDE.md, epub/CHAPTERS_MANIFEST.md, the full worklog handoff, all root audit/packaging scripts, all three canonical wardrobe/package scripts, the raw archive, and the EPUB's OPF/nav/NCX/front matter.
+- Extracted every ZIP payload from public/Peninsula_Rising_Chaebol.epub into extracted/ and restored the editable OEBPS + META-INF tree under epub/. The extracted snapshot is retained as a forensic baseline; epub/ is the future editorial source of truth.
+- Verified the baseline package: SHA-256 f62ebf225202e67b5828c5093bc91ec78abdca630b32787a691875a9dc5b55f4; 10,821,795 bytes; 185 ZIP entries / 179 files; mimetype first, stored, correct bytes; CRC test passed; 113 chapter XHTML files; 37 images on disk; 17 WOFF faces.
+- Rewrote the copied other-book handoff and path assumptions for Peninsula. Updated build_epub.py, workspace_audit.py, validate_tree.py, check_classes.py, install_fonts.py, legacy_firewall.py, sync_styles.py, style_index.py, style_audit.py, repeat_check.py, punct_quotes.py, and the canonical shell/wardrobe helpers to use the live repository root and epub/ tree. Added WORKSPACE_SETUP.md and cache-only .gitignore.
+- Structural gates: XML 118/118, classes 0 undefined, XHTML refs 0 unresolved, CJK 0, straight quotes 0, chapters 1–113 contiguous, styles/font URLs resolved, foreign-template bleed 0, package/source parity exact.
+- Ran the raw-vs-English question-mark heuristic for all 110 chapters with retained raws: 97 clear, 13 shortfalls needing a later editorial restoration pass; chapters 92–93 remain the documented raw-archive gap. Saved reports/question_parity.tsv.
+- Ran the standing mark audit over all 113 chapters. It surfaced 159 soft NO-QM triage lines plus existing hard-format/phone-call flags in older material; these are recorded for a future editorial pass and were not silently rewritten during setup. Style coverage also reports 113 chapters below the eight-type maximization floor, reflecting the existing baseline rather than a setup mutation.
+- Preserved the supplied EPUB byte-for-byte as the public deliverable; no chapter, image, wardrobe plate, or package metadata was edited in this setup cycle. Existing baseline notes, including the stale one-hundred-nine wording in copyright.xhtml and the unmanifested cover-bg.png asset, are documented in WORKSPACE_SETUP.md and the audit reports.
+
+Stage Summary:
+- Workspace is ready for the next authorized translation/editorial batch: editable source at epub/, immutable package snapshot at extracted/, verbatim raws retained at epub/raw/, and future packaging output remains public/Peninsula_Rising_Chaebol.epub.
+- Identity/wardrobe rule is preserved: use each character's actual portrait as the i2i base, verify face identity and every wardrobe item, and report any honest compromise in worklog.md.
+- Audit artifacts are in reports/; the latest structural summary is reports/workspace_audit.json.
+
+---
+Task ID: CH114-118-MAIN
+Agent: main-orchestrator
+Date: 2026-09-19
+Task: Convert the supplied Chinese raws for chapters 114–118 into styled English EPUB chapters, install identity-preserving wardrobe plates, wire the 118-chapter edition, and complete the required pre-package editorial/structural gates.
+
+Work Log:
+- MANDATE 1 (raws first): preserved the reconstructed batch verbatim at `epub/raw/pasted-batch-ch114-118.txt` (55,443 bytes) and saved individual source files before editorial work: ch114 14,302 B, ch115 9,961 B, ch116 9,382 B, ch117 13,929 B, ch118 7,860 B. No archived raw was edited in place.
+- Deep-read all five raw chapters line by line before formatting. Chose the English titles: ch114 “Hungry? I’ll Make You Something Downstairs”; ch115 “Bring It—How Could I Not?”; ch116 “Han So-hee Gets Sentimental”; ch117 “The Little Dragon’s Promise”; ch118 “Off to Japan”.
+- Completed `chapter114.xhtml`–`chapter118.xhtml` with the inherited XHTML conventions, location stamps, scene breaks, dialogue/thought treatment, and context-supported style blocks. Ch114 contains two distinct wardrobe moments plus a comment thread; ch115 uses a relationship pull quote; ch116 uses a memory block and Handbook system block; ch117 uses a sleepover wardrobe block and Handbook promise block; ch118 uses a travel wardrobe block, phone call, KakaoTalk chat, notification, and pull quote. Repeated wardrobe blocks are intentional and permitted by the standing image mandate.
+- Installed four photorealistic wardrobe plates generated from the established real-person portrait workflow, then visually inspected for realism, identity continuity, and wardrobe/context fit: `wd-eunjung-rehearsal.jpg`, `wd-sohee-new-home.jpg`, `wd-hyomin-travel.jpg`, and `wd-jiyeon-sleepover.jpg`. Each installed image is byte-identical between `epub/OEBPS/images/` and `public/book/` (md5: 2bb1c24f930549f74559e8588eb8d16e, 201cc98ccc32c5741aad5c57a5d31938, 2764a940acf4e6fe7df849b4419da45e, 7054d05ee3480ea251bd66e0c0073b72 respectively).
+- Wired all five chapters into `content.opf`, spine, `nav.xhtml`, and `toc.ncx`; added all four image manifest items; expanded `epub/CHAPTERS_MANIFEST.md`; and updated edition-count wording in title, cover, copyright, and OPF metadata from the prior 113-chapter state to 118 chapters.
+- PRE-PACKAGE SECOND WHOLE-MANUSCRIPT DEEP SCAN: `reports/deep_scan_114-118.json` = PASS. All 123 XHTML documents parse; zero CJK characters; zero undefined classes; zero source/placeholder markers; all chapter files, OPF manifest/spine, NAV TOC, and NCX resolve to 118 chapters. New-chapter h1/title parity and required block checks pass. Raw/English question-mark parity passes: ch114 11→29, ch115 19→30, ch116 9→19, ch117 45→56, ch118 22→28. The only whole-book `???` runs are intentional English emphasis in ch11, ch86, and ch107 (thought/dialogue/comment), not unresolved placeholders.
+- Structural gates PASS: `validate_tree.py` (123/123 XML, contiguous chapters 1–118, zero unresolved refs), `check_classes.py` (123 pages), `punct_quotes.py` (0 flagged), `legacy_firewall.py` (129 files, zero forbidden bleed), and `style_index.py --check-skill`. New-chapter `audit_marks.py` output contains only soft NO-QM? triage lines and no hard formatting/phone-call failures.
+- Remaining review items were triaged rather than hidden: `style_audit.py` retains the inherited 136 review notes and flags the new chapters below the global eight-type maximization floor; no meaningless blocks were inserted into the scene-driven ch115 or the other chapters. `workspace_audit.py --assets` cannot decode binaries because Pillow/fontTools are unavailable; its inherited 23 doubled-word notices remain editorial review items. The pre-existing unmanifested `OEBPS/images/cover-bg.png` is retained as a documented cover-background decision. `repeat_check.py` continues to report inherited ch113 phrase/cross-chapter review noise. The raw archive’s historical ch92–93 gap remains documented. No landing-page source exists in this checkout, so no landing-page count edit was possible.
+- Package was intentionally still stale at the end of this pre-package entry; the next step is to rebuild `public/Peninsula_Rising_Chaebol.epub`, then run package/source parity and final archive validation.
+
+Stage Summary:
+- Chapters 114–118 translated, styled, image-supported, and fully metadata-wired; all untouched raws retained.
+- Four photorealistic identity-preserving wardrobe plates installed in both required locations.
+- Whole-manuscript second scan and all available structural gates pass; remaining inherited editorial/dependency reviews are explicitly documented above.
+
+Post-package closeout (2026-09-19):
+- Rebuilt `public/Peninsula_Rising_Chaebol.epub` with `python3 build_epub.py`: 188 ZIP entries, 11,442,032 bytes, SHA-256 `673ee06cb836d68098f1a56d1d50dd07662aa702d846a68cdf5f1e86e8bdcb8d`.
+- Final archive validation passed: `mimetype` is first and stored with the correct bytes; CRC/testzip passed; all required container/OPF/NAV/NCX files, chapters 114–118, and four new images are present; raw sources are excluded.
+- Final editable-tree/package parity is exact: no archive-only files, no tree-only files, and no changed packaged payloads. `workspace_audit.py --assets` reports 118 chapters, 118 NAV links, 122 NCX points, 184 manifest items, 40 images, 17 fonts, zero structural errors; binary decode remains skipped only because Pillow/fontTools are unavailable.
+- Post-package structural gates re-run and passed: `validate_tree.py`, `check_classes.py`, `punct_quotes.py`, and `legacy_firewall.py`.

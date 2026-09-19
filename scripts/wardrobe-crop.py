@@ -19,30 +19,34 @@ Variants v1..v18 (864x1152; rounds of 6) in scripts/wardrobe-<job>/ -> faces/<id
 import json
 import os
 import sys
+from pathlib import Path
 import cv2
 import numpy
 from PIL import Image
 
+ROOT = Path(__file__).resolve().parents[1]
+EPUB_IMAGES = ROOT / "epub" / "OEBPS" / "images"
+
 JOBS = {
     "yoona": {
-        "out_dir": "/home/z/my-project/scripts/wardrobe-yoona",
-        "ref_img": "/home/z/my-project/epub/OEBPS/images/char-limyoonah.jpg",
+        "out_dir": str(ROOT / "scripts" / "wardrobe-yoona"),
+        "ref_img": str(EPUB_IMAGES / "char-limyoonah.jpg"),
     },
     "sohee": {
-        "out_dir": "/home/z/my-project/scripts/wardrobe-sohee",
-        "ref_img": "/home/z/my-project/epub/OEBPS/images/char-hansohee.jpg",
+        "out_dir": str(ROOT / "scripts" / "wardrobe-sohee"),
+        "ref_img": str(EPUB_IMAGES / "char-hansohee.jpg"),
     },
     "jiyeon": {
-        "out_dir": "/home/z/my-project/scripts/wardrobe-jiyeon",
-        "ref_img": "/home/z/my-project/epub/OEBPS/images/char-parkjiyeon.jpg",
+        "out_dir": str(ROOT / "scripts" / "wardrobe-jiyeon"),
+        "ref_img": str(EPUB_IMAGES / "char-parkjiyeon.jpg"),
     },
     "sohee-morning": {
-        "out_dir": "/home/z/my-project/scripts/wardrobe-sohee-morning",
-        "ref_img": "/home/z/my-project/epub/OEBPS/images/char-hansohee.jpg",
+        "out_dir": str(ROOT / "scripts" / "wardrobe-sohee-morning"),
+        "ref_img": str(EPUB_IMAGES / "char-hansohee.jpg"),
     },
     "jiwon": {
-        "out_dir": "/home/z/my-project/scripts/wardrobe-jiwon",
-        "ref_img": "/home/z/my-project/epub/OEBPS/images/char-kimjiwon.jpg",
+        "out_dir": str(ROOT / "scripts" / "wardrobe-jiwon"),
+        "ref_img": str(EPUB_IMAGES / "char-kimjiwon.jpg"),
     },
 }
 OUT_SIZE = (768, 768)

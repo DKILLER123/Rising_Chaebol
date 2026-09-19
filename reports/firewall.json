@@ -1,0 +1,10 @@
+{
+  "files_scanned": 124,
+  "forbidden_groups": [
+    "foreign_protagonist",
+    "foreign_book_title",
+    "foreign_brands_and_labels"
+  ],
+  "hits": [],
+  "scope_note": "Foreign template tokens only; Peninsula cast and plot names are legal."
+}

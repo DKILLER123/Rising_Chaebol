@@ -1,0 +1,93 @@
+{
+  "scope": "second whole-manuscript deep scan before packaging",
+  "chapters": 118,
+  "errors": [],
+  "checks": {
+    "new_chapters": {
+      "114": {
+        "h1": "Hungry? I’ll Make You Something Downstairs",
+        "title_match": true,
+        "raw_question_marks": 11,
+        "english_question_marks": 29,
+        "question_parity": true,
+        "required_blocks_present": true,
+        "missing_blocks": [],
+        "word_count": 2651
+      },
+      "115": {
+        "h1": "Bring It—How Could I Not?",
+        "title_match": true,
+        "raw_question_marks": 19,
+        "english_question_marks": 30,
+        "question_parity": true,
+        "required_blocks_present": true,
+        "missing_blocks": [],
+        "word_count": 2168
+      },
+      "116": {
+        "h1": "Han So-hee Gets Sentimental",
+        "title_match": true,
+        "raw_question_marks": 9,
+        "english_question_marks": 19,
+        "question_parity": true,
+        "required_blocks_present": true,
+        "missing_blocks": [],
+        "word_count": 2113
+      },
+      "117": {
+        "h1": "The Little Dragon’s Promise",
+        "title_match": true,
+        "raw_question_marks": 45,
+        "english_question_marks": 56,
+        "question_parity": true,
+        "required_blocks_present": true,
+        "missing_blocks": [],
+        "word_count": 2608
+      },
+      "118": {
+        "h1": "Off to Japan",
+        "title_match": true,
+        "raw_question_marks": 22,
+        "english_question_marks": 28,
+        "question_parity": true,
+        "required_blocks_present": true,
+        "missing_blocks": [],
+        "word_count": 1593
+      }
+    },
+    "integration_counts": {
+      "disk": 118,
+      "opf_manifest": 118,
+      "opf_spine": 118,
+      "nav": 118,
+      "ncx": 118
+    },
+    "edition_count_scan": {
+      "stale_113_count_hits": []
+    },
+    "whole_manuscript": {
+      "xhtml_files": 123,
+      "xml_failures": [],
+      "cjk_files": [],
+      "undefined_classes": [],
+      "placeholder_or_source_markers": [],
+      "intentional_question_runs": [
+        {
+          "file": "chapter107.xhtml",
+          "context": "intentional English emphasis/dialogue/comment"
+        },
+        {
+          "file": "chapter11.xhtml",
+          "context": "intentional English emphasis/dialogue/comment"
+        },
+        {
+          "file": "chapter86.xhtml",
+          "context": "intentional English emphasis/dialogue/comment"
+        }
+      ],
+      "used_class_count": 141,
+      "css_class_count": 269
+    }
+  },
+  "status": "PASS"
+}
