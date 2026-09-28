@@ -1,0 +1,9 @@
+# Disposable Python/Node caches and resumable image-generation workdirs
+__pycache__/
+*.py[cod]
+scripts/__pycache__/
+scripts/wardrobe-*/
+*.log
+
+# Local complete workspace backup (uploaded to Google Drive)
+Peninsula_My_Rise_to_Chaebol_Status_Began_with_Ham_Eun-jung_workspace-2026-09-28.zip

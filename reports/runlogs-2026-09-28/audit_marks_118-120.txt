@@ -1,0 +1,10 @@
+== epub/OEBPS/text/chapter118.xhtml
+   [NO-QM?] “…Don’t look down on me, oppa.”
+   [NO-QM?] “…Don’t ask me to pay for lunch later.”
+   [NO-QM?] “…Don’t tell me you just unwrap instant noodles and boil them.”
+   [NO-QM?] “…hop, I figured the name was friendly and already famous, so I used it.”
+== epub/OEBPS/text/chapter119.xhtml
+   clean
+== epub/OEBPS/text/chapter120.xhtml
+   clean
+RESULT: OK (triage any NO-QM? lines above)

@@ -1,59 +1,64 @@
 #!/usr/bin/env python3
-"""House packer — builds the deliverable EPUB from work_epub/.
+"""Build the Peninsula EPUB from the editable ``epub/`` tree.
 
-OVERWRITES the root deliverable: never run it to inspect the book, and never run it without an
-authorized editorial cycle, a worklog §8 entry and all §9 gates green (SKILL.md §2 step 7).
-
-Rules (fixed by this project's worklog):
-  * mimetype MUST be the first entry, STORED, raw bytes 'application/epub+zip'
-  * everything else ZIP_DEFLATED
-  * entry order: mimetype, META-INF/*, then the OEBPS tree
+Only ``mimetype``, ``META-INF/`` and ``OEBPS/`` are packaged. The verbatim raw archive and audit
+reports stay outside the deliverable. ``mimetype`` is always the first, stored ZIP entry.
 """
-import os
+from __future__ import annotations
+
+import hashlib
 import sys
 import zipfile
+from pathlib import Path
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-TREE = os.path.join(HERE, "work_epub")
-OUT = os.path.join(HERE, "Dominating_South_Korea_Starting_with_a_Golden_Trait.epub")
+ROOT = Path(__file__).resolve().parent
+TREE = ROOT / "epub"
+OUT = ROOT / "public" / "Peninsula_Rising_Chaebol.epub"
 
-def entries():
-    files = []
-    for root, _dirs, names in os.walk(TREE):
-        for n in names:
-            p = os.path.join(root, n)
-            rel = os.path.relpath(p, TREE).replace(os.sep, "/")
-            files.append(rel)
-    files.sort()
-    # fixed ordering: mimetype first, then META-INF, then everything else
-    head = [f for f in files if f == "mimetype"]
-    mid = sorted(f for f in files if f.startswith("META-INF/"))
-    tail = sorted(f for f in files if f != "mimetype" and not f.startswith("META-INF/"))
-    return head + mid + tail
 
-def main():
-    lst = entries()
-    with zipfile.ZipFile(OUT, "w") as z:
-        for rel in lst:
-            p = os.path.join(TREE, rel)
-            if rel == "mimetype":
-                zi = zipfile.ZipInfo("mimetype")
-                zi.compress_type = zipfile.ZIP_STORED
-                z.writestr(zi, b"application/epub+zip")
-            else:
-                z.write(p, rel, compress_type=zipfile.ZIP_DEFLATED)
-    size = os.path.getsize(OUT)
-    with zipfile.ZipFile(OUT) as z:
-        infos = z.infolist()
-        first_stored = infos[0].filename == "mimetype" and infos[0].compress_type == zipfile.ZIP_STORED
-        bad = z.testzip()
-    import hashlib
-    sha = hashlib.sha256(open(OUT, "rb").read()).hexdigest()
-    print(f"built {os.path.basename(OUT)}")
-    print(f"entries: {len(infos)} · size: {size} B · sha256: {sha[:16]}…")
+def entries() -> list[str]:
+    required = [TREE / "mimetype", TREE / "META-INF" / "container.xml", TREE / "OEBPS" / "content.opf"]
+    missing = [str(p.relative_to(ROOT)) for p in required if not p.is_file()]
+    if missing:
+        raise SystemExit("build_epub: missing required source files: " + ", ".join(missing))
+    payload = []
+    for prefix in ("META-INF", "OEBPS"):
+        base = TREE / prefix
+        payload.extend(p.relative_to(TREE).as_posix() for p in base.rglob("*") if p.is_file())
+    return ["mimetype"] + sorted(payload)
+
+
+def main() -> int:
+    if "--help" in sys.argv or "-h" in sys.argv:
+        print(__doc__.strip())
+        return 0
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    rels = entries()
+    with zipfile.ZipFile(OUT, "w", compression=zipfile.ZIP_DEFLATED) as archive:
+        zi = zipfile.ZipInfo("mimetype")
+        zi.compress_type = zipfile.ZIP_STORED
+        archive.writestr(zi, b"application/epub+zip")
+        for rel in rels[1:]:
+            archive.write(TREE / rel, rel, compress_type=zipfile.ZIP_DEFLATED)
+
+    data = OUT.read_bytes()
+    with zipfile.ZipFile(OUT) as archive:
+        infos = archive.infolist()
+        first_stored = (
+            bool(infos)
+            and infos[0].filename == "mimetype"
+            and infos[0].compress_type == zipfile.ZIP_STORED
+            and archive.read("mimetype") == b"application/epub+zip"
+        )
+        bad = archive.testzip()
+    digest = hashlib.sha256(data).hexdigest()
+    print(f"built {OUT.relative_to(ROOT)}")
+    print(f"entries: {len(infos)} · size: {len(data):,} B · sha256: {digest}")
     print(f"mimetype first/STORED: {first_stored} · testzip: {bad}")
     if not first_stored or bad:
-        sys.exit(1)
+        return 1
+    return 0
+
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

@@ -13,7 +13,7 @@ Checks, per chapter file given as a bare filename or path:
      pc-head must be the first child; body classes must be a subset of
      pc-me / pc-them / pc-note. The .sinister variant is legal.
 
-Usage:  python3 audit_marks.py work_epub/OEBPS/text/ch001.xhtml [more files ...]
+Usage:  python3 audit_marks.py epub/OEBPS/text/chapter110.xhtml [more files ...]
 (the gate needs real paths: a bare filename resolves to nothing and prints a misleading success).
 Exit 0 = no hard flags (NO-QM? items print for human triage; exit 1 only
 on malformations, structure errors, or XML parse failures).
