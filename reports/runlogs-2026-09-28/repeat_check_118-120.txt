@@ -1,4 +1,4 @@
-== chapter118.xhtml · 3544 words · scope chapter115.xhtml, chapter116.xhtml, chapter117.xhtml
+== chapter118.xhtml · 3663 words · scope chapter115.xhtml, chapter116.xhtml, chapter117.xhtml
   internal repeats: 0
   cross-chapter 8-grams: 0
 == chapter119.xhtml · 2975 words · scope chapter116.xhtml, chapter117.xhtml, chapter118.xhtml

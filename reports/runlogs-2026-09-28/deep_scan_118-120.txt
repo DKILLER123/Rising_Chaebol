@@ -5,7 +5,7 @@
     "118": {
       "raw_bytes": 16667,
       "raw_nonempty_lines": 174,
-      "english_words": 3499,
+      "english_words": 3627,
       "raw_question_marks": 31,
       "english_question_marks": 51,
       "question_parity": true,
@@ -13,7 +13,9 @@
       "title_match": true,
       "cjk_chars": 0,
       "undefined_classes": [],
-      "image_refs": [],
+      "image_refs": [
+        "../images/wd-hyomin-travel.jpg"
+      ],
       "image_errors": [],
       "missing_content_anchors": [],
       "has_notification_class": false,
@@ -21,7 +23,8 @@
         "briefing-block",
         "finance-block",
         "location-stamp",
-        "scene-break"
+        "scene-break",
+        "wardrobe-block"
       ]
     },
     "119": {
