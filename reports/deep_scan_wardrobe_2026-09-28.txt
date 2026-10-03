@@ -1,0 +1,586 @@
+{
+  "scope": "all EPUB wardrobe blocks and image references",
+  "status": "PASS",
+  "errors": [],
+  "wardrobe_block_count": 22,
+  "wardrobe_asset_count": 21,
+  "unmanifested_package_images": [],
+  "blocks": [
+    {
+      "chapter": "chapter01.xhtml",
+      "image": "wd-eunjung-incognito.jpg",
+      "src": "../images/wd-eunjung-incognito.jpg"
+    },
+    {
+      "chapter": "chapter02.xhtml",
+      "image": "wd-eunjung-incognito.jpg",
+      "src": "../images/wd-eunjung-incognito.jpg"
+    },
+    {
+      "chapter": "chapter03.xhtml",
+      "image": "wd-sulli-exchange.jpg",
+      "src": "../images/wd-sulli-exchange.jpg"
+    },
+    {
+      "chapter": "chapter04.xhtml",
+      "image": "wd-songjiyeon-exchange.jpg",
+      "src": "../images/wd-songjiyeon-exchange.jpg"
+    },
+    {
+      "chapter": "chapter05.xhtml",
+      "image": "wd-sulli-hospital-watch.jpg",
+      "src": "../images/wd-sulli-hospital-watch.jpg"
+    },
+    {
+      "chapter": "chapter06.xhtml",
+      "image": "wd-songjiyeon-sweater.jpg",
+      "src": "../images/wd-songjiyeon-sweater.jpg"
+    },
+    {
+      "chapter": "chapter07.xhtml",
+      "image": "wd-eunjung-dorm.jpg",
+      "src": "../images/wd-eunjung-dorm.jpg"
+    },
+    {
+      "chapter": "chapter08.xhtml",
+      "image": "wd-boram-dorm.jpg",
+      "src": "../images/wd-boram-dorm.jpg"
+    },
+    {
+      "chapter": "chapter09.xhtml",
+      "image": "wd-songjiyeon-navy-shirt.jpg",
+      "src": "../images/wd-songjiyeon-navy-shirt.jpg"
+    },
+    {
+      "chapter": "chapter10.xhtml",
+      "image": "wd-eunjung-hotpot.jpg",
+      "src": "../images/wd-eunjung-hotpot.jpg"
+    },
+    {
+      "chapter": "chapter106.xhtml",
+      "image": "wd-hara-campus.jpg",
+      "src": "../images/wd-hara-campus.jpg"
+    },
+    {
+      "chapter": "chapter108.xhtml",
+      "image": "wd-yoona-disguise.jpg",
+      "src": "../images/wd-yoona-disguise.jpg"
+    },
+    {
+      "chapter": "chapter109.xhtml",
+      "image": "wd-sohee-civilian.jpg",
+      "src": "../images/wd-sohee-civilian.jpg"
+    },
+    {
+      "chapter": "chapter111.xhtml",
+      "image": "wd-jiyeon-athleisure.jpg",
+      "src": "../images/wd-jiyeon-athleisure.jpg"
+    },
+    {
+      "chapter": "chapter112.xhtml",
+      "image": "wd-sohee-morning.jpg",
+      "src": "../images/wd-sohee-morning.jpg"
+    },
+    {
+      "chapter": "chapter113.xhtml",
+      "image": "wd-jiwon-loungewear.jpg",
+      "src": "../images/wd-jiwon-loungewear.jpg"
+    },
+    {
+      "chapter": "chapter114.xhtml",
+      "image": "wd-eunjung-rehearsal.jpg",
+      "src": "../images/wd-eunjung-rehearsal.jpg"
+    },
+    {
+      "chapter": "chapter114.xhtml",
+      "image": "wd-sohee-new-home.jpg",
+      "src": "../images/wd-sohee-new-home.jpg"
+    },
+    {
+      "chapter": "chapter117.xhtml",
+      "image": "wd-jiyeon-sleepover.jpg",
+      "src": "../images/wd-jiyeon-sleepover.jpg"
+    },
+    {
+      "chapter": "chapter118.xhtml",
+      "image": "wd-hyomin-travel.jpg",
+      "src": "../images/wd-hyomin-travel.jpg"
+    },
+    {
+      "chapter": "chapter119.xhtml",
+      "image": "wd-hyomin-rehearsal.jpg",
+      "src": "../images/wd-hyomin-rehearsal.jpg"
+    },
+    {
+      "chapter": "chapter120.xhtml",
+      "image": "wd-sulli-airport.jpg",
+      "src": "../images/wd-sulli-airport.jpg"
+    }
+  ],
+  "assets": [
+    {
+      "wardrobe": "wd-boram-dorm.jpg",
+      "character_reference": "char-boram.jpg",
+      "referenced_by": [
+        "chapter08.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "b66c349b8e885a35397cb5535e449ed9",
+      "epub_md5": "b66c349b8e885a35397cb5535e449ed9",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 768,
+        "height": 1376,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 1199,
+        "height": 1200,
+        "format": "JPEG"
+      },
+      "visual_review": "visually-reviewed-against-canonical-portrait-2026-10-03"
+    },
+    {
+      "wardrobe": "wd-eunjung-dorm.jpg",
+      "character_reference": "char-hameunjung.jpg",
+      "referenced_by": [
+        "chapter07.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "c1e542e20e9fd37a0307b76732f115e6",
+      "epub_md5": "c1e542e20e9fd37a0307b76732f115e6",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 843,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 2733,
+        "height": 4096,
+        "format": "JPEG"
+      },
+      "visual_review": "visually-reviewed-against-canonical-portrait-2026-10-03"
+    },
+    {
+      "wardrobe": "wd-eunjung-hotpot.jpg",
+      "character_reference": "char-hameunjung.jpg",
+      "referenced_by": [
+        "chapter10.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "b7e543932569260515063f945236efcc",
+      "epub_md5": "b7e543932569260515063f945236efcc",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 768,
+        "height": 1376,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 2733,
+        "height": 4096,
+        "format": "JPEG"
+      },
+      "visual_review": "visually-reviewed-against-canonical-portrait-2026-10-03"
+    },
+    {
+      "wardrobe": "wd-eunjung-incognito.jpg",
+      "character_reference": "char-hameunjung.jpg",
+      "referenced_by": [
+        "chapter01.xhtml",
+        "chapter02.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "564156b632034c50ebb8a0d4da525092",
+      "epub_md5": "564156b632034c50ebb8a0d4da525092",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 848,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 2733,
+        "height": 4096,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-and-visually-reviewed-against-canonical-portrait-2026-10-03"
+    },
+    {
+      "wardrobe": "wd-eunjung-rehearsal.jpg",
+      "character_reference": "char-hameunjung.jpg",
+      "referenced_by": [
+        "chapter114.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "4a57c1ec7702248a795f69e382a07d7c",
+      "epub_md5": "4a57c1ec7702248a795f69e382a07d7c",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 843,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 2733,
+        "height": 4096,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    },
+    {
+      "wardrobe": "wd-hara-campus.jpg",
+      "character_reference": "char-goohara.jpg",
+      "referenced_by": [
+        "chapter106.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "fe888a9d5f368ba0fad0d0ddfff94492",
+      "epub_md5": "fe888a9d5f368ba0fad0d0ddfff94492",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 843,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 2000,
+        "height": 3000,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    },
+    {
+      "wardrobe": "wd-hyomin-rehearsal.jpg",
+      "character_reference": "char-hyomin.jpg",
+      "referenced_by": [
+        "chapter119.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "984e0918583403eb0a87e8904da1c1a9",
+      "epub_md5": "984e0918583403eb0a87e8904da1c1a9",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 842,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 842,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    },
+    {
+      "wardrobe": "wd-hyomin-travel.jpg",
+      "character_reference": "char-hyomin.jpg",
+      "referenced_by": [
+        "chapter118.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "4125e6d610b7638affa407955df5d523",
+      "epub_md5": "4125e6d610b7638affa407955df5d523",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 842,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 842,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    },
+    {
+      "wardrobe": "wd-jiwon-loungewear.jpg",
+      "character_reference": "char-kimjiwon.jpg",
+      "referenced_by": [
+        "chapter113.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "20b4c43c871b0900f0ca11b62d530a83",
+      "epub_md5": "20b4c43c871b0900f0ca11b62d530a83",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 832,
+        "height": 1280,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 1000,
+        "height": 1538,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    },
+    {
+      "wardrobe": "wd-jiyeon-athleisure.jpg",
+      "character_reference": "char-parkjiyeon.jpg",
+      "referenced_by": [
+        "chapter111.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "da2ac9719a2510e9f5d17540f0006bf6",
+      "epub_md5": "da2ac9719a2510e9f5d17540f0006bf6",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 843,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 736,
+        "height": 1104,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    },
+    {
+      "wardrobe": "wd-jiyeon-sleepover.jpg",
+      "character_reference": "char-parkjiyeon.jpg",
+      "referenced_by": [
+        "chapter117.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "dcfa9b7901108c97fe1ea35f754389d7",
+      "epub_md5": "dcfa9b7901108c97fe1ea35f754389d7",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 843,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 736,
+        "height": 1104,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    },
+    {
+      "wardrobe": "wd-sohee-civilian.jpg",
+      "character_reference": "char-hansohee.jpg",
+      "referenced_by": [
+        "chapter109.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "d44c9b39d52006cdd6ca106708c8dede",
+      "epub_md5": "d44c9b39d52006cdd6ca106708c8dede",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 843,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 736,
+        "height": 1103,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    },
+    {
+      "wardrobe": "wd-sohee-morning.jpg",
+      "character_reference": "char-hansohee.jpg",
+      "referenced_by": [
+        "chapter112.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "8cd95004b177b6fc82daf88527f71637",
+      "epub_md5": "8cd95004b177b6fc82daf88527f71637",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 843,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 736,
+        "height": 1103,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    },
+    {
+      "wardrobe": "wd-sohee-new-home.jpg",
+      "character_reference": "char-hansohee.jpg",
+      "referenced_by": [
+        "chapter114.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "201cc98ccc32c5741aad5c57a5d31938",
+      "epub_md5": "201cc98ccc32c5741aad5c57a5d31938",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 843,
+        "height": 1264,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 736,
+        "height": 1103,
+        "format": "JPEG"
+      },
+      "visual_review": "retained-user-confirmed-match"
+    },
+    {
+      "wardrobe": "wd-songjiyeon-exchange.jpg",
+      "character_reference": "char-songjiyeon.png",
+      "referenced_by": [
+        "chapter04.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "e895663252ab14cacdc6cd291c7d7d39",
+      "epub_md5": "e895663252ab14cacdc6cd291c7d7d39",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 784,
+        "height": 1372,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 768,
+        "height": 1344,
+        "format": "JPEG"
+      },
+      "visual_review": "visually-reviewed-against-canonical-portrait-2026-10-03"
+    },
+    {
+      "wardrobe": "wd-songjiyeon-navy-shirt.jpg",
+      "character_reference": "char-songjiyeon.png",
+      "referenced_by": [
+        "chapter09.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "c7d8d2fbf9f206d4694f2f4aff94c1c3",
+      "epub_md5": "c7d8d2fbf9f206d4694f2f4aff94c1c3",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 768,
+        "height": 1376,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 768,
+        "height": 1344,
+        "format": "JPEG"
+      },
+      "visual_review": "visually-reviewed-against-canonical-portrait-2026-10-03"
+    },
+    {
+      "wardrobe": "wd-songjiyeon-sweater.jpg",
+      "character_reference": "char-songjiyeon.png",
+      "referenced_by": [
+        "chapter06.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "4f13fcc65f0b7141b3ab44f0ab2a0195",
+      "epub_md5": "4f13fcc65f0b7141b3ab44f0ab2a0195",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 768,
+        "height": 1376,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 768,
+        "height": 1344,
+        "format": "JPEG"
+      },
+      "visual_review": "visually-reviewed-against-canonical-portrait-2026-10-03"
+    },
+    {
+      "wardrobe": "wd-sulli-airport.jpg",
+      "character_reference": "char-sulli.jpg",
+      "referenced_by": [
+        "chapter120.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "9a00a8c6e2005da6b9136e994ff1d126",
+      "epub_md5": "9a00a8c6e2005da6b9136e994ff1d126",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 912,
+        "height": 1181,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 1024,
+        "height": 1326,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    },
+    {
+      "wardrobe": "wd-sulli-exchange.jpg",
+      "character_reference": "char-sulli.jpg",
+      "referenced_by": [
+        "chapter03.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "212fb04d4852fa8148f2bd491fa5035e",
+      "epub_md5": "212fb04d4852fa8148f2bd491fa5035e",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 768,
+        "height": 1376,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 1024,
+        "height": 1326,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-and-visually-reviewed-against-canonical-portrait-2026-10-03"
+    },
+    {
+      "wardrobe": "wd-sulli-hospital-watch.jpg",
+      "character_reference": "char-sulli.jpg",
+      "referenced_by": [
+        "chapter05.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "c3bed016931a617d78d72c4f8e10c67c",
+      "epub_md5": "c3bed016931a617d78d72c4f8e10c67c",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 768,
+        "height": 1376,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 1024,
+        "height": 1326,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-and-visually-reviewed-against-canonical-portrait-2026-10-03"
+    },
+    {
+      "wardrobe": "wd-yoona-disguise.jpg",
+      "character_reference": "char-limyoonah.jpg",
+      "referenced_by": [
+        "chapter108.xhtml"
+      ],
+      "manifested": true,
+      "public_mirror_md5": "a79dbedd5ba308cb91f9b816f54839f0",
+      "epub_md5": "a79dbedd5ba308cb91f9b816f54839f0",
+      "same_as_public_mirror": true,
+      "wardrobe_dimensions": {
+        "width": 896,
+        "height": 1183,
+        "format": "JPEG"
+      },
+      "portrait_dimensions": {
+        "width": 1000,
+        "height": 1320,
+        "format": "JPEG"
+      },
+      "visual_review": "regenerated-from-canonical-portrait-2026-09-28"
+    }
+  ],
+  "visual_identity_note": "Automated checks verify source pairing, existence, dimensions, manifest wiring, and byte mirrors; identity judgments require visual review against the canonical portraits. Exact uploaded Hyomin attachment was unavailable to workspace tools; char-hyomin.jpg is the documented fallback reference."
+}

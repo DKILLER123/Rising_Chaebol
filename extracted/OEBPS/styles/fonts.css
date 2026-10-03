@@ -1,0 +1,131 @@
+/* ═══════════════════════════════════════════════════════════════
+   PENINSULA — VERSION 3 · EMBEDDED FONTS (fonts.css)
+   All typefaces bundled locally for offline EPUB rendering.
+   Format: WOFF (application/font-woff — EPUB 3 core media type).
+   Families: Lora (body serif) · Crimson Pro (editorial serif) ·
+   Cormorant Garamond (display) · IM Fell English (antique) ·
+   Courier Prime (system/mono) · Caveat (handwriting) ·
+   Permanent Marker (hate-wall scrawl).
+   NOTE: Cormorant Garamond ships 600 + 700; the 700 face also
+   serves weight 800 via its font-weight range declaration.
+   ═══════════════════════════════════════════════════════════════ */
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-400i.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lora";
+  src: url(../fonts/Lora-700.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(../fonts/CrimsonPro-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(../fonts/CrimsonPro-400i.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Crimson Pro";
+  src: url(../fonts/CrimsonPro-600.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url(../fonts/CormorantGaramond-600.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cormorant Garamond";
+  src: url(../fonts/CormorantGaramond-700.woff) format("woff");
+  font-weight: 700 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IM Fell English";
+  src: url(../fonts/IMFellEnglish-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "IM Fell English";
+  src: url(../fonts/IMFellEnglish-400i.woff) format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Courier Prime";
+  src: url(../fonts/CourierPrime-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Courier Prime";
+  src: url(../fonts/CourierPrime-700.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url(../fonts/Caveat-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Caveat";
+  src: url(../fonts/Caveat-600.woff) format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Permanent Marker";
+  src: url(../fonts/PermanentMarker-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+/* Character-introduction display faces */
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(../fonts/BebasNeue-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-400.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

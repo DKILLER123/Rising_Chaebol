@@ -1,0 +1,241 @@
+== chapter01.xhtml · 1926 words · 2 blocks · 2 types
+   used: comment-thread, location-stamp
+== chapter02.xhtml · 1443 words · 3 blocks · 2 types
+   used: location-stamp, system-block
+== chapter03.xhtml · 1334 words · 3 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter04.xhtml · 1682 words · 3 blocks · 3 types
+   used: location-stamp, pullquote, system-block
+== chapter05.xhtml · 1907 words · 4 blocks · 4 types
+   used: hand-note, location-stamp, pullquote, system-block
+== chapter06.xhtml · 1801 words · 3 blocks · 1 types
+   used: location-stamp
+== chapter07.xhtml · 1631 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter08.xhtml · 1575 words · 3 blocks · 1 types
+   used: location-stamp
+== chapter09.xhtml · 1610 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter10.xhtml · 1399 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter100.xhtml · 3693 words · 4 blocks · 3 types
+   used: finance-block, location-stamp, phone-call
+== chapter101.xhtml · 3549 words · 3 blocks · 2 types
+   used: lecture-block, location-stamp
+== chapter102.xhtml · 3158 words · 2 blocks · 2 types
+   used: location-stamp, pullquote
+== chapter103.xhtml · 3311 words · 4 blocks · 2 types
+   used: location-stamp, pullquote
+== chapter104.xhtml · 3196 words · 7 blocks · 4 types
+   used: contract-block, location-stamp, phone-call, pullquote
+== chapter105.xhtml · 3349 words · 6 blocks · 4 types
+   used: lecture-block, location-stamp, phone-call, pullquote
+== chapter106.xhtml · 2864 words · 7 blocks · 5 types
+   used: finance-block, lecture-block, location-stamp, pullquote, wardrobe-block
+== chapter107.xhtml · 2547 words · 5 blocks · 4 types
+   used: comment-thread, dossier-block, location-stamp, pullquote
+== chapter108.xhtml · 3551 words · 10 blocks · 6 types
+   used: comment-thread, lecture-block, location-stamp, news-digest, pullquote, wardrobe-block
+== chapter109.xhtml · 3153 words · 12 blocks · 7 types
+   used: dossier-block, lecture-block, location-stamp, memory-block, phone-call, pullquote, wardrobe-block
+== chapter11.xhtml · 1580 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter110.xhtml · 3803 words · 14 blocks · 6 types
+   used: contract-block, finance-block, lecture-block, location-stamp, phone-call, pullquote
+== chapter111.xhtml · 3097 words · 5 blocks · 4 types
+   used: lecture-block, location-stamp, pullquote, wardrobe-block
+== chapter112.xhtml · 3521 words · 6 blocks · 5 types
+   used: lecture-block, location-stamp, pullquote, system-block, wardrobe-block
+== chapter113.xhtml · 3259 words · 8 blocks · 5 types
+   used: briefing-block, comment-thread, location-stamp, pullquote, wardrobe-block
+== chapter114.xhtml · 2618 words · 5 blocks · 3 types
+   used: comment-thread, location-stamp, wardrobe-block
+== chapter115.xhtml · 2163 words · 2 blocks · 2 types
+   used: location-stamp, pullquote
+== chapter116.xhtml · 2094 words · 3 blocks · 3 types
+   used: location-stamp, memory-block, system-block
+== chapter117.xhtml · 2594 words · 3 blocks · 3 types
+   used: location-stamp, system-block, wardrobe-block
+== chapter118.xhtml · 3491 words · 5 blocks · 3 types
+   used: briefing-block, finance-block, location-stamp
+== chapter119.xhtml · 2916 words · 10 blocks · 7 types
+   used: briefing-block, finance-block, location-stamp, performance-block, phone-call, pullquote, wardrobe-block
+== chapter12.xhtml · 1645 words · 4 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter120.xhtml · 3258 words · 5 blocks · 3 types
+   used: location-stamp, pullquote, wardrobe-block
+== chapter13.xhtml · 1609 words · 3 blocks · 3 types
+   used: finance-block, location-stamp, pullquote
+== chapter14.xhtml · 1229 words · 3 blocks · 2 types
+   used: location-stamp, phone-call
+== chapter15.xhtml · 1661 words · 2 blocks · 2 types
+   used: location-stamp, pullquote
+== chapter16.xhtml · 1409 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter17.xhtml · 1382 words · 4 blocks · 2 types
+   used: location-stamp, phone-call
+== chapter18.xhtml · 2894 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter19.xhtml · 1716 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter20.xhtml · 1913 words · 6 blocks · 4 types
+   used: location-stamp, lyric-block, performance-block, pullquote
+== chapter21.xhtml · 2911 words · 4 blocks · 4 types
+   used: location-stamp, news-digest, phone-call, pullquote
+== chapter22.xhtml · 2750 words · 4 blocks · 3 types
+   used: location-stamp, phone-call, pullquote
+== chapter23.xhtml · 3156 words · 4 blocks · 3 types
+   used: location-stamp, pullquote, system-block
+== chapter24.xhtml · 1732 words · 5 blocks · 4 types
+   used: finance-block, location-stamp, phone-call, system-block
+== chapter25.xhtml · 1620 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter26.xhtml · 1341 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter27.xhtml · 1714 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter28.xhtml · 1784 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter29.xhtml · 1563 words · 2 blocks · 2 types
+   used: location-stamp, pullquote
+== chapter30.xhtml · 1415 words · 2 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter31.xhtml · 1415 words · 2 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter32.xhtml · 1386 words · 2 blocks · 2 types
+   used: location-stamp, pullquote
+== chapter33.xhtml · 1758 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter34.xhtml · 2524 words · 5 blocks · 3 types
+   used: finance-block, location-stamp, phone-call
+== chapter35.xhtml · 1531 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter36.xhtml · 1681 words · 3 blocks · 3 types
+   used: contract-block, location-stamp, pullquote
+== chapter37.xhtml · 1540 words · 7 blocks · 3 types
+   used: finance-block, location-stamp, phone-call
+== chapter38.xhtml · 1452 words · 3 blocks · 3 types
+   used: location-stamp, pullquote, system-block
+== chapter39.xhtml · 2781 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter40.xhtml · 1563 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter41.xhtml · 2005 words · 2 blocks · 2 types
+   used: location-stamp, pullquote
+== chapter42.xhtml · 1511 words · 9 blocks · 4 types
+   used: location-stamp, phone-call, pullquote, system-block
+== chapter43.xhtml · 1898 words · 2 blocks · 2 types
+   used: hand-note, location-stamp
+== chapter44.xhtml · 1956 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter45.xhtml · 1554 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter46.xhtml · 1535 words · 3 blocks · 3 types
+   used: location-stamp, pullquote, system-block
+== chapter47.xhtml · 1537 words · 5 blocks · 3 types
+   used: location-stamp, phone-call, pullquote
+== chapter48.xhtml · 1728 words · 4 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter49.xhtml · 1691 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter50.xhtml · 1331 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter51.xhtml · 1408 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter52.xhtml · 1563 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter53.xhtml · 1669 words · 2 blocks · 2 types
+   used: location-stamp, pullquote
+== chapter54.xhtml · 1451 words · 2 blocks · 2 types
+   used: lecture-block, location-stamp
+== chapter55.xhtml · 1493 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter56.xhtml · 1459 words · 4 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter57.xhtml · 1676 words · 5 blocks · 3 types
+   used: finance-block, location-stamp, system-block
+== chapter58.xhtml · 1628 words · 4 blocks · 3 types
+   used: location-stamp, phone-call, pullquote
+== chapter59.xhtml · 1909 words · 3 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter60.xhtml · 1981 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter61.xhtml · 3772 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter62.xhtml · 1720 words · 3 blocks · 2 types
+   used: location-stamp, system-block
+== chapter63.xhtml · 2136 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter64.xhtml · 1629 words · 4 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter65.xhtml · 2535 words · 4 blocks · 3 types
+   used: location-stamp, performance-block, phone-call
+== chapter66.xhtml · 1487 words · 2 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter67.xhtml · 1469 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter68.xhtml · 1227 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter69.xhtml · 1434 words · 5 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter70.xhtml · 1670 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter71.xhtml · 2420 words · 2 blocks · 2 types
+   used: location-stamp, phone-call
+== chapter72.xhtml · 3758 words · 4 blocks · 2 types
+   used: location-stamp, pullquote
+== chapter73.xhtml · 4085 words · 11 blocks · 3 types
+   used: finance-block, location-stamp, phone-call
+== chapter74.xhtml · 3147 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter75.xhtml · 3151 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter76.xhtml · 2621 words · 4 blocks · 2 types
+   used: location-stamp, phone-call
+== chapter77.xhtml · 2679 words · 3 blocks · 1 types
+   used: location-stamp
+== chapter78.xhtml · 1300 words · 3 blocks · 3 types
+   used: finance-block, location-stamp, pullquote
+== chapter79.xhtml · 1598 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter80.xhtml · 3493 words · 4 blocks · 2 types
+   used: location-stamp, system-block
+== chapter81.xhtml · 3103 words · 6 blocks · 3 types
+   used: location-stamp, phone-call, system-block
+== chapter82.xhtml · 3253 words · 4 blocks · 1 types
+   used: location-stamp
+== chapter83.xhtml · 2900 words · 1 blocks · 1 types
+   used: location-stamp
+== chapter84.xhtml · 2581 words · 4 blocks · 4 types
+   used: finance-block, location-stamp, pullquote, system-block
+== chapter85.xhtml · 3373 words · 5 blocks · 3 types
+   used: finance-block, location-stamp, system-block
+== chapter86.xhtml · 2616 words · 5 blocks · 2 types
+   used: location-stamp, system-block
+== chapter87.xhtml · 3722 words · 5 blocks · 3 types
+   used: finance-block, location-stamp, system-block
+== chapter88.xhtml · 5686 words · 4 blocks · 3 types
+   used: finance-block, location-stamp, phone-call
+== chapter89.xhtml · 2982 words · 6 blocks · 3 types
+   used: contract-block, location-stamp, phone-call
+== chapter90.xhtml · 3078 words · 5 blocks · 2 types
+   used: location-stamp, phone-call
+== chapter91.xhtml · 4143 words · 2 blocks · 2 types
+   used: contract-block, location-stamp
+== chapter92.xhtml · 4824 words · 2 blocks · 2 types
+   used: dossier-block, location-stamp
+== chapter93.xhtml · 4149 words · 3 blocks · 2 types
+   used: finance-block, location-stamp
+== chapter94.xhtml · 4017 words · 4 blocks · 3 types
+   used: location-stamp, phone-call, pullquote
+== chapter95.xhtml · 3503 words · 2 blocks · 1 types
+   used: location-stamp
+== chapter96.xhtml · 5313 words · 4 blocks · 2 types
+   used: location-stamp, pullquote
+== chapter97.xhtml · 2927 words · 3 blocks · 2 types
+   used: location-stamp, phone-call
+== chapter98.xhtml · 4115 words · 6 blocks · 3 types
+   used: location-stamp, pullquote, screen-view
+== chapter99.xhtml · 3469 words · 7 blocks · 6 types
+   used: comment-thread, contract-block, finance-block, location-stamp, phone-call, pullquote
+style_audit: REVIEW (138 note(s))

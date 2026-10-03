@@ -1,0 +1,22 @@
+== chapter06.xhtml · 1927 words · scope chapter03.xhtml, chapter04.xhtml, chapter05.xhtml
+  internal repeats: 0
+  vs chapter03.xhtml: ark eon young ’s planning director akao alk
+  vs chapter03.xhtml: eon young ’s planning director akao alk ark
+  vs chapter03.xhtml: young ’s planning director akao alk ark eon
+  vs chapter03.xhtml: ’s planning director akao alk ark eon young
+  vs chapter03.xhtml: planning director akao alk ark eon young lanning
+  cross-chapter 8-grams: 5
+== chapter07.xhtml · 1802 words · scope chapter04.xhtml, chapter05.xhtml, chapter06.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+== chapter08.xhtml · 1715 words · scope chapter05.xhtml, chapter06.xhtml, chapter07.xhtml
+  internal repeats: 0
+  vs chapter05.xhtml: akao alk am un jung am un jung
+  cross-chapter 8-grams: 1
+== chapter09.xhtml · 1723 words · scope chapter06.xhtml, chapter07.xhtml, chapter08.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+== chapter10.xhtml · 1498 words · scope chapter07.xhtml, chapter08.xhtml, chapter09.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+repeat_check: REVIEW

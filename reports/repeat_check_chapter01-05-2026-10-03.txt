@@ -1,0 +1,30 @@
+== chapter01.xhtml · 2019 words · scope none
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+== chapter02.xhtml · 1571 words · scope chapter01.xhtml
+  internal repeats: 0
+  cross-chapter 8-grams: 0
+== chapter03.xhtml · 1454 words · scope chapter01.xhtml, chapter02.xhtml
+  INTERNAL repeats: 3
+    ×2: a canvas tote with a cartoon cat printed
+    ×2: canvas tote with a cartoon cat printed on
+    ×2: tote with a cartoon cat printed on it
+  cross-chapter 8-grams: 0
+== chapter04.xhtml · 1768 words · scope chapter01.xhtml, chapter02.xhtml, chapter03.xhtml
+  internal repeats: 0
+  vs chapter02.xhtml: ard per week collect in person through contact
+  vs chapter02.xhtml: per week collect in person through contact with
+  vs chapter03.xhtml: un jung akao alk am un jung am
+  vs chapter03.xhtml: jung akao alk am un jung am un
+  vs chapter03.xhtml: akao alk am un jung am un jung
+  vs chapter03.xhtml: alk am un jung am un jung i
+  vs chapter03.xhtml: am un jung am un jung i yeon
+  vs chapter03.xhtml: un jung am un jung i yeon ssi
+  cross-chapter 8-grams: 8
+== chapter05.xhtml · 1987 words · scope chapter02.xhtml, chapter03.xhtml, chapter04.xhtml
+  internal repeats: 0
+  vs chapter03.xhtml: akao alk am un jung am un jung
+  vs chapter04.xhtml: akao alk am un jung am un jung
+  vs chapter04.xhtml: laugh escaped him before he could stop it
+  cross-chapter 8-grams: 3
+repeat_check: REVIEW
