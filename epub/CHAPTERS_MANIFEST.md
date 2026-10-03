@@ -1,5 +1,5 @@
-# PENINSULA — Chapter Manifest (113 chapters)
-Raw sources (archived in epub/raw/): full-novel-source-raw.txt (ch 1–84), pasted-batch-ch085-091.txt (ch 85–91), chNNN.txt per-chapter files (ch 85–113; ch92/ch93 raws predate the archive and were not retained — the English chapters are complete). Chapters 85–113 supplied inline by the user. Chapter NN file: /home/z/my-project/epub/OEBPS/text/chapterNN.xhtml
+# PENINSULA — Chapter Manifest (120 chapters)
+Raw sources (archived in epub/raw/): full-novel-source-raw.txt (ch 1–84), pasted-batch-ch085-091.txt (ch 85–91), and chNNN.txt per-chapter files (ch 94–120; ch92/ch93 raws predate the archive and were not retained — the English chapters are complete). Chapters 85–91 and 94–120 were supplied inline by the user. The 118 source revision supplied on 2026-09-28 is archived separately as `ch118-2026-09-28.txt`; the earlier `ch118.txt` is retained unchanged for provenance. Chapter NN file: epub/OEBPS/text/chapterNN.xhtml
 
 | Ch | Lines | Chinese title | English title (USE THIS) |
 |----|---------|--------------------------------|---------------------------------------------|
@@ -116,3 +116,10 @@ Raw sources (archived in epub/raw/): full-novel-source-raw.txt (ch 1–84), past
 | 111 | user-supplied | 一不做二不休的韩素希 | Han So-hee, In for a Penny, In for a Pound |
 | 112 | user-supplied | 反差撒娇和乐乐龙崽 | Gap Aegyo and the Happy Little Dragon |
 | 113 | user-supplied | 看房与偶遇 | House Hunting and a Chance Encounter |
+| 114 | user-supplied | 饿了，我下面给你吃 | Hungry? I’ll Make You Something Downstairs |
+| 115 | user-supplied | 带，怎么不带 | Bring It—How Could I Not? |
+| 116 | user-supplied | 感性的韩素希 | Han So-hee Gets Sentimental |
+| 117 | user-supplied | 与龙崽的约定 | The Little Dragon’s Promise |
+| 118 | user-supplied revision 2026-09-28 | 咕，你是娱乐公司的社长 | Gulp—You’re the President of an Entertainment Company? |
+| 119 | user-supplied | 接着奏乐，接着舞 | Keep the Music Playing, Keep Dancing |
+| 120 | user-supplied | 崔雪莉：我爱听实话 | Sulli: I Love Hearing the Truth |
