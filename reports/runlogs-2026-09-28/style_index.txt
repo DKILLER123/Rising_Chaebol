@@ -1,0 +1,2 @@
+style_index: 51 sections, 266 classes → reports/style_index.tsv/.md
+style_index: SKILL catalog class citations pass (52 tokens)

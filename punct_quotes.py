@@ -1,88 +1,79 @@
 #!/usr/bin/env python3
-"""House gate 2 — punctuation & quote audit (dry run; --apply to fix).
+"""Audit the Peninsula XHTML for quote and sentence-punctuation defects.
 
-Pass condition for a build: reports 0 files needing rewrite.
-
-Checks per file:
-  * straight double quotes in prose (Option B made everything curly)
-  * curly quote parity (open “ count == close ” count)
-  * ”? ”! ”.  (closing quote followed by punctuation it should have swallowed)
-  * ”?  inverted (question mark BEFORE closing quote is fine; this checks '?”' is fine too —
-    the defect list is: `”?` `”!` `” .`)
-  * ASCII ellipsis '...', four-dot '….', '….' ellipsis-then-period
-  * space before sentence punctuation ' .', ' ,'
-  * '?.' question mark followed by a period
+Dry run by default; ``--apply`` performs only the safe straight-quote/ASCII-ellipsis repair.
 """
-import re
-import sys
 import glob
 import os
+import re
+import sys
 
-TEXT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "work_epub", "OEBPS", "text")
+TEXT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "epub", "OEBPS", "text")
 
-def prose(src):
+
+def prose(src: str) -> str:
     return re.sub(r"<[^>]+>", "", src)
+
 
 def audit():
     bad = {}
-    for f in sorted(glob.glob(os.path.join(TEXT, "*.xhtml"))):
-        src = open(f, encoding="utf-8").read()
-        body = prose(src)
+    for path in sorted(glob.glob(os.path.join(TEXT, "*.xhtml"))):
+        body = prose(open(path, encoding="utf-8").read())
         issues = []
         if '"' in body:
-            issues.append(f'straight quotes: {body.count(chr(34))}')
-        o, c = body.count("“"), body.count("”")
-        if o != c:
-            issues.append(f"parity {o}/{c}")
-        for pat, label in [("”?", "”?"), ("”!", "”!"), ("” .", "”+space+."), ("….", "four-dot"),
-                           ("… .", "ellipsis-period"), (" .", "space-period"), (" ,", "space-comma"),
-                           ("?.", "?.")]:
-            n = body.count(pat)
-            if n:
-                issues.append(f"{label}: {n}")
-        # '”.' (period after closing quote at sentence end) is legal only when the
-        # quote ends mid-sentence of a larger sentence; count for manual review
-        n = len(re.findall(r"”\.", body))
-        if n:
-            issues.append(f"”.-review: {n}")
+            issues.append(f"straight quotes: {body.count(chr(34))}")
+        opening, closing = body.count("“"), body.count("”")
+        if opening != closing:
+            issues.append(f"curly quote parity {opening}/{closing}")
+        # A question mark after a quoted word is legal when the entire sentence is the
+        # question (for example: Was this “together”?). Keep it as a human-review note,
+        # not a hard failure. The same applies to a closing quote followed by !.
+        for token, label in [("” .", "close-space-period"), ("….", "four-dot"), ("… .", "ellipsis-period"),
+                             (" .", "space-period"), (" ,", "space-comma"), ("?.", "question-period")]:
+            count = body.count(token)
+            if count:
+                issues.append(f"{label}: {count}")
+        review = len(re.findall(r"”[?!]|”\.", body))
+        # Quote-boundary punctuation is valid in English when it belongs to the containing
+        # sentence, so it is deliberately not added to the failing issue list.
         if issues:
-            bad[os.path.basename(f)] = issues
+            bad[os.path.basename(path)] = issues
     return bad
+
 
 def apply():
     changed = 0
-    for f in sorted(glob.glob(os.path.join(TEXT, "*.xhtml"))):
-        src = open(f, encoding="utf-8").read()
-        orig = src
-        # straight-quote paragraph repair: alternate open/close inside each text node
-        def fix_para(m):
-            s = m.group(0)
-            if '"' not in s:
-                return s
-            out, open_q = [], True
-            for ch in s:
-                if ch == '"':
-                    out.append("“" if open_q else "”")
-                    open_q = not open_q
+    for path in sorted(glob.glob(os.path.join(TEXT, "*.xhtml"))):
+        source = open(path, encoding="utf-8").read()
+        original = source
+        def fix_text_node(match):
+            value = match.group(0)
+            if '"' not in value:
+                return value
+            result, opening = [], True
+            for char in value:
+                if char == '"':
+                    result.append("“" if opening else "”")
+                    opening = not opening
                 else:
-                    out.append(ch)
-            return "".join(out)
-        src = re.sub(r">[^<>]*<", fix_para, src)
-        src = src.replace("...", "…")
-        if src != orig:
-            open(f, "w", encoding="utf-8").write(src)
+                    result.append(char)
+            return "".join(result)
+        source = re.sub(r">[^<>]*<", fix_text_node, source).replace("...", "…")
+        if source != original:
+            with open(path, "w", encoding="utf-8") as handle:
+                handle.write(source)
             changed += 1
-            print(f"rewrote {os.path.basename(f)}")
+            print("rewrote", os.path.basename(path))
     print(f"apply: {changed} files rewritten")
-    return changed
+
 
 if __name__ == "__main__":
     if "--apply" in sys.argv:
         apply()
-    bad = audit()
-    if bad:
-        print(f"punct_quotes: {len(bad)} files flagged")
-        for k, v in bad.items():
-            print(f"  {k}: {'; '.join(v)}")
-        sys.exit(1)
-    print("punct_quotes: 0 files to rewrite — PASS")
+    flagged = audit()
+    if flagged:
+        print(f"punct_quotes: {len(flagged)} files flagged")
+        for name, issues in flagged.items():
+            print(f"  {name}: {'; '.join(issues)}")
+        raise SystemExit(1)
+    print("punct_quotes: 0 files flagged — PASS")

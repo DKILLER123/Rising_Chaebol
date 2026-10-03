@@ -1,0 +1,89 @@
+{
+  "scope": "second deep scan for revised chapters 118–120",
+  "errors": [],
+  "chapters": {
+    "118": {
+      "raw_bytes": 16667,
+      "raw_nonempty_lines": 174,
+      "english_words": 3627,
+      "raw_question_marks": 31,
+      "english_question_marks": 51,
+      "question_parity": true,
+      "h1": "Gulp—You’re the President of an Entertainment Company?",
+      "title_match": true,
+      "cjk_chars": 0,
+      "undefined_classes": [],
+      "image_refs": [
+        "../images/wd-hyomin-travel.jpg"
+      ],
+      "image_errors": [],
+      "missing_content_anchors": [],
+      "has_notification_class": false,
+      "style_blocks": [
+        "briefing-block",
+        "finance-block",
+        "location-stamp",
+        "scene-break",
+        "wardrobe-block"
+      ]
+    },
+    "119": {
+      "raw_bytes": 13139,
+      "raw_nonempty_lines": 177,
+      "english_words": 2943,
+      "raw_question_marks": 17,
+      "english_question_marks": 19,
+      "question_parity": true,
+      "h1": "Keep the Music Playing, Keep Dancing",
+      "title_match": true,
+      "cjk_chars": 0,
+      "undefined_classes": [],
+      "image_refs": [
+        "../images/wd-hyomin-rehearsal.jpg"
+      ],
+      "image_errors": [],
+      "missing_content_anchors": [],
+      "has_notification_class": false,
+      "style_blocks": [
+        "briefing-block",
+        "finance-block",
+        "location-stamp",
+        "performance-block",
+        "phone-call",
+        "pullquote",
+        "scene-break",
+        "wardrobe-block"
+      ]
+    },
+    "120": {
+      "raw_bytes": 15164,
+      "raw_nonempty_lines": 183,
+      "english_words": 3272,
+      "raw_question_marks": 21,
+      "english_question_marks": 34,
+      "question_parity": true,
+      "h1": "Sulli: I Love Hearing the Truth",
+      "title_match": true,
+      "cjk_chars": 0,
+      "undefined_classes": [],
+      "image_refs": [
+        "../images/wd-sulli-airport.jpg"
+      ],
+      "image_errors": [],
+      "missing_content_anchors": [],
+      "has_notification_class": false,
+      "style_blocks": [
+        "chat-container",
+        "location-stamp",
+        "pullquote",
+        "wardrobe-block"
+      ]
+    }
+  },
+  "integration_counts": {
+    "disk_chapters": 120,
+    "opf_manifest_chapters": 120,
+    "opf_spine_chapters": 120
+  },
+  "status": "PASS"
+}

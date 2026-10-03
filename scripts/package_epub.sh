@@ -1,24 +1,27 @@
-#!/bin/bash
-# Package the Peninsula EPUB — mimetype must be FIRST entry, stored uncompressed.
-# Working dir: /home/z/my-project/epub  →  Output: public/Peninsula_Rising_Chaebol.epub
-set -e
-cd /home/z/my-project/epub
+#!/usr/bin/env bash
+# Package the Peninsula EPUB. The root mimetype entry is stored and comes first.
+set -euo pipefail
 
-OUT="/home/z/my-project/public/Peninsula_Rising_Chaebol.epub"
-rm -f "$OUT"
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+ROOT="$(cd -- "$SCRIPT_DIR/.." && pwd)"
+TREE="$ROOT/epub"
+OUT="$ROOT/public/Peninsula_Rising_Chaebol.epub"
 
-CREATED=0
-if [ ! -f mimetype ]; then
-  echo -n "application/epub+zip" > mimetype
+cd "$TREE"
+if [[ ! -f mimetype ]]; then
+  printf 'application/epub+zip' > mimetype
   CREATED=1
+else
+  CREATED=0
 fi
+rm -f "$OUT"
 zip -q -X -0 "$OUT" mimetype
-zip -q -X -r "$OUT" META-INF OEBPS -x "*.DS_Store"
-[ "$CREATED" = "1" ] && rm -f mimetype
+zip -q -X -r "$OUT" META-INF OEBPS -x '*.DS_Store'
+[[ "$CREATED" == 1 ]] && rm -f mimetype
 
-echo "=== packaged: $OUT ==="
-ls -la "$OUT"
-echo "=== entry count ==="
+printf '=== packaged: %s ===\n' "$OUT"
+stat -c '%n %s bytes' "$OUT"
+printf '%s\n' '=== entry count ==='
 unzip -l "$OUT" | tail -1
-echo "=== mimetype check (must be first, stored) ==="
+printf '%s\n' '=== mimetype check (must be first, stored) ==='
 unzip -lv "$OUT" | sed -n '4,6p'

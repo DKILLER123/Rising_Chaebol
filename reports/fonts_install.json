@@ -1,0 +1,28 @@
+{
+  "dest": "epub/OEBPS/fonts",
+  "expected": 17,
+  "copied": [],
+  "unchanged": [
+    "Lora-400.woff (extracted baseline)",
+    "Lora-400i.woff (extracted baseline)",
+    "Lora-700.woff (extracted baseline)",
+    "CrimsonPro-400.woff (extracted baseline)",
+    "CrimsonPro-400i.woff (extracted baseline)",
+    "CrimsonPro-600.woff (extracted baseline)",
+    "CormorantGaramond-600.woff (extracted baseline)",
+    "CormorantGaramond-700.woff (extracted baseline)",
+    "IMFellEnglish-400.woff (extracted baseline)",
+    "IMFellEnglish-400i.woff (extracted baseline)",
+    "CourierPrime-400.woff (extracted baseline)",
+    "CourierPrime-700.woff (extracted baseline)",
+    "Caveat-400.woff (extracted baseline)",
+    "Caveat-600.woff (extracted baseline)",
+    "PermanentMarker-400.woff (extracted baseline)",
+    "BebasNeue-400.woff (extracted baseline)",
+    "Inter-400.woff (extracted baseline)"
+  ],
+  "packages_unavailable": [],
+  "declared": 17,
+  "dangling": [],
+  "verification_error": "No module named 'fontTools'"
+}

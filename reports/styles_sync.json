@@ -1,0 +1,19 @@
+{
+  "directory": "epub/OEBPS/styles",
+  "sheets": {
+    "stylesheet.css": {
+      "bytes": 100214,
+      "sha256": "8948f9279aa16f4e8d1880345cf5ea851e9d1a6c1b1b5db9391fd089535e21e9",
+      "lines": 3443
+    },
+    "fonts.css": {
+      "bytes": 3789,
+      "sha256": "5b6b8d0f71c5bf3d76b6f06da377ab06db6adb0af91870f1b9024d0724d98641",
+      "lines": 132
+    }
+  },
+  "font_urls": {
+    "declared": 17,
+    "dangling": []
+  }
+}
